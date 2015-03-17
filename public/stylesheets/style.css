@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+span.hi-lite{
+  font-weight: bold;
+  background-color: lightyellow;
+}
