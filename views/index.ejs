@@ -1,9 +1,97 @@
 <% include header.ejs %>
 
+<style>
+  .opptitle{
+
+  }
+  article.opp-smry-cntnr{
+    border:1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;    
+
+    width:100%;
+    float:left;
+  }
+  section.opp-desc-cntnr{
+    float:left;
+    width:65%;
+  }
+  section.opp-actions-cntnr{
+    float:right;
+    width:20%;
+  }
+
+  label{
+    padding-right:.75em;
+  }
+
+  .pursue{
+    background-color: lightgreen;
+    padding: 3px 5px 3px 5px;
+  }
+</style>
+
     <p>
         <a href="/about">about</a>
     </p>
-    <h1>MEAN Stack Job Listings</h1>
-    <p>More postings coming soon!</p>
+    <h2>MEAN Stack Job Listings</h1>
+    <p>More listings coming soon!</p>
+
+    <h4>Current Listings:</h4>
+    <div class="srch-reslts">
+      <article class='opp-smry-cntnr'>
+        <section class='opp-actions-cntnr'>
+          <a href='#' class="pursue">PURSUE THIS OPP</a>
+        </section>
+        <section class='opp-desc-cntnr'>
+        <h4 class='opptitle'>Software Dev</h4>
+        <label>Description:</label><p class='opp-desc'>This role will be developming NodeJs apps to serve...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id sem quis lorem posuere condimentum. Sed egestas lacus commodo, cursus ex vel, pulvinar nibh. Cras erat lectus, malesuada at placerat at, vehicula ut orci. Cras lacus lorem, molestie fringilla faucibus vel, venenatis sit amet magna. </p>
+
+        <!-- top 5 skills, top 5 tools -->
+        <label>Skills/Tools:</label>
+        <div style="width:65%;">
+          <ul style='float:left;'>
+              <li>Nodejs</li>
+              <li>expressjs</li>
+              <li>git/github</li>
+              <li>css</li>
+              <li>javascript</li>
+          </ul>
+          <ul style='float:right;'>
+              <li>Nodejs</li>
+              <li>expressjs</li>
+              <li>git/github</li>
+              <li>css</li>
+              <li>javascript</li>
+          </ul>
+        </div>
+        <div style='clear:both;'></div>
+
+        <label>Team Structure/Expertise:</label><p>5 devs, 2 QA, 1PM</p>
+        <label>Project Workflow:</label>
+        <ul>
+            <li>1 week sprints</li>
+            <li>sprint planning day 1 w/qa, dev, stakeholders</li>
+            <li>daily, vertical dev/qa tasks</li>
+            <li>daily scrum at 10AM cdt, using kanban</li>
+            <li>3rd-to-last-sprint-day: demo</li>
+            <li>2nd-to-last-sprint-day: roll out</li>
+        </ul>
+        <label>Tools:</label>
+        <ul>
+            <li>nodejs, angularjs</li>
+            <li>git/github</li>
+            <li>sublime text (or fav editor)</li>
+            <li>jshint</li>
+            <li>jasmine</li>
+        </ul>
+
+        <!-- details, tbd -->
+        <!-- <a href='#'>More Details...</a> -->
+
+      </section>
+      </article>
+      <div style='clear:both;'></div>
+    </div>
 
 <% include footer.ejs %>
