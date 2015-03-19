@@ -4,3 +4,4 @@ npm-debug.log
 *.css.map
 **/node_modules
 .sass-cache
+projfolder
