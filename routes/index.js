@@ -11,4 +11,9 @@ router.get('/about', function(req, res) {
   res.render('about');
 });
 
+/* monicodebug */
+router.get('/debug', function(req, res) {
+  res.render('index2');
+});
+
 module.exports = router;
