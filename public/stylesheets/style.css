@@ -1,0 +1,70 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+span.hi-lite{
+  font-weight: bold;
+  background-color: lightyellow;
+}
+
+footer{
+  width:100%;
+  border-top: 1px solid black;
+  margin-top:50px;
+  padding-top:10px;
+}
+
+
+  .opptitle{
+    font-weight:bold;
+    color:darkblue;
+  }
+
+  .opptitle span{
+    margin:0 5px 0 5px;
+  }
+
+  article.opp-smry-cntnr{
+    border:1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;    
+
+    width:100%;
+    float:left;
+  }
+  section.opp-desc-cntnr{
+    float:left;
+    width:75%;
+  }
+  section.opp-actions-cntnr{
+    float:right;
+    width:20%;
+  }
+
+  label{
+    padding-right:.75em;
+  }
+
+  ul.skills-lst{
+    width:50%;
+    float:left;
+  }
+
+  ul.tools-lst{
+    width:50%;
+    float:right;
+  }
+
+  .opp-actions-cntnr a{
+    background-color: lightgreen;
+    padding: 3px 5px 3px 5px;
+  }
+
+  .opp-actions-cntnr p{
+    margin-top:5px;
+  }
