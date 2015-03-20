@@ -7,7 +7,10 @@
     <h2>MEAN Stack Job Listings</h2>
     <p>More listings coming soon!</p>
 
-    <div class="srch-reslts" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller'>
+    <!-- =============  MAIN Ng Controller =================== -->
+    <div class="srch-reslts" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller' 
+        data-ng-init='controller.listings=<%= listingsData %>'>
+
       <h4 data-ng-hide='{{controller.listings.length <= 0}}'>Current Listings:</h4>
 
       <article class='opp-smry-cntnr' data-ng-repeat="listing in controller.listings">
