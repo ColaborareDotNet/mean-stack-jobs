@@ -18,7 +18,13 @@ indexNgApp.controller('ListingsController', ['$log', function($log){
         teamStructureExpertise : '5 devs, 2 QA, 1PM',
         projectWorkflow : ['1 week sprints', 'sprint planing day 1 w/qa, dev stakeholders',
             'daily, vertical dev/qa taks', 'daily scrum at 10AM CDT, using kanban', 
-            '3rd-to-last-sprint-day: demo', '2nd-to-last-sprint-day: roll out']
+            '3rd-to-last-sprint-day: demo', '2nd-to-last-sprint-day: roll out'],
+        recruiter : '',
+        hiringCompany : '',
+
+        postingDate : new Date('3/15/2015 17:03'),
+        hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate : ''
       },
 
       {
@@ -30,7 +36,14 @@ indexNgApp.controller('ListingsController', ['$log', function($log){
         teamStructureExpertise : '3 sr devs, 1 sr QA, 1 jr qa, 1PM',
         projectWorkflow : ['1 week sprints', 'sprint planing day 1 w/qa, dev stakeholders',
             'daily, vertical dev/qa taks', 'daily scrum at 10AM CDT, using kanban', 
-            '3rd-to-last-sprint-day: demo', '2nd-to-last-sprint-day: roll out']
+            '3rd-to-last-sprint-day: demo', '2nd-to-last-sprint-day: roll out'],
+        recruiter : '',
+        hiringCompany : '',
+
+        postingDate : new Date('3/15/2015 17:06'),
+        hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate : ''
+
       },
 
 

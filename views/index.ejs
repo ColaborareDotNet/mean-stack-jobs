@@ -13,8 +13,9 @@
       <article class='opp-smry-cntnr' data-ng-repeat="listing in controller.listings">
         <section class='opp-actions-cntnr'>
           <a href='mailto:cdnadmin@collaborare.net?subject=Pursuit%20of%20Job:{{listing.jobId}}&body={{controller.emailBody}}' 
-              class="pursue">PURSUE THIS OPP</a>
-          <p style='margin-top:10px;'>ID: {{listing.jobId}}</p>
+              >PURSUE THIS OPP</a>
+          <p>ID: {{listing.jobId}}</p>
+          <p>Date Posted: {{listing.postingDate | date:'mm-dd-yyyy' }}</p>
         </section>
         <section class='opp-desc-cntnr'>
             <h4 class='opptitle'><span>&#8658;</span>{{ listing.jobTitle }}<span>&#8656;</span></h4>
