@@ -7,8 +7,8 @@
     <h2>MEAN Stack Job Listings</h2>
     <p>More listings coming soon!</p>
 
-    <h4>Current Listings:</h4>
     <div class="srch-reslts" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller'>
+      <h4 data-ng-hide='{{controller.listings.length <= 0}}'>Current Listings:</h4>
 
       <article class='opp-smry-cntnr' data-ng-repeat="listing in controller.listings">
         <section class='opp-actions-cntnr'>
