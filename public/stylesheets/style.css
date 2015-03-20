@@ -13,7 +13,7 @@ span.hi-lite{
 }
 
 footer{
-  width:80%;
+  width:100%;
   border-top: 1px solid black;
   margin-top:50px;
   padding-top:10px;
@@ -48,6 +48,16 @@ footer{
 
   label{
     padding-right:.75em;
+  }
+
+  ul.skills-lst{
+    width:50%;
+    float:left;
+  }
+
+  ul.tools-lst{
+    width:50%;
+    float:right;
   }
 
   .opp-actions-cntnr a{

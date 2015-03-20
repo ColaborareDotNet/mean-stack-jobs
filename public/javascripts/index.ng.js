@@ -6,49 +6,55 @@ var indexNgApp = angular.module('indexNgApp', []);
 indexNgApp.controller('ListingsController', ['$log', function($log){
   var self = this;
 
-  self.emailBody = 'To Whom It May Concern:%0a%0d%0a%0dI am interested in pursuing this opportunity!'
+  self.emailAddr = 'jobs@meanstack.org';
 
-  self.listings = [];
-  // [
-  //     {
-  //       jobId : 'jb-2015-03-15-1700', 
-  //       jobTitle : 'NodeJs Developer',
-  //       skills : ['javascript', 'NodeJs', 'MongoDb'],
-  //       tools : ['git', 'github', 'slack', 'trello'],
-  //       briefDescr : 'This role will be developming NodeJs apps to serve...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id sem quis lorem posuere condimentum. Sed egestas lacus commodo, cursus ex vel, pul',
-  //       teamStructureExpertise : '5 devs, 2 QA, 1PM',
-  //       projectWorkflow : ['1 week sprints', 'sprint planing day 1 w/qa, dev stakeholders',
-  //           'daily, vertical dev/qa taks', 'daily scrum at 10AM CDT, using kanban', 
-  //           '3rd-to-last-sprint-day: demo', '2nd-to-last-sprint-day: roll out'],
-  //       recruiter : '',
-  //       hiringCompany : '',
+  self.listings =  [
+      {
+        jobId : 'jb-2015-03-20-1211', 
+        jobTitle : 'C#.NET Developer/Tech Writer',  
+        level : 'mid-senior', 
+        hireType : 'W-2 Contractor',
+        skills : ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
+        tools : ['VS 2013', 'SVN/TortoiseSVN', 'MS Word', 'System Center Configuration Manager (SCCM) 2012'],
+        briefDescr : 'SCCM 2012 custom, extensions-library, source code needs to be substantially analyzed to document its design/architecture for maintenance/rewriting.  This position will primaarily be documenting, INITIALLY, and will potentially step into maintenance and rewritng of these custom libraries.',
+        teamStructureExpertise : '4 +/- Sr Devs, 1 +/- Jr Devs, 3 +/- Sr QA, 2 +/- Jr QA',
+        projectWorkflow : [
+            '3 week sprints', 'sprint planing day 1 w/qa, dev',
+            'daily, vertical dev/qa taks', 'every-other-day scrum using Rally web tool', 
+            'periodic demo'],
+        recruiter : '',
+        hiringCompany : '',
 
-  //       postingDate : new Date('3/15/2015 17:03'),
-  //       hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
-  //       closingDate : ''
-  //     },
+        postingDate : new Date('3/20/2015 12:11'),
+        hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate : '',
+        notes:'I am in direct contact with the hiring manager about this role.  This is a peculiarly interesting role in that there is a substantial need for a well versed developer to substantially analyze and understand the inner workings of these SCCM 2012, custom libraries.  This position will be responsible for documenting the design/architecture; so, slightly above average (at minimum) skills in written communication are required.'
+      },
 
-  //     {
-  //       jobId : 'jb-2015-03-15-1705', 
-  //       jobTitle : 'Javascript Developer',
-  //       skills : ['javascript', 'NodeJs', 'Express'],
-  //       tools : ['github', 'slack', 'trello'],
-  //       briefDescr : ' As a javascript dev, apps to serve...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id sem quis lorem posuere condimentum. Sed egestas lacus commodo, cursus ex vel, pul',
-  //       teamStructureExpertise : '3 sr devs, 1 sr QA, 1 jr qa, 1PM',
-  //       projectWorkflow : ['1 week sprints', 'sprint planing day 1 w/qa, dev stakeholders',
-  //           'daily, vertical dev/qa taks', 'daily scrum at 10AM CDT, using kanban', 
-  //           '3rd-to-last-sprint-day: demo', '2nd-to-last-sprint-day: roll out'],
-  //       recruiter : '',
-  //       hiringCompany : '',
+      {
+        jobId : 'jb-2015-03-20-1232', 
+        jobTitle : 'C#.NET Developer',  
+        level : 'senior', 
+        hireType : 'W-2 Contractor',
+        skills : ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
+        tools : ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
+        briefDescr : 'Will maintain, design, and develop SCCM 2012 extensions libraries.',
+        teamStructureExpertise : '4 +/- Sr Devs, 1 +/- Jr Devs, 3 +/- Sr QA, 2 +/- Jr QA',
+        projectWorkflow : [
+            '3 week sprints', 'sprint planing day 1 w/qa, dev',
+            'daily, vertical dev/qa taks', 'every-other-day scrum using Rally web tool', 
+            'periodic demo'],
+        recruiter : '',
+        hiringCompany : '',
 
-  //       postingDate : new Date('3/15/2015 17:06'),
-  //       hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
-  //       closingDate : ''
+        postingDate : new Date('3/20/2015 12:32'),
+        hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate : '',
+        notes:'I am in direct contact with the hiring manager about this role.  This is a straight-forward, software development role, and requires mid to senior level skills--preferably, senior level.'
+      },
 
-  //     },
 
-
-  //   ];
+    ];
 }]);
 
 })();//IIFE END
