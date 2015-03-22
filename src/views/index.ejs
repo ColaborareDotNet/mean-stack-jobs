@@ -4,26 +4,30 @@
     <p>
         <a href="/about">about</a>
     </p>
-    <h2>MEAN Stack Job Listings</h2>
-    <p>More listings coming soon!</p>
+    <h2 class="banner">MEAN Stack Job Listings</h2>
+
 
     <!-- =============  MAIN Ng Controller =================== -->
     <div class="srch-reslts" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller' 
         data-ng-init='controller.listings=<%= listingsData %>'>
 
-      <h4 data-ng-hide='{{controller.listings.length <= 0}}'>Current Listings:</h4>
+      <h4 data-ng-hide='{{controller.listings.length >= 0}}' class="listingTitle">No Listings at this time.  Please check later.</h4>
 
-      <article class='opp-smry-cntnr' data-ng-repeat="listing in controller.listings">
-        <section class='opp-actions-cntnr'>
+      <article class='opp-smry-cntnr listingAlternating' data-ng-repeat="listing in controller.listings">
+        <section class='opp-actions-cntnr' >
 
-          <!-- cdntodo: convert this anchor into a custom ng directive -->  
-          <a href='mailto:{{controller.emailAddr}}?subject=Pursuing%20Job:{{listing.jobId}},%20{{listing.jobTitle}}&amp;body=To%20Whom%20It%20May%20Concern:%0a%0d%0a%0dI%20am%20interested%20in%20pursuing%20the, "{{listing.jobTitle}}",%20opportunity%20listed%20on%20your%20web%20site!%20%20Please%20contact%20me%20at'>
-            PURSUE THIS OPP</a>
+          <!-- cdntodo: convert this anchor into a custom ng directive --> 
 
-          <p>ID: {{listing.jobId}}</p>
-          <p>Date Posted: {{listing.postingDate | date:'mm-dd-yyyy' }}</p>
+            <button class="btnPursue" >
+             <a href='mailto:{{controller.emailAddr}}?subject=Pursuing%20Job:{{listing.jobId}},%20{{listing.jobTitle}}&amp;body=To%20Whom%20It%20May%20Concern:%0a%0d%0a%0dI%20am%20interested%20in%20pursuing%20the, "{{listing.jobTitle}}",%20opportunity%20listed%20on%20your%20web%20site!%20%20Please%20contact%20me%20at' >
+            PURSUE</a>
+            </button>  
+
+
+          <p class="postText">ID: {{listing.jobId}}</p>
+          <p class="postText">Date Posted: {{listing.postingDate | date:'mm-dd-yyyy' }}</p>
         </section>
-        <section class='opp-desc-cntnr'>
+        <section class='opp-desc-cntnr' >
             <h4 class='opptitle'><span>&#8658;</span>{{ listing.jobTitle }}<span>&#8656;</span></h4>
             <p><label>Level:</label> {{listing.level}}, <label>Opp Type:</label> {{listing.hireType}}</p>
 
@@ -31,7 +35,7 @@
 
             <!-- prefer top 5: skills, top 5 tools -->
             <label>Skills/Tools:</label>
-            <div style="width:65%;">
+            <div>
               <ul class='skills-lst'>
                   <li data-ng-repeat='skill in listing.skills'>{{skill}}</li>
               </ul>

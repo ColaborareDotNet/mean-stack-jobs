@@ -19,6 +19,58 @@ footer{
   padding-top:10px;
 }
 
+.banner{
+  background-color:darkblue;
+  width: 100%;
+  color: white;
+  padding:20px 12px;
+}
+
+
+.btnContainer{
+  margin:auto;
+  padding-left:0px;
+  background-color:pink;
+}
+
+.btnPursue{
+  background-color: #f67404;
+  font-family: ;
+  color:white ;
+  border-radius: 3px;
+  border: solid 1px #E6B800;
+  box-shadow: -1px 1px 1px #f6bd04 inset;
+  line-height: 24px;
+  width:120px;
+
+}
+
+
+.btnPursue a{
+    color: white ;
+    font-weight: bold;
+
+}
+.columnLeft{
+  clear:both;
+  width: 49%;
+  min-width: 320px;
+  float:left;
+}
+
+.columnRight{
+  width: 49%;
+  min-width: 320px;
+  float:left;
+  text-align: right;
+}
+
+
+.columnSingle{
+  clear:both;
+  float:left;
+  width: 100%;
+}
 
   .opptitle{
     font-weight:bold;
@@ -30,13 +82,20 @@ footer{
   }
 
   article.opp-smry-cntnr{
-    border:1px solid black;
+    border-bottom:1px solid silver;
     padding: 10px;
-    margin-bottom: 10px;    
-
+    margin-bottom: 3px;  
     width:100%;
     float:left;
   }
+
+
+.listingAlternating{
+ background-color:#CCE6FF;
+ 
+}
+
+
   section.opp-desc-cntnr{
     float:left;
     width:75%;
@@ -44,6 +103,7 @@ footer{
   section.opp-actions-cntnr{
     float:right;
     width:20%;
+    min-width: 133px;
   }
 
   label{
@@ -51,18 +111,20 @@ footer{
   }
 
   ul.skills-lst{
+    clear:both;
     width:50%;
+    min-width: 200px;
     float:left;
   }
 
   ul.tools-lst{
     width:50%;
-    float:right;
+    min-width: 200px;
+    float:left;
   }
 
-  .opp-actions-cntnr a{
-    background-color: lightgreen;
-    padding: 3px 5px 3px 5px;
+  .postText{
+    font-size: 12px;
   }
 
   .opp-actions-cntnr p{
