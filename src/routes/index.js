@@ -27,7 +27,7 @@ var   listings =  [
         skills : ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools : ['VS 2013', 'SVN/TortoiseSVN', 'MS Word', 'System Center Configuration Manager (SCCM) 2012'],
         briefDescr : 'SCCM 2012 custom, extensions-library, source code needs to be substantially analyzed to document its design/architecture for maintenance/rewriting.  This position will primaarily be documenting, INITIALLY, and will potentially step into maintenance and rewritng of these custom libraries.',
-        teamStructureExpertise : '4 +/- Sr Devs, 1 +/- Jr Devs, 3 +/- Sr QA, 2 +/- Jr QA',
+        teamStructureExpertise : '4 Sr Devs, 1 Jr Dev, 3 Sr QA, 2 Jr QA',
         projectWorkflow : [
             '3 week sprints', 'sprint planing day 1 w/qa, dev',
             'daily, vertical dev/qa taks', 'every-other-day scrum using Rally web tool', 
@@ -49,7 +49,7 @@ var   listings =  [
         skills : ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools : ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
         briefDescr : 'Will maintain, design, and develop SCCM 2012 extensions libraries.',
-        teamStructureExpertise : '4 +/- Sr Devs, 1 +/- Jr Devs, 3 +/- Sr QA, 2 +/- Jr QA',
+        teamStructureExpertise : '4 Sr Devs, 1 Jr Devs, 3 Sr QA, 2 Jr QA',
         projectWorkflow : [
             '3 week sprints', 'sprint planing day 1 w/qa, dev',
             'daily, vertical dev/qa taks', 'every-other-day scrum using Rally web tool', 
