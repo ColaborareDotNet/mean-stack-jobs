@@ -20,8 +20,35 @@ module.exports = router;
 
 var   listings =  [
       {
+        jobId : 'jb-2015-03-23-2215', 
+        jobTitle : 'UI/Front-End App Developer',  
+        degree : 'Bachelor\'s or equivalent',
+        level : 'mid (2 years exp)', 
+        hireType : 'Permanent',
+        skills : ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
+        tools : [],
+        briefDescr : 'The UI Developer is responsible for creating the UI / Front End Application for PermRecord.  You will report directly to the CTO and work within the Engineering team consisting of other developers and designers.  Because the UI is our direct connection with patrons, it is critically important to our success and marketing strategies.  You will need to innovate and find solutions to complex problems that are simple and intuitive for users.  You will have freedom to pursue modern designs, plugins, tools, and develop software that proudly represents your hard work and creativity while advancing the business needs.  You will be highly involved in design and decision making to ensure we have the best product possible.  We are rapidly iterating to develop and test solutions that will determine what the market needs are.  Being comfortable with prototyping and incomplete specifications is a must – yet maintainable and scalable solutions should be created to ensure future refactoring is minimized.',
+        teamStructureExpertise : 'agile team (tbd)',
+        projectWorkflow : ['agile'],
+        recruiter : 'n/a',
+        hiringCompany : 'PermRecord.org',
+        compensationRange : 'market',
+        locationOppWork : 'onsite',
+        locationCompanyOffice : 'South Austin, TX',
+        benefitsGeneral : 'available',
+
+        vettingProcess : 'Phone screen, then in person',
+        hireTimeframeValue : 'ASAP', 
+        postingDate : new Date('3/24/2015 07:55'),
+        hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate : '',
+        notes:'As with most positions, I am directly involved with the hiring managers.  PermRecord.org is a non-profit organization, responsible for guiding this effort to bring together illustrious board and committee members to properly represent the Wealth of Knowledge covering all walks of Life. PermRecord.com is the commercial entity that is building and supporting the archives.  PermRecord is a start-up based in Austin, Texas, founded by technology and content veterans. We seek to create the first credible destination for people to preserve, present, and leverage the stories and learnings of mankind for future generations. We are bringing together the most important and influential members of Society from Technology, Science, Business, Government and Philanthropy to launch a Permanent destination for current and future generations to understand in their own words what they have done and to allow these people to continue to advance their efforts by sharing, collaborating, and supporting the generations to come. We are focused on creating the true Knowledgebase of Mankind, where people from all walks of life can create their Permanent Record for future generations to understand their life’s journey, travails, and essence. PermRecord has been architected to be permanent as well as allow you to powerfully present and share your story, pictures, videos, and documents as you want people to remember you and understand what you have accomplished.'
+      },
+
+      {
         jobId : 'jb-2015-03-20-1211', 
         jobTitle : 'C#.NET Developer/Tech Writer',  
+        degree : '',
         level : 'mid-senior', 
         hireType : 'W-2 Contractor',
         skills : ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
@@ -34,7 +61,13 @@ var   listings =  [
             'periodic demo'],
         recruiter : '',
         hiringCompany : '',
+        compensationRange : '',
+        locationOppWork : 'onsite',
+        locationCompanyOffice : 'Round Rock, TX',
+        benefitsGeneral : 'n/a',
 
+        vettingProcess : '',
+        hireTimeframeValue : 'ASAP', 
         postingDate : new Date('3/20/2015 12:11'),
         hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate : '',
@@ -44,6 +77,7 @@ var   listings =  [
       {
         jobId : 'jb-2015-03-20-1232', 
         jobTitle : 'C#.NET Developer',  
+        degree : '',
         level : 'senior', 
         hireType : 'W-2 Contractor',
         skills : ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
@@ -56,7 +90,13 @@ var   listings =  [
             'periodic demo'],
         recruiter : '',
         hiringCompany : '',
+        compensationRange : 'market',
+        locationOppWork : 'onsite',
+        locationCompanyOffice : 'Round Rock, TX',
+        benefitsGeneral : 'n/a',
 
+        vettingProcess : '',
+        hireTimeframeValue : 'ASAP', 
         postingDate : new Date('3/20/2015 12:32'),
         hireDate : '', /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate : '',
