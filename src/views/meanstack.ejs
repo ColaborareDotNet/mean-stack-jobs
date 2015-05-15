@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>MEAN Stack Job Listings</title>
+	<meta name="description" content="Hello World">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+
+<body>
+
+	<header>
+		<!-start top navigation-->
+		<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sideMenu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="sideMenu">
+					<ul class="nav navbar-nav">
+						<li><a href="" class="active">Home</a></li>
+						<li><a href="#About">About</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+					<form action="" class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Enter Search Criteria" style="max-width: 250px;">
+
+							<a href="" class="btn btn-primary" style="max-width: 50px;"><span class="glyphicon glyphicon-search"></span></a>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--end top navigation-->
+		<!--start page banner-->
+		<div class="jumbotron">
+			<div class="container">
+				<h1>The MEAN Stack Listing</h1>
+				<h3>Jobs for MEANies</h3>
+			</div> 
+		</div>
+		<!--end page banner-->
+	</header>
+<!--start job listings-->
+	<div class="container">
+		<div class="panel panel-primary" id="panel-1">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<a href="#collapse-1" data-toggle="collapse" data-parents="panel-1">UI/Front-End App Developer</a>
+				</h3>
+			</div>
+			<div id="collapse-1" class="panel-collapse collapse"><!--add "in" class to expand by default-->
+				<div class="panel-body">
+				content goes here
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="panel panel-primary" id="panel-1">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<a href="#collapse-2" data-toggle="collapse" data-parents="panel-1">C#.NET Developer/Tech Writer</a>
+				</h3>
+			</div>
+			<div id="collapse-2" class="panel-collapse collapse">
+				<div class="panel-body">
+				content goes here
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="panel panel-primary" id="panel-1">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<a href="#collapse-3" data-toggle="collapse" data-parents="panel-1">C#.NET Developer</a>
+				</h3>
+			</div>
+			<div id="collapse-3" class="panel-collapse collapse">
+				<div class="panel-body">
+				content goes here
+				</div>
+			</div>
+		</div>
+		<hr>
+	</div>	
+<!--end job listings-->
+<!--start email form-->
+	<div id="jobInquiry">
+		<div class="container">
+	<h1>Inquiry</h1>
+	<p class="lead">Please...</p>
+	</div>
+	<div id="emailForm" class="container">
+		<form action="">
+			<div class="form-group has-feedback">
+				<label for="email">eMail</label>
+				<input type="text" id="email" class="form-control input-lg">
+				<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+			</div>
+			<div class="form-group has-feedback">
+				<label for="position">Position</label>
+				<input type="text" id="position" class="form-control input-lg">
+				<span class="glyphicon glyphicon-check form-control-feedback"></span>
+			</div>
+			<div class="form-group has-feedback">
+				<label for="intro">Brief Intro</label>
+				<textarea id="intro" class="form-control"></textarea>
+				<span class="glyphicon glyphicon-pencil form-control-feedback"></span>
+			</div>
+		</form>
+		<hr>
+		<h3>Skills</h3>
+		<div class="container">
+
+					<form class="form-horizontal">
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="javaScript">JavaScript: </label>							
+								<button type="button" id="javaScript" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="html">HTML: </label>							
+								<button type="button" id="html" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="css">CSS: </label>							
+								<button type="button" id="css" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="lessass">LESS or SASS: </label>							
+								<button type="button" id="lessass" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="bootstrap">BootStrap: </label>							
+								<button type="button" id="bootstrap" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="workflows">Dev Workflows: </label>							
+								<button type="button" id="workflows" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="unitTesting">Unit Testing: </label>							
+								<button type="button" id="unitTesting" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+
+				</form>
+
+		</div>
+		<hr>
+		<h3>Position Type</h3>
+		<div class="container">
+			<div class="checkbox">
+				<label for="permanent">
+				<input id="permanent" type="checkbox" />Permanent
+				</label>
+			</div>
+			<div class="checkbox">
+				<label for="w2contract">
+					<input id="w2contract" type="checkbox" />W-2 Contract
+				</label>
+			</div>
+			<div class="checkbox">
+				<label for="1099">
+					<input id="1099" type="checkbox" />1099 Contract
+				</label>
+			</div>
+			<div class="checkbox">
+				<label for="other">
+					<input id="otherCheck" type="checkbox" />Other:&nbsp;&nbsp;<input id="otherType" type="text" placeholder="Please specify"/>
+				</label>
+			</div>
+		</div>
+		<hr>
+		<h3>Social Media</h3>
+		<div class="container">
+			<div class="form-group">
+				<div class="form-group">
+					<label for="twitter">Twitter</label>
+					<input type="text" id="twitter" class="form-control input-lg">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="linkedIn">LinkedIn</label>
+				<input type="text" id="linkedIn" class="form-control input-lg">
+			</div>
+			<div class="form-group">
+				<label for="gitHub">GitHub</label>
+				<input type="text" id="gitHub" class="form-control input-lg">
+			</div>
+		</div>
+		<br>
+		<!--submit-->
+		<button type="submit" class="btn btn-primary">Submit</button>
+		<hr>
+	</div>
+	</div>
+	<!--end email form-->
+	<!--start about-->
+	<div class="container" id="About">
+		<h1>About MEAN Stack Jobs</h1>
+			<p>
+              Circa 2014, I started the <a href='http://www.meetup.com/Austin-MEAN-Stack-Development/' target='_blank'>Austin MEAN Stack Dev meetup and user group</a>, within which I was able to meet lots of great people, including developers, hiring managers, and recruiters alike.  It turned out that some of the developers were not only there to learn about the MEAN Stack, they were also there looking to network in hopes of landing their next development opportunity, whether using the MEAN Stack, .NET, LAMP Stack, or other technologies!  
+         </p>
+         <p>
+              Consequently, recruiters and hiring managers started asking me if they could spread the word about their open positions through my meetup/user group...and so, I did.  Lo and behold, <span class='hi-lite'>we landed some nice opportunities ending in direct hires</span>.  Cool!
+         </p>
+         <p>
+              Although something cool was happening, I could not put my finger on it.  Finally, I discovered a little niche that was the root of these successful placements via my network and site.
+         </p>
+        	<p>
+              So, now here we are, and I put up <span class='hi-lite'>this web site to facilitate this vantage point</span>.  I hope you find it useful.  As mentioned above, although this site is biased toward the MEAN Stack, I include other stacks and technologies in here as well!
+          </p>
+          <p>
+            PS: It's a forgone conclusion that any web site is a work in progress, but there are still levels and phases, and this site is at at phase -100.  As such, please bear with me as I update and enhance it.  Alas, the diamond in this rough is not the web site ;-)  
+         </p>
+        	<p>
+            --Monico
+            <a style='display:block;' href='http://collaborare.net' target='_blank'>Collaborare Dot Net, LLC</a>
+         </p>
+          <br>	
+		</div>
+	<!--end about-->
+	<!-- start footer -->
+	<footer>
+		<div >
+		<div class="footer">
+		   <p class="columnSingle">Built with &#9829; by nice, <a href='http://en.wikipedia.org/wiki/MEAN' target='_blank'>MEAN</a> people using: 
+		     	<a href='https://www.mongodb.org/' target='_blank' style='text-decoration:line-through' title='Coming soon in future version!'>MongoDb</a>, 
+		      	<a href='http://expressjs.com/' target='_blank'>ExpressJs</a>, 
+		      	<a href='https://angularjs.org/' target='_blank'>AngularJs</a>, 
+		      	<a href='https://nodejs.org/' target='_blank'>NodeJs</a> ! </br></br> Questions?  Please feel free to contact us at: <a href='mailto:jobs@meanstack.org'>jobs@meanstack.org</a>
+		   </p></br>
+		   <div class="row">
+			   <div class="col-md-6">
+			        <a href='http://collaborare.net' target='_blank'>Collaborare Dot Net, LLC</a></br>
+			        Copyright &copy; 2015
+			    </div>
+			    <div class="col-md-6 textAlignRight">
+			    </br>Site updated on: March 24, 2015 07:04 CDT
+			    </div>
+		   </div>
+		<div>
+		<div> 
+	</footer>
+ 	<!-- end footer -->		
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>	
+</html>
