@@ -1,6 +1,6 @@
 # README #
 
-MEAN Stack Job Listings Application...Collaborare Dot Net, LLC
+MEAN Stack Job Listings Application...Collaborare Dot Net, LLC, UI contributions from Angela S. Moreno
 
 Push src folder to heroku `git subtree push --prefix src heroku master`
 
