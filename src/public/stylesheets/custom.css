@@ -5,6 +5,7 @@ body {
 .jumbotron{
 	color: #ffffff;
 	background: linear-gradient(360deg, #444444, #222222);
+	padding-top:68px;
 }
 
 .navbar-inverse{
@@ -49,8 +50,8 @@ textarea.form-control {
 	color: #BBC0C9;
 	font-size: smaller;
 	background: linear-gradient(#444444, #222222);
-	padding-top: 20px;
-	padding-left: 20px;
+	padding: 20px 50px;
+	height: 300px;
 }
 .columnLeft{
   clear: both:;
