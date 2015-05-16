@@ -1,69 +1,217 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<title>MEAN Stack Job Listings</title>
-	<meta name="description" content="Hello World">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-<style type="text/css">
-
-</style>
-	
-
-</head>
-
-<body>
-
-	<header>
-		<div class="jumbotron">
-			<div class="container">
-				<h1>The MEAN Stack Listing</h1>
-				<h3>Jobs for MEANies</h3>
-			</div> 
-		</div> 
-	</header>
-	<div class="container">
-	<p class="help-block">Please send us a brief message to inquire about this listing.</p>
+<% include header.ejs %>
+<!--start email form-->
+	<div id="jobInquiry">
+		<div class="container">
+	<h1>Inquiry</h1>
+	<p class="lead">Please...</p>
 	</div>
-	<div class="container">
+	<div id="emailForm" class="container">
 		<form action="">
 			<div class="form-group has-feedback">
-				<label for="from">From</label>
-				<input type="text" id="from" class="form-control input-lg">
+				<label for="email">eMail</label>
+				<input type="text" id="email" class="form-control input-lg">
 				<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
 			</div>
 			<div class="form-group has-feedback">
-				<label for="subject">Subject</label>
-				<input type="text" id="subject" class="form-control input-lg">
-				<span class="glyphicon glyphicon-tag form-control-feedback"></span>
+				<label for="position">Position</label>
+				<input type="text" id="position" class="form-control input-lg">
+				<span class="glyphicon glyphicon-check form-control-feedback"></span>
 			</div>
 			<div class="form-group has-feedback">
-				<label for="message">Message</label>
-				<textarea id="message" class="form-control"></textarea>
-				<span class="glyphicon glyphicon-comment form-control-feedback"></span>
+				<label for="intro">Brief Intro</label>
+				<textarea id="intro" class="form-control"></textarea>
+				<span class="glyphicon glyphicon-pencil form-control-feedback"></span>
 			</div>
 		</form>
 		<hr>
-		
-	</div>
-	<footer>
+		<h3>Skills</h3>
 		<div class="container">
-			<hr>
 
-			<p>
-				<small><a href="">Like me</a> On facebook</small></p>
-			<p>	<small><a href="">Ask whatever </a> On Twitter</small></p>
+					<form class="form-horizontal">
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="javaScript">JavaScript: </label>							
+								<button type="button" id="javaScript" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="html">HTML: </label>							
+								<button type="button" id="html" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="css">CSS: </label>							
+								<button type="button" id="css" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="lessass">LESS or SASS: </label>							
+								<button type="button" id="lessass" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="bootstrap">BootStrap: </label>							
+								<button type="button" id="bootstrap" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="workflows">Dev Workflows: </label>							
+								<button type="button" id="workflows" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+							<label for="unitTesting">Unit Testing: </label>							
+								<button type="button" id="unitTesting" data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle">1-10 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>1 - none</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10 - expert</li>
+								</ul>
+							</div>
+						</div>
 
-		</div> <!-- end container -->
-	</footer>
-		
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</body>	
-</html>
+				</form>
+
+		</div>
+		<hr>
+		<h3>Position Type</h3>
+		<div class="container">
+			<div class="checkbox">
+				<label for="permanent">
+				<input id="permanent" type="checkbox" />Permanent
+				</label>
+			</div>
+			<div class="checkbox">
+				<label for="w2contract">
+					<input id="w2contract" type="checkbox" />W-2 Contract
+				</label>
+			</div>
+			<div class="checkbox">
+				<label for="1099">
+					<input id="1099" type="checkbox" />1099 Contract
+				</label>
+			</div>
+			<div class="checkbox">
+				<label for="other">
+					<input id="otherCheck" type="checkbox" />Other:&nbsp;&nbsp;<input id="otherType" type="text" placeholder="Please specify"/>
+				</label>
+			</div>
+		</div>
+		<hr>
+		<h3>Social Media</h3>
+		<div class="container">
+			<div class="form-group">
+				<div class="form-group">
+					<label for="twitter">Twitter</label>
+					<input type="text" id="twitter" class="form-control input-lg">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="linkedIn">LinkedIn</label>
+				<input type="text" id="linkedIn" class="form-control input-lg">
+			</div>
+			<div class="form-group">
+				<label for="gitHub">GitHub</label>
+				<input type="text" id="gitHub" class="form-control input-lg">
+			</div>
+		</div>
+		<br>
+		<!--submit-->
+		<button type="submit" class="btn btn-primary">Submit</button>
+		<hr>
+	</div>
+	</div>
+	<!--end email form-->
+<% include footer.ejs %>
