@@ -7,6 +7,6 @@ MEAN Stack Job Listings Application...Collaborare Dot Net, LLC
 * Used to publish job opportunities that Collaborare Dot Net, LLC has been approached with.
 * [Learn Markdown at BitBucket](https://bitbucket.org/tutorials/markdowndemo)
 
-# Contributions # 
+## Contributions ## 
 * Monico A. Moreno: main dev
 * Angela S. Moreno: UI/Front End dev
