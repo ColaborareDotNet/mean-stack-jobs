@@ -1,0 +1,88 @@
+<% include header.ejs %>
+<script src='/javascripts/index.ng.js'></script>
+<div class="content">
+<!--start job listings-->
+	<div class="container" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller' 
+        data-ng-init='controller.listings=<%= listingsData %>'>	
+
+  	<h4 data-ng-hide='{{controller.listings.length > 0}}' class="listingTitle">No Listings at this time.  Please check later.</h4>
+
+  	<article class='opp-smry-cntnr listingAlternating' data-ng-repeat="listing in controller.listings">
+			<div class="panel panel-primary" id="panel-1">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<a href="#{{listing.jobId}}" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }}<div class="pull-right"><span class="caret"></span></div></a>
+					</h3>
+				</div>
+				<!--TODO: add "in" class to expand by default-->
+				<div id="{{listing.jobId}}" class="panel-collapse collapse">
+					<div class="panel-body">
+				<!--start job description-->
+						<div class="row">
+							<div class="col-md-2 col-md-push-10">
+								<div class="text-left">
+									<!--start Pursue button-->
+						            <!-- cdntodo: convert this anchor into a custom ng directive --> 
+						            <button class="btn btn-success btn-lg" >
+						             	<a href='mailto:{{controller.emailAddr}}?subject=Pursuing%20Job:{{listing.jobId}},%20{{listing.jobTitle}}&amp;body=To%20Whom%20It%20May%20Concern:%0a%0d%0a%0dI%20am%20interested%20in%20pursuing%20the, "{{listing.jobTitle}}",%20opportunity%20listed%20on%20your%20web%20site!%20%20Please%20contact%20me%20at' >
+						            	PURSUE</a>
+						            </button>
+						            <br><br>
+						            <p class="">ID: {{listing.jobId}}</p>
+	      							<p class="">Date Posted: {{listing.postingDate | date:'MM-dd-yyyy' }}</p>
+								</div>
+							</div>
+							<div class="col-md-10 col-md-pull-2">
+								<div class="well">
+									<div class="form-inline">
+										<div class="form-group">
+											<label>Level:</label> {{listing.level}}&nbsp;&nbsp;&nbsp;
+										</div>
+										<div class="form-group">
+											<label>Opp Type:</label> {{listing.hireType}}
+										</div>
+									</div>
+									<div>
+										<div class="form-group">
+					            <label>Description:</label>
+					            <p class='opp-desc'>{{ listing.briefDescr }}</p>
+							      </div>
+							            <!-- prefer top 5: skills, top 5 tools -->
+							            <div class="form-group">
+								            <label>Skills/Tools:</label>
+								            <div>
+								              <ul class='skills-lst'>
+								                  <li data-ng-repeat='skill in listing.skills'>{{skill}}</li>
+								              </ul>
+								              <ul class='tools-lst'>
+								                  <li data-ng-repeat='tool in listing.tools'>{{tool}}</li>
+								              </ul>
+								            </div>
+							            </div>
+							            <div class="form-group">
+								            <label title='Please note that numbers could change.'>Team Structure/Expertise<sup title='Please note that numbers could change.'>(*)</sup>:</label>
+								            <p>{{listing.teamStructureExpertise}}</p>
+							            </div>
+							            <div class="form-group">
+								            <label>Project Workflow:</label>
+								            <ul>
+								                <li data-ng-repeat='step in listing.projectWorkflow'>{{step}}</li>
+								            </ul>
+													</div>
+						       </div>
+				          <p>
+			              <label>Notes: </label>&nbsp;&nbsp;{{listing.notes}}
+			            </p>	
+						     </div>
+							</div>
+						</div>
+	           <!--end job description-->
+	   			</div>
+				</div>
+			</div>
+		</article>
+	</div>
+</div>
+	
+	<!--end job listings-->
+	<% include footer.ejs %>	
