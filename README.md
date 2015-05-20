@@ -11,3 +11,6 @@ MEAN Stack Job Listings Application...Collaborare Dot Net, LLC
 ### Contributors ###
 * Monico A. Moreno: main dev
 * Angela S. Moreno: UI/Front End dev
+
+### Miscellaneous ###
+* Tasks are currently tracked in a private Trello account.  Might eventually port over to GH issues.
