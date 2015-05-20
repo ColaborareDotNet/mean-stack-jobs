@@ -114,3 +114,11 @@ hr.gradient_three {
     background-image: -ms-linear-gradient(left, #f7c8da, #e51a33, #e60013,#e51a33, #f7c8da);
     background-image: -o-linear-gradient(left, #f7c8da, #e51a33, #e60013,#e51a33, #f7c8da);
 }
+
+
+#ghribbon{
+    position: absolute; 
+    top: inherit; 
+    right: 0; 
+    border: 0;
+}
