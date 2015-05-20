@@ -1,10 +1,24 @@
 {
-  "name": "herokuapp",
-  "version": "0.0.1",
-  "private": true,
+  "name": "MEAN Stack Jobs",
+  "version": "0.0.3",
+  "description": "Used to facilitate job postings that Collaborare Dot Net LLC has been asked to source.", 
+  "author": {
+    "name": "Monico Moreno",
+    "email": "cdnadmin@collaborare.net"
+  },
+  "contributors": [
+    {
+      "name": "Angela Moreno",
+      "email": "angela_moreno@collaborare.net"
+    }],
   "scripts": {
     "start": "node ./bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ColaborareDotNet/mean-stack-jobs"
+  },
+  "homepage": "http://jobs.meanstack.org",
   "dependencies": {
     "express": "~4.2.0",
     "static-favicon": "~1.0.0",
