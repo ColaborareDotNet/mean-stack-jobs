@@ -1,4 +1,5 @@
-![Build Status](https://travis-ci.org/ColaborareDotNet/mean-stack-jobs.svg?branch=master)
+[![Build Status](https://travis-ci.org/ColaborareDotNet/mean-stack-jobs.svg?branch=master)](https://travis-ci.org/ColaborareDotNet/mean-stack-jobs)
+
 
 # README #
 
