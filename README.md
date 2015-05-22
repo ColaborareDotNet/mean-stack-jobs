@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/ColaborareDotNet/mean-stack-jobs.svg?branch=master)
+
 # README #
 
 MEAN Stack Job Listings Application...Collaborare Dot Net, LLC
