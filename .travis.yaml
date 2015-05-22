@@ -1,0 +1,17 @@
+language: node_js
+env: IN_TRAVIS=true
+node_js:
+- '0.10'
+
+branches:
+  only:
+    -jshint
+before_install:
+
+install: npm install
+notifications:
+  email:
+    recipients:
+    - cdnadmin@collaborare.net
+    on_success: never
+    on_failure: always
