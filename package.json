@@ -1,7 +1,7 @@
 {
   "name": "jobs-mean-stack",
   "version": "0.0.3",
-  "description": "Used to facilitate job postings that Collaborare Dot Net LLC has been asked to source.", 
+  "description": "Used to facilitate job postings that Collaborare Dot Net LLC has been asked to source.",
   "author": {
     "name": "Monico Moreno",
     "email": "cdnadmin@collaborare.net"
@@ -10,7 +10,8 @@
     {
       "name": "Angela Moreno",
       "email": "angela_moreno@collaborare.net"
-    }],
+    }
+  ],
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -27,5 +28,8 @@
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "ejs": "~0.8.5"
+  },
+  "devDependencies": {
+    "jshint": "~2.7.0"
   }
 }
