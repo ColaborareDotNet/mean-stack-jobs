@@ -12,6 +12,7 @@ install: npm install
 
 before_script:
   - grunt jshint:all
+  - grunt run:jasmine
 
 notifications:
   email:
