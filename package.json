@@ -6,6 +6,9 @@
     "name": "Monico Moreno",
     "email": "cdnadmin@collaborare.net"
   },
+  "engines": {
+    "node": "~0.12.0"
+  },
   "contributors": [
     {
       "name": "Angela Moreno",
@@ -30,6 +33,9 @@
     "ejs": "~0.8.5"
   },
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
     "jshint": "~2.7.0"
   }
 }
