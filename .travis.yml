@@ -12,9 +12,9 @@ install: npm install
 
 before_script:
   - grunt jshint:all
-  - grunt run:jasmine
   - JASMINE_CONFIG_PATH=./jasmine.json
   - export JASMINE_CONFIG_PATH
+  - grunt run:jasmine
 
 notifications:
   email:
