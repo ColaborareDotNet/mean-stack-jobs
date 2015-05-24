@@ -73,6 +73,9 @@
 								            </ul>
 													</div>
 						       </div>
+						       <p data-ng-hide="{{listing.companyWebSite === null || listing.companyWebSite === undefined}}">
+						       		<label>Company Web Site:&nbsp;&nbsp;</label><a href="{{listing.companyWebSite}}" target="_blank">{{listing.companyWebSite}}</a>
+						       </p>
 				          <p>
 			              <label>Notes: </label>&nbsp;&nbsp;{{listing.notes}}
 			            </p>	
