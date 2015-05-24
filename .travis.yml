@@ -9,6 +9,10 @@ branches:
 before_install:
 
 install: npm install
+
+before_script:
+  - grunt jshint:all
+
 notifications:
   email:
     recipients:
