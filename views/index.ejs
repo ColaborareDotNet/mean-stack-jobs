@@ -38,11 +38,19 @@
 							<div class="col-md-10 col-md-pull-2">
 								<div class="well">
 									<div class="form-inline">
-										<div class="form-group">
+										<div class="form-group" data-ng-hide="{{listing.level === null || listing.level === undefined}}">
 											<label>Level:</label> {{listing.level}}&nbsp;&nbsp;&nbsp;
 										</div>
 										<div class="form-group">
 											<label>Opp Type:</label> {{listing.hireType}}
+										</div>
+									</div>
+									<div class="form-inline">
+										<div class="form-group" data-ng-hide="{{listing.compensationRange === null || listing.compensationRange === undefined}}">
+											<label>Salary:</label>&nbsp;&nbsp;<span data-ng-bind="listing.compensationRange"></span>
+										</div>
+										<div class="form-group" data-ng-hide="{{listing.benefitsGeneral === null || listing.benefitsGeneral === undefined}}">
+											<label>Benefits:</label>&nbsp;&nbsp;<span data-ng-bind="listing.benefitsGeneral"></span>
 										</div>
 									</div>
 									<div>
@@ -62,11 +70,18 @@
 								              </ul>
 								            </div>
 							            </div>
+							            <div class="form-group" data-ng-hide="{{listing.degree === null || listing.degree === undefined}}">
+								            <label>Education/Degree:</label>&nbsp;&nbsp;<span data-ng-bind="listing.degree"></span>
+							            </div>
+							            <div class="form-group" data-ng-hide="{{listing.employmentEligibility === null || listing.employmentEligibility === undefined}}">
+							            	<label>Employment Eligibility:</label>
+							            	<span data-ng-bind="listing.employmentEligibility"></span>
+							            </div>
 							            <div class="form-group">
 								            <label title='Please note that numbers could change.'>Team Structure/Expertise<sup title='Please note that numbers could change.'>(*)</sup>:</label>
 								            <p>{{listing.teamStructureExpertise}}</p>
 							            </div>
-							            <div class="form-group">
+							            <div class="form-group" data-ng-hide="{{listing.projectWorkflow === null || listing.projectWorkflow === undefined}}">
 								            <label>Project Workflow:</label>
 								            <ul>
 								                <li data-ng-repeat='step in listing.projectWorkflow'>{{step}}</li>
