@@ -11,7 +11,7 @@
 			<div class="panel panel-primary" id="panel-1">
 				<div class="panel-heading">
 					<h3 class="panel-title">
-						<a href="#{{listing.jobId}}" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }}<button type="button"  id="more" class="btn btn-primary pull-right btn-xs" data-toggle="collapse" data-target="#{{listing.jobId}}"
+						<a href="#{{listing.jobId}}" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }} <span style="padding-left:5px;font-size:.75em; font-weight:normal;"> ({{listing.jobId}})</span><button type="button"  id="more" class="btn btn-primary pull-right btn-xs" data-toggle="collapse" data-target="#{{listing.jobId}}"
 				>
 				<span class="toggle-icon glyphicon glyphicon-chevron-down"></span>
 				</button></a>
@@ -115,6 +115,7 @@
 		</article>
 	</div>
 </div>
+
 	
 	<!--end job listings-->
 	<% include footer.ejs %>	
