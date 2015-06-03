@@ -20,8 +20,8 @@ module.exports =
         recruiter: 'n/a',
         hiringCompany: null,
         compensationRange: '$90K-$140K USD/Year',
-        locationOppWork: 'Austin, TX OR San Francisco CA',
-        locationCompanyOffice: 'Austin, TX OR San Francisco CA',
+        locationOppWork: 'Austin, TX OR San Francisco, CA',
+        locationCompanyOffice: 'Austin, TX OR San Francisco, CA',
         benefitsGeneral: 'Available',
 
         employmentEligibility: null,
@@ -33,7 +33,7 @@ module.exports =
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: '',
         companyWebSite: null,
-        notes: 'This company has an ingenious business model and exceptional stock options.'
+        notes: 'I personally spoke with recruiting manager.  This company has an ingenious business model and exceptional stock options.'
     }, 
 
     {
@@ -67,7 +67,7 @@ module.exports =
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: '',
         companyWebSite: null,
-        notes: 'This company has an ingenious business model and exceptional stock options.'
+        notes: 'I personally spoke with recruiting manager.  This company has an ingenious business model and exceptional stock options.'
     },
 
     {
@@ -142,7 +142,7 @@ module.exports =
         recruiter: 'n/a',
         hiringCompany: 'PermRecord.org',
         compensationRange: 'Market',
-        locationOppWork: 'onsite',
+        locationOppWork: 'On-Site',
         locationCompanyOffice: 'South Austin, TX',
         benefitsGeneral: 'Available',
 
@@ -176,7 +176,7 @@ module.exports =
         recruiter: '',
         hiringCompany: '',
         compensationRange: null,
-        locationOppWork: 'onsite',
+        locationOppWork: 'On-Site',
         locationCompanyOffice: 'Round Rock, TX',
         benefitsGeneral: null,
 
@@ -210,7 +210,7 @@ module.exports =
         recruiter: '',
         hiringCompany: '',
         compensationRange: 'Market',
-        locationOppWork: 'onsite',
+        locationOppWork: 'On-Site',
         locationCompanyOffice: 'Round Rock, TX',
         benefitsGeneral: null,
 
