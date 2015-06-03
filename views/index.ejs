@@ -91,6 +91,17 @@
 						       <p data-ng-hide="{{listing.companyWebSite === null || listing.companyWebSite === undefined}}">
 						       		<label>Company Web Site:&nbsp;&nbsp;</label><a href="{{listing.companyWebSite}}" target="_blank">{{listing.companyWebSite}}</a>
 						       </p>
+
+						      <div class="form-inline">
+										<div class="form-group" data-ng-hide="{{listing.locationCompanyOffice === null || listing.locationCompanyOffice === undefined}}">
+											<label title="Location of the home office (aka HQ).">Office Location:</label>
+											&nbsp;&nbsp;<span data-ng-bind="listing.locationCompanyOffice"></span>											
+										</div>
+										<div class="form-group" data-ng-hide="{{listing.locationOppWork === null || listing.locationOppWork === undefined}}">
+											<label title="Where you'd work. e.g. on-site, remote.">Work Location:</label>
+											&nbsp;&nbsp;<span data-ng-bind="listing.locationOppWork"></span>											
+										</div>
+									</div>
 				          <p>
 			              <label>Notes: </label>&nbsp;&nbsp;{{listing.notes}}
 			            </p>	
