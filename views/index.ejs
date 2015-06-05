@@ -9,19 +9,19 @@
   	<h4 data-ng-hide='{{controller.listings.length > 0}}' class="listingTitle">No Listings at this time.  Please check later.</h4>
 
   	<article class='opp-smry-cntnr listingAlternating' data-ng-repeat="listing in controller.listings">
-			<div id="{{listing.jobId}}-anchor" class="panel panel-primary">
+			<div id="{{listing.jobId}}" class="panel panel-primary">
 				<div class="panel-heading">
 					<h3 class="panel-title">
-						<a href="#{{listing.jobId}}" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }} 
+						<a href="#{{listing.jobId}}-panel" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }} 
 							<span style="padding-left:5px;font-size:.75em; font-weight:normal;"> ({{listing.jobId}})</span>
 						</a>
-						<button type="button"  id="more" class="btn btn-primary pull-right btn-xs" data-toggle="collapse" data-target="#{{listing.jobId}}">
+						<button type="button"  id="more" class="btn btn-primary pull-right btn-xs" data-toggle="collapse" data-target="#{{listing.jobId}}-panel">
 							<span class="toggle-icon glyphicon glyphicon-chevron-down"></span>
 						</button>
 					</h3>
 				</div>
 				<!--TODO: add "in" class to expand by default-->
-				<div id="{{listing.jobId}}" class="panel-collapse collapse">
+				<div id="{{listing.jobId}}-panel" class="panel-collapse collapse">
 					<div class="panel-body">
 				<!--start job description-->
 						<div class="row">
