@@ -4,7 +4,7 @@ html, body {
 
 .content{
     background-color:#ffffff;
-    margin: 75px auto 125px;
+    margin: 50px auto 50px;
     overflow: auto;
 }
 
@@ -28,6 +28,8 @@ header{
 .jumbotron{
 	color: #ffffff;
 	background: linear-gradient(360deg, #444444, #222222);
+    padding-top:0;
+    padding-bottom:0;
 }
 
 
@@ -121,4 +123,12 @@ hr.gradient_three {
     top: inherit; 
     right: 0; 
     border: 0;
+}
+
+.navbar{
+    margin-bottom:0;
+}
+
+.nav>li>a:hover{
+    background-color:inherit;
 }
