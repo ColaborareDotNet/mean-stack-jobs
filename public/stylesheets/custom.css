@@ -132,3 +132,11 @@ hr.gradient_three {
 .nav>li>a:hover{
     background-color:inherit;
 }
+
+.navbar-toggle{
+    float:left;
+}
+
+.navbar-inverse{
+    background-image: none;
+}
