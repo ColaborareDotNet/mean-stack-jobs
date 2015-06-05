@@ -1,5 +1,6 @@
 <% include header.ejs %>
 <script src='/javascripts/index.ng.js'></script>
+
 <div class="content">
 <!--start job listings-->
 	<div class="container" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller' 
@@ -8,13 +9,15 @@
   	<h4 data-ng-hide='{{controller.listings.length > 0}}' class="listingTitle">No Listings at this time.  Please check later.</h4>
 
   	<article class='opp-smry-cntnr listingAlternating' data-ng-repeat="listing in controller.listings">
-			<div class="panel panel-primary" id="panel-1">
+			<div id="{{listing.jobId}}-anchor" class="panel panel-primary">
 				<div class="panel-heading">
 					<h3 class="panel-title">
-						<a href="#{{listing.jobId}}" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }} <span style="padding-left:5px;font-size:.75em; font-weight:normal;"> ({{listing.jobId}})</span><button type="button"  id="more" class="btn btn-primary pull-right btn-xs" data-toggle="collapse" data-target="#{{listing.jobId}}"
-				>
-				<span class="toggle-icon glyphicon glyphicon-chevron-down"></span>
-				</button></a>
+						<a href="#{{listing.jobId}}" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }} 
+							<span style="padding-left:5px;font-size:.75em; font-weight:normal;"> ({{listing.jobId}})</span>
+						</a>
+						<button type="button"  id="more" class="btn btn-primary pull-right btn-xs" data-toggle="collapse" data-target="#{{listing.jobId}}">
+							<span class="toggle-icon glyphicon glyphicon-chevron-down"></span>
+						</button>
 					</h3>
 				</div>
 				<!--TODO: add "in" class to expand by default-->
@@ -26,10 +29,10 @@
 								<div class="text-left">
 									<!--start Pursue button-->
 						            <!-- cdntodo: convert this anchor into a custom ng directive --> 
-						            <button class="btn btn-success btn-lg" >
+						            <div class="btn btn-success btn-lg" >
 						             	<a href='mailto:{{controller.emailAddr}}?subject=Pursuing%20Job:{{listing.jobId}},%20{{listing.jobTitle}}&amp;body=To%20Whom%20It%20May%20Concern:%0a%0d%0a%0dI%20am%20interested%20in%20pursuing%20the, "{{listing.jobTitle}}",%20opportunity%20listed%20on%20your%20web%20site!%20%20Please%20contact%20me%20at' >
 						            	PURSUE</a>
-						            </button>
+						            </div>
 						            <br><br>
 						            <p class="">ID: {{listing.jobId}}</p>
 	      							<p class="">Date Posted: {{listing.postingDate | date:'MM-dd-yyyy' }}</p>
@@ -89,7 +92,8 @@
 													</div>
 						       </div>
 						       <p data-ng-hide="{{listing.companyWebSite === null || listing.companyWebSite === undefined}}">
-						       		<label>Company Web Site:&nbsp;&nbsp;</label><a href="{{listing.companyWebSite}}" target="_blank">{{listing.companyWebSite}}</a>
+						       		<label>Company Web Site:&nbsp;&nbsp;</label>
+						       		<a href="{{listing.companyWebSite}}" target="_blank" data-ng-bind="listing.companyWebSite"></a>
 						       </p>
 
 						      <div class="form-inline">
@@ -115,7 +119,6 @@
 		</article>
 	</div>
 </div>
-
 	
 	<!--end job listings-->
 	<% include footer.ejs %>	
