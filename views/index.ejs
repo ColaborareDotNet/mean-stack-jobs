@@ -1,5 +1,4 @@
 <% include header.ejs %>
-<script src='/javascripts/index.ng.js'></script>
 
 <div class="content">
 <!--start job listings-->
@@ -117,8 +116,13 @@
 				</div>
 			</div>
 		</article>
+		<div data-ng-view></div>
 	</div>
 </div>
 	
+
 	<!--end job listings-->
-	<% include footer.ejs %>	
+	<% include footer.ejs %>
+
+<script src='/javascripts/index.ng.js'></script>
+	
