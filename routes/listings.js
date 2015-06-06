@@ -1,5 +1,44 @@
 module.exports =
     [{
+        jobId: 'jb-2015-06-05-2225',
+        jobTitle: 'MEAN Stack UX Design/Developer',
+        degree: 'Not Required',
+        level: 'Senior',
+        hireType: 'W-2 or C2C Contract',
+        skills: [
+            'Design and develop the user facing features of client’s Big Data ecosystem using MEAN Stack (MongoDB/MarkLogic, Express, Angular/HTML5, Node.js)',
+            'Interview stakeholders to extract and document user stories/requirements; validate designs with wireframe mockups and storyboards.',
+            'Implement user stories utilizing Agile Model-Driven Development (AMDD) and Test Driven Development (TDD)', 
+            'Create responsive UX code that is optimized for a variety of devices/screen sizes (Bootstrap)',
+            'Performance tune UX to meet expectations of quick response times (caching)',
+            'Create apps that interact with a variety of data sources and formats (Hadoop, MongoDB, Oracle DB/PLSQL, MarkLogic, RESTful APIs, JSON/JSONPath etc.)',
+            'Create advanced interactive data visualizations for modern browsers (HTML5, SVG, CSS, D3.js)',
+            'Build, configure, operate DEV/TEST environment and servers (Linux - CentOS/RHEL)'
+        ],
+        tools: [],
+        responsibilities: [],
+        briefDescr: 'We have a large health care client here in the Houston area that is currently searching for an experienced MEAN Stack Developer to join their team on an exciting data project. This project will establish a Big Data ecosystem for client\'s patient care information; enabling multiple stakeholders to securely process and analyze the data at scale. The role of the User Experience (UX) Designer/Developer is to be the creator and chief designer of how people interact with this environment. This is a 3-6 month project with possible extension.',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: 'n/a',
+        hiringCompany: null,
+        compensationRange: 'Market',
+        locationOppWork: 'On-Site',
+        locationCompanyOffice: 'Houston, TX',
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('6/5/2015 22:25'),
+        hireDate: '',
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: '',
+        companyWebSite: null,
+        notes: null
+    }, 
+    {
         jobId: 'jb-2015-06-02-0611',
         jobTitle: 'Full-Stack Web Software Engineer, UIX',
         degree: 'Bachelor\'s degree in engineering or computer science; masters preferred',
@@ -14,6 +53,7 @@ module.exports =
             'Documented history of open-source software contributions'
         ],
         tools: [],
+        responsibilities: [],
         briefDescr: 'We seek an experienced full-stack web software engineer with experience in UI development to develop an Advanced Advertising platform supporting multiple devices (mobile, streaming, TV).  Salary depends on experience.  Relocation benefits are available.',
         teamStructureExpertise: 'Small Team (currently); will be adding 100 devs in the next 6-12 months.',
         projectWorkflow: ['Agile'],
@@ -48,6 +88,7 @@ module.exports =
             'Knowledge of ITIL, UML, Agile, Networking systems/technologies is preferred'
         ],
         tools: [],
+        responsibilities: [],
         briefDescr: 'Seeking a Technical Writer to provide documentation for complex network and software for both technical and non-technical audiences. High technical aptitude and strong research and communication skills are required. The company is a small division (50-100) of a larger fast growing company (3000+ employees). Relocation support is provided. Great benefits package in a rapidly growing, market leading firm.',
         teamStructureExpertise: 'Small Tech Writing Team (~3-4)',
         projectWorkflow: null,
@@ -78,6 +119,7 @@ module.exports =
         hireType: 'Salaried + Benefits',
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
+        responsibilities: [],
         briefDescr: 'Collaborate with the CTO and other engineers to define and build the products that drive the company forward.  Mentor a growing engineering team in technologies and patterns they\'re not yet familiar with, and be mentored by them in areas you\'re not familiar with.  Evaluate existing products and proactively recommend improvements and enhancements.  Work closely with a distributed team in an agile setting to prioritize workflow on a daily basis',
         teamStructureExpertise: '3 Sr Devs, 1 Jr Devs, 1 Data Strategist, 2 UX designers',
         projectWorkflow: ['Agile', 'Utilize Pivotal tracker'],
@@ -106,6 +148,7 @@ module.exports =
         hireType: 'Salaried + Benefits',
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
+        responsibilities: [],
         briefDescr: 'Contribute to existing and future technical projects to drive the company forward.  Evaluate existing products and proactively recommend improvements and enhancements.  Work closely with a distributed team in an agile setting to prioritize workflow on a daily basis.',
         teamStructureExpertise: '3 Sr Devs, 1 Jr Devs, 1 Data Strategist, 2 UX designers',
         projectWorkflow: ['Agile', 'Utilize Pivotal tracker'],
@@ -136,6 +179,7 @@ module.exports =
         hireType: 'Permanent',
         skills: ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
         tools: [],
+        responsibilities: [],
         briefDescr: 'The UI Developer is responsible for creating the UI / Front End Application for PermRecord.  You will report directly to the CTO and work within the Engineering team consisting of other developers and designers.  Because the UI is our direct connection with patrons, it is critically important to our success and marketing strategies.  You will need to innovate and find solutions to complex problems that are simple and intuitive for users.  You will have freedom to pursue modern designs, plugins, tools, and develop software that proudly represents your hard work and creativity while advancing the business needs.  You will be highly involved in design and decision making to ensure we have the best product possible.  We are rapidly iterating to develop and test solutions that will determine what the market needs are.  Being comfortable with prototyping and incomplete specifications is a must – yet maintainable and scalable solutions should be created to ensure future refactoring is minimized.',
         teamStructureExpertise: 'agile team (tbd)',
         projectWorkflow: ['agile'],
@@ -166,6 +210,7 @@ module.exports =
         hireType: 'W-2 Contractor',
         skills: ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'MS Word', 'System Center Configuration Manager (SCCM) 2012'],
+        responsibilities: [],
         briefDescr: 'SCCM 2012 custom, extensions-library, source code needs to be substantially analyzed to document its design/architecture for maintenance/rewriting.  This position will primaarily be documenting, INITIALLY, and will potentially step into maintenance and rewritng of these custom libraries.',
         teamStructureExpertise: '4 Sr Devs, 1 Jr Dev, 3 Sr QA, 2 Jr QA',
         projectWorkflow: [
@@ -200,6 +245,7 @@ module.exports =
         hireType: 'W-2 Contractor',
         skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
+        responsibilities: [],
         briefDescr: 'Will maintain, design, and develop SCCM 2012 extensions libraries.',
         teamStructureExpertise: '4 Sr Devs, 1 Jr Devs, 3 Sr QA, 2 Jr QA',
         projectWorkflow: [
