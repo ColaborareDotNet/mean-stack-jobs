@@ -110,18 +110,13 @@ footer{
     padding-right:.75em;
   }
 
-  ul.skills-lst{
+  ul.skls-tls-resps-lst{
     clear:both;
-    width:50%;
+    width:75%;
     min-width: 200px;
     float:left;
   }
 
-  ul.tools-lst{
-    width:50%;
-    min-width: 200px;
-    float:left;
-  }
 
   .postText{
     font-size: 12px;
