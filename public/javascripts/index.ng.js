@@ -7,6 +7,11 @@ indexNgApp.config(['$routeProvider', function($routeProvider){
     template: '',
     controller: function($scope, $routeParams, $location, $timeout, $anchorScroll){
       $scope.elem = angular.element("a[href='" + "#" + $routeParams.jobId + "-panel']");
+      if ($scope.elem){
+        alert('Listing (' + $routeParams.jobId + ') not found!');
+        $location.path('/');
+        return;
+      }
 
       $timeout(function(){
             /*
