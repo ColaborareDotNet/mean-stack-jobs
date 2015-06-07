@@ -140,3 +140,22 @@ hr.gradient_three {
 .navbar-inverse{
     background-image: none;
 }
+
+
+span.parendJobId{
+    padding-left:5px;
+    font-size:.75em; 
+    font-weight:normal;
+}
+
+ul.skls-tls-resps-lst{
+    width:75%;
+    min-width: 200px;
+    float:left;
+    clear:both;
+}
+
+div.clear-both{
+    clear:both;
+}
+

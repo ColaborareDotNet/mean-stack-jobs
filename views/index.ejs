@@ -1,7 +1,6 @@
 <% include header.ejs %>
 
 <style>
-
 /* part of solution to avoiding flicker when ng is loading */
 .ng-cloak{
 	display:none;
@@ -13,6 +12,8 @@
 	<div class="container" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller' 
         data-ng-init='controller.listings=<%= listingsData %>'>	
 
+    <p data-ng-bind="">Loading...</p>
+
   	<h4 data-ng-hide='{{controller.listings.length > 0}}' class="listingTitle ng-cloak">No Listings at this time.  Please check later.</h4>
 
   	<article class='opp-smry-cntnr listingAlternating ng-cloak' data-ng-repeat="listing in controller.listings">
@@ -20,7 +21,7 @@
 				<div class="panel-heading">
 					<h3 class="panel-title">
 						<a href="#{{listing.jobId}}-panel" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }} 
-							<span class="parendJobId"> ({{listing.jobId}})</span>
+							<span class="parendJobId">({{listing.jobId}})</span>
 						</a>
 						<button type="button"  id="more" class="btn btn-primary pull-right btn-xs" data-toggle="collapse" data-target="#{{listing.jobId}}-panel">
 							<span class="toggle-icon glyphicon glyphicon-chevron-down"></span>
@@ -79,7 +80,7 @@
 								              </ul>
 								            </div>
 							            </div>
-							            <div class="form-group" data-ng-hide="{{listing.degree === null || listing.degree === undefined}}">
+							            <div class="form-group clear-both" data-ng-hide="{{listing.degree === null || listing.degree === undefined}}">
 								            <label>Education/Degree:</label>&nbsp;&nbsp;<span data-ng-bind="listing.degree"></span>
 							            </div>
 							            <div class="form-group" data-ng-hide="{{listing.employmentEligibility === null || listing.employmentEligibility === undefined}}">
