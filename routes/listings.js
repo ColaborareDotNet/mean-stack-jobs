@@ -1,8 +1,55 @@
 module.exports =
     [{
+        displayFlag : false,
+        jobId: 'jb-2015-06-10-1724',
+        jobTitle: 'Senior API Developer',
+        degree: 'Computer Science/Engineering or Equivalent Experience',
+        level: 'Senior',
+        hireType: '',
+        skills: [
+            '7+ years\' experience building scalable and performant applications.',
+            'Expert knowledge in analyzing, designing, and developing solutions to highly complex problems',
+            'Expert knowledge of object oriented programming',
+            'Expertise in most of the following –Web API (MS ASP.Net), MVC, JSON, SOAP, REST, .Net Framework, C#, Web Services',
+            'Experience with Message based architecture.',
+            'Knowledge of SQL Server development and database design as well as NoSQL concepts.',
+            'Competent to work in Agile Software Development',
+            'Familiar with Unit Test, Mock, Test Driven Development etc.',
+            'A passion for technology',
+            'Excellent interpersonal, written, and oral communication skills',
+            'Ability to work well with all levels of an organization',
+            'Self-starter, energetic and motivated contributor',
+            '(nice to have) Experience with developing Accounting, CRM or ERP type systems.',
+            '(nice to have) Experience or familiarity with CQRS.'
+            ],
+        tools: [],
+        responsibilities: [],
+        briefDescr: 'Senior C# API developer who can work on a cross functional team of multiple front end developers, API developers, UI/UX designers and product managers. You will develop and implement well-tested, efficient, highly-scalable server-based solutions in an agile environment with massive data storage (5 PB) that serve copious volumes of customers (20 million) and data (2 TB daily) online. We are looking for an individual with experience in high volume / high transaction SaaS based products.',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: 'n/a',
+        hiringCompany: null,
+        compensationRange: '$90,000 - $110,000 per year',
+        locationOppWork: 'Austin, TX',
+        locationCompanyOffice: 'Austin, TX',
+        benefitsGeneral: 'Available',
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('6/10/2015 17:24'),
+        hireDate: '',
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: '',
+        companyWebSite: null,
+        notes: null
+},
+{
+        displayFlag : true,
         jobId: 'jb-2015-06-10-1654',
-        jobTitle: 'Full Stack or Backend Javascript Dev',
-        degree: 'Computer Science (preferred)',
+        jobTitle: 'MEAN Stack Web Developer',
+        degree: 'BS Computer Science or Software Engineering (highly preferred)',
         level: 'Senior (2-8 yrs)',
         hireType: 'Permanent',
         skills: [
@@ -13,28 +60,29 @@ module.exports =
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'Potential to receive equity.  Must be able to re-locate.',
-        teamStructureExpertise: null,
+        briefDescr: 'As part of the core engineering team, this candidate will have ownership of huge projects and be responsible for building the most critical components of the stack. Potential to work on Android and iOS as well. Company Travel and Leisure industry; web app and mobile compatible e-commerce platform; company has raised millions of dollars in funding.  Potential to receive equity.  Must be able to re-locate.',
+        teamStructureExpertise: '5 engineers in the team',
         projectWorkflow: null,
         recruiter: 'n/a',
         hiringCompany: null,
-        compensationRange: 'Commensurate with Experience and Expertise',
+        compensationRange: '$110K-$140K USD, Depends on Experience/Expertise',
         locationOppWork: 'San Francisco, CA',
         locationCompanyOffice: 'San Francisco, CA',
         benefitsGeneral: 'Available',
 
         employmentEligibility: null,
 
-        vettingProcess: null,
-        hireTimeframeValue: null,
+        vettingProcess: 'Initial phone screening, In-person extensive technical interview, Code sample.',
+        hireTimeframeValue: 'ASAP (Looking to hire within the next 2-3 weeks)',
         postingDate: new Date('6/10/2015 16:54'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: '',
         companyWebSite: null,
-        notes: null
+        notes: 'This position is opened for a full stack developer or a backend developer.'
 },
 {
+        displayFlag : true,
         jobId: 'jb-2015-06-05-2225',
         jobTitle: 'MEAN Stack UX Design/Developer',
         degree: 'Not Required',
@@ -74,6 +122,7 @@ module.exports =
         notes: null
     }, 
     {
+        displayFlag : true,
         jobId: 'jb-2015-06-02-0611',
         jobTitle: 'Full-Stack Web Software Engineer, UIX',
         degree: 'Bachelor\'s degree in engineering or computer science; masters preferred',
@@ -112,6 +161,7 @@ module.exports =
     }, 
 
     {
+        displayFlag : true,
         jobId: 'jb-2015-06-02-0600',
         jobTitle: 'Technical Writer',
         degree: 'Bachelor\'s in Tech Field or Equivalent Experience',
@@ -147,6 +197,7 @@ module.exports =
     },
 
     {
+        displayFlag : true,
         jobId: 'jb-2015-05-24-1727',
         jobTitle: 'Senior Backend Software Engineer / Software Architect',
         degree: null,
@@ -176,6 +227,7 @@ module.exports =
         companyWebSite: 'http://technologyadvice.com/careers',
         notes: 'I am connected to the HR Manager and would love to help you get into the vetting process.  About TechnologyAdvice:  It is based in Nashville, TN, but remote options are open and welcome.  Current team CTO is based in Philadelphia, 1 Senior dev in Idaho, 1 Mid level dev in Idaho, rest of team in Nashville.  TechnologyAdvice is dedicated to educating, advising, and connecting buyers and sellers of business technology. As a trusted resource in a variety of technology verticals, the company helps buyers improve their businesses and vendors find their customers. Through unbiased research and crowd-sourced product reviews, TechnologyAdvice provides the insight that buyers need to find the right technology.  Additionally, the company\'s unique demand generation programs help vendors improve product awareness by placing matched solutions in front of qualified technology buyers. TechnologyAdvice is based in Nashville, Tenn., and was named to the Inc. 5000 list of America\'s Fastest-Growing Private Companies in 2014.'
     }, {
+        displayFlag : true,
         jobId: 'jb-2015-05-24-1809',
         jobTitle: 'Backend Software Engineer (Node)',
         degree: null,
@@ -207,6 +259,7 @@ module.exports =
     },
 
     {
+        displayFlag : true,
         jobId: 'jb-2015-03-23-2215',
         jobTitle: 'UI/Front-End App Developer',
         degree: 'Bachelor\'s or equivalent',
@@ -238,6 +291,7 @@ module.exports =
     },
 
     {
+        displayFlag : true,
         jobId: 'jb-2015-03-20-1211',
         jobTitle: 'C#.NET Developer/Tech Writer',
         degree: null,
@@ -273,6 +327,7 @@ module.exports =
     },
 
     {
+        displayFlag : true,
         jobId: 'jb-2015-03-20-1232',
         jobTitle: 'C#.NET Developer',
         degree: null,

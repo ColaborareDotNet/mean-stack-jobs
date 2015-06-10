@@ -16,7 +16,7 @@
 
   	<h4 data-ng-hide='{{controller.listings.length > 0}}' class="listingTitle ng-cloak">No Listings at this time.  Please check later.</h4>
 
-  	<article class='opp-smry-cntnr listingAlternating ng-cloak' data-ng-repeat="listing in controller.listings">
+  	<article class='opp-smry-cntnr listingAlternating ng-cloak' data-ng-repeat="listing in controller.listings | filter:listing.displayFlag !== true">
 			<div id="{{listing.jobId}}" class="panel panel-primary">
 				<div class="panel-heading">
 					<h3 class="panel-title">
