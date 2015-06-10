@@ -1,5 +1,40 @@
 module.exports =
     [{
+        jobId: 'jb-2015-06-10-1654',
+        jobTitle: 'Full Stack or Backend Javascript Dev',
+        degree: 'Computer Science (preferred)',
+        level: 'Senior (2-8 yrs)',
+        hireType: 'Permanent',
+        skills: [
+            'Javascript',
+            'MongoDB', 
+            'NodeJs', 
+            'AngularJs'
+        ],
+        tools: [],
+        responsibilities: [],
+        briefDescr: 'Potential to receive equity.  Must be able to re-locate.',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: 'n/a',
+        hiringCompany: null,
+        compensationRange: 'Commensurate with Experience and Expertise',
+        locationOppWork: 'San Francisco, CA',
+        locationCompanyOffice: 'San Francisco, CA',
+        benefitsGeneral: 'Available',
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('6/10/2015 16:54'),
+        hireDate: '',
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: '',
+        companyWebSite: null,
+        notes: null
+},
+{
         jobId: 'jb-2015-06-05-2225',
         jobTitle: 'MEAN Stack UX Design/Developer',
         degree: 'Not Required',
