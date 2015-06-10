@@ -1,6 +1,6 @@
 module.exports =
     [{
-        displayFlag : false,
+        displayFlag : true,
         jobId: 'jb-2015-06-10-1724',
         jobTitle: 'Senior API Developer',
         degree: 'Computer Science/Engineering or Equivalent Experience',
@@ -43,7 +43,7 @@ module.exports =
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: '',
         companyWebSite: null,
-        notes: null
+        notes: 'The hiring company provides enterprise and mobile ecommerce solutions for world class brands such as Walmart, Costco, Walgreens and Sam\’s Club. The platform connects digital content, whether from mobile, online, desktop or in-store kiosks with retailers that provide on-demand production of personalized products for their customers. '
 },
 {
         displayFlag : true,
