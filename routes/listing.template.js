@@ -1,4 +1,5 @@
 {
+        displayFlag : false,
         jobId: 'jb-yyyy-mm-dd-hhmm',
         jobTitle: '',
         degree: '',
