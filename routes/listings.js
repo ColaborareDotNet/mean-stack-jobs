@@ -5,7 +5,7 @@ module.exports =
         jobTitle: 'Senior API Developer',
         degree: 'Computer Science/Engineering or Equivalent Experience',
         level: 'Senior',
-        hireType: null,
+        hireType: "Full-time Permanent",
         skills: [
             '7+ years\' experience building scalable and performant applications.',
             'Expert knowledge in analyzing, designing, and developing solutions to highly complex problems',
