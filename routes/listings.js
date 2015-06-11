@@ -1,6 +1,39 @@
 module.exports =
     [{
         displayFlag : true,
+        jobId: 'jb-2015-06-11-1537',
+        jobTitle: 'AngularJs (MEAN) Developer',
+        degree: null,
+        level: null,
+        hireType: 'Contractor (W-2)',
+        skills: [
+            'AngularJs (main focus)', 'MongoDB', 'ExpressJs', 'NodeJs', 'Javascript'
+        ],
+        tools: [],
+        responsibilities: [],
+        briefDescr: 'AngularJs development opportunity! Work will be within the MEAN Stack! Immediate need to fill this role!',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: 'n/a',
+        hiringCompany: null,
+        compensationRange: '~ $60/Hour',
+        locationOppWork: 'Austin, TX (remote possible)',
+        locationCompanyOffice: 'Austin, TX',
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: 'Initial face-to-face in Austin, TX (2222/620 area).',
+        hireTimeframeValue: 'Immediate!',
+        postingDate: new Date('6/11/2015 15:37'),
+        hireDate: '',
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: '',
+        companyWebSite: null,
+        notes: 'Interviews as soon as tomorrow (6/12/2015)!  This role can work remotely, but might require an initial face-to-face in Austin, TX.'
+},
+    {
+        displayFlag : true,
         jobId: 'jb-2015-06-10-1724',
         jobTitle: 'Senior API Developer',
         degree: 'Computer Science/Engineering or Equivalent Experience',
