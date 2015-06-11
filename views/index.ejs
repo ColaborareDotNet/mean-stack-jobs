@@ -98,6 +98,14 @@
 								            </ul>
 													</div>
 						       </div>
+
+						       <div style="clear:both;"></div>
+						       
+										<div class="form-group" data-ng-hide="{{listing.vettingProcess === null || listing.vettingProcess === undefined}}">
+											<label>Vetting Process:</label>
+											&nbsp;&nbsp;<span data-ng-bind="listing.vettingProcess"></span>											
+										</div>
+
 						       <p data-ng-hide="{{listing.companyWebSite === null || listing.companyWebSite === undefined}}">
 						       		<label>Company Web Site:&nbsp;&nbsp;</label>
 						       		<a href="{{listing.companyWebSite}}" target="_blank" data-ng-bind="listing.companyWebSite"></a>

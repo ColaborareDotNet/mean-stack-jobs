@@ -24,6 +24,7 @@ module.exports =
         employmentEligibility: null,
 
         vettingProcess: 'Initial face-to-face in Austin, TX (2222/620 area).',
+
         hireTimeframeValue: 'Immediate!',
         postingDate: new Date('6/11/2015 15:37'),
         hireDate: '',
@@ -183,7 +184,7 @@ module.exports =
 
         employmentEligibility: null,
 
-        vettingProcess: '',
+        vettingProcess: null,
         hireTimeframeValue: 'ASAP',
         postingDate: new Date('6/2/2015 06:11'),
         hireDate: '',
@@ -219,7 +220,7 @@ module.exports =
 
         employmentEligibility: 'U.S. Citizenship or USA Permanent Resident Status',
 
-        vettingProcess: '',
+        vettingProcess: null,
         hireTimeframeValue: 'ASAP',
         postingDate: new Date('6/2/2015 06:00'),
         hireDate: '',
@@ -251,7 +252,7 @@ module.exports =
 
         employmentEligibility: null,
 
-        vettingProcess: '',
+        vettingProcess: null,
         hireTimeframeValue: 'ASAP',
         postingDate: new Date('5/24/2015 17:27'),
         hireDate: '',
@@ -281,7 +282,7 @@ module.exports =
 
         employmentEligibility: null,
 
-        vettingProcess: '',
+        vettingProcess: null,
         hireTimeframeValue: 'ASAP',
         postingDate: new Date('5/24/2015 17:27'),
         hireDate: '',
@@ -349,7 +350,7 @@ module.exports =
 
         employmentEligibility: null,
 
-        vettingProcess: '',
+        vettingProcess: null,
         hireTimeframeValue: 'ASAP',
         postingDate: new Date('3/20/2015 12:11'),
         hireDate: '',
@@ -385,7 +386,7 @@ module.exports =
 
         employmentEligibility: null,
 
-        vettingProcess: '',
+        vettingProcess: null,
         hireTimeframeValue: 'ASAP',
         postingDate: new Date('3/20/2015 12:32'),
         hireDate: '',
