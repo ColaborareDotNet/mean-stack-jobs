@@ -5,5 +5,5 @@
 */**/bootstrap*.js
 */**/npm.js
 */**/listing.template.js
-
+./temp/*
 
