@@ -38,7 +38,7 @@
 									<!--start Pursue button-->
 						            <!-- cdntodo: convert this anchor into a custom ng directive --> 
 						            <div class="btn btn-success btn-lg" >
-						             	<a href='mailto:{{controller.emailAddr}}?subject=Pursuing%20Job:{{listing.jobId}},%20{{listing.jobTitle}}&amp;body=To%20Whom%20It%20May%20Concern:%0a%0d%0a%0dI%20am%20interested%20in%20pursuing%20the, "{{listing.jobTitle}}",%20opportunity%20listed%20on%20your%20web%20site!%20%20Please%20contact%20me%20at' >
+						             	<a href='mailto:{{controller.getMailToString(listing.jobTitle, listing.jobId)}}' >
 						            	PURSUE</a>
 						            </div>
 						            <br><br>
