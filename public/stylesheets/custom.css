@@ -163,7 +163,13 @@ h4.lst-cnt-smry{
     color:#428bca;
     border-top:1px solid #428bca;
     padding-top:8px;
-    width:50%
+    width:75%
+}
+
+.lst-cnt-smry > span{
+    background-color:#428bca;
+    color:#fff;
+    padding:1px 8px 1px 8px;
 }
 
 .prsu-sctn > div{
