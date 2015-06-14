@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var listings = require('./listings');
+var listings = require('./listings').filter(function(elem){
+  return elem.displayFlag;
+});
 
 /* GET home page. */
 router.get('/', function(req, res) {
