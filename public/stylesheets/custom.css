@@ -4,7 +4,7 @@ html, body {
 
 .content{
     background-color:#ffffff;
-    margin: 50px auto 50px;
+    margin: 20px auto 20px auto;
     overflow: auto;
 }
 
@@ -159,3 +159,9 @@ div.clear-both{
     clear:both;
 }
 
+h4.lst-cnt-smry{
+    color:#428bca;
+    border-top:1px solid #428bca;
+    padding-top:8px;
+    width:50%
+}
