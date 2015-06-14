@@ -1,6 +1,6 @@
 module.exports =
     [{
-        displayFlag : true,
+        displayFlag: true,
         jobId: 'jb-2015-06-11-1537',
         jobTitle: 'AngularJs (MEAN) Developer',
         degree: null,
@@ -29,12 +29,11 @@ module.exports =
         postingDate: new Date('6/11/2015 15:37'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: null,
         notes: 'Interviews as soon as tomorrow (6/12/2015)!  This role can work remotely, but might require an initial face-to-face in Austin, TX.'
-},
-    {
-        displayFlag : true,
+    }, {
+        displayFlag: true,
         jobId: 'jb-2015-06-10-1724',
         jobTitle: 'Senior API Developer',
         degree: 'Computer Science/Engineering or Equivalent Experience',
@@ -55,7 +54,7 @@ module.exports =
             'Self-starter, energetic and motivated contributor',
             '(nice to have) Experience with developing Accounting, CRM or ERP type systems.',
             '(nice to have) Experience or familiarity with CQRS.'
-            ],
+        ],
         tools: [],
         responsibilities: [],
         briefDescr: 'Senior C# API developer who can work on a cross functional team of multiple front end developers, API developers, UI/UX designers and product managers. You will develop and implement well-tested, efficient, highly-scalable server-based solutions in an agile environment with massive data storage (5 PB) that serve copious volumes of customers (20 million) and data (2 TB daily) online. We are looking for an individual with experience in high volume / high transaction SaaS based products.',
@@ -75,12 +74,11 @@ module.exports =
         postingDate: new Date('6/10/2015 17:24'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: null,
         notes: 'The hiring company provides enterprise and mobile ecommerce solutions for world class brands such as Walmart, Costco, Walgreens and Sam\’s Club. The platform connects digital content, whether from mobile, online, desktop or in-store kiosks with retailers that provide on-demand production of personalized products for their customers. '
-},
-{
-        displayFlag : true,
+    }, {
+        displayFlag: true,
         jobId: 'jb-2015-06-10-1654',
         jobTitle: 'MEAN Stack Web Developer',
         degree: 'BS Computer Science or Software Engineering (highly preferred)',
@@ -88,8 +86,8 @@ module.exports =
         hireType: 'Permanent',
         skills: [
             'Javascript',
-            'MongoDB', 
-            'NodeJs', 
+            'MongoDB',
+            'NodeJs',
             'AngularJs'
         ],
         tools: [],
@@ -111,12 +109,11 @@ module.exports =
         postingDate: new Date('6/10/2015 16:54'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: null,
         notes: 'This position is opened for a full stack developer or a backend developer.'
-},
-{
-        displayFlag : true,
+    }, {
+        displayFlag: true,
         jobId: 'jb-2015-06-05-2225',
         jobTitle: 'MEAN Stack UX Design/Developer',
         degree: 'Not Required',
@@ -125,7 +122,7 @@ module.exports =
         skills: [
             'Design and develop the user facing features of client’s Big Data ecosystem using MEAN Stack (MongoDB/MarkLogic, Express, Angular/HTML5, Node.js)',
             'Interview stakeholders to extract and document user stories/requirements; validate designs with wireframe mockups and storyboards.',
-            'Implement user stories utilizing Agile Model-Driven Development (AMDD) and Test Driven Development (TDD)', 
+            'Implement user stories utilizing Agile Model-Driven Development (AMDD) and Test Driven Development (TDD)',
             'Create responsive UX code that is optimized for a variety of devices/screen sizes (Bootstrap)',
             'Performance tune UX to meet expectations of quick response times (caching)',
             'Create apps that interact with a variety of data sources and formats (Hadoop, MongoDB, Oracle DB/PLSQL, MarkLogic, RESTful APIs, JSON/JSONPath etc.)',
@@ -151,12 +148,11 @@ module.exports =
         postingDate: new Date('6/5/2015 22:25'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: null,
         notes: null
-    }, 
-    {
-        displayFlag : true,
+    }, {
+        displayFlag: true,
         jobId: 'jb-2015-06-02-0611',
         jobTitle: 'Full-Stack Web Software Engineer, UIX',
         degree: 'Bachelor\'s degree in engineering or computer science; masters preferred',
@@ -164,10 +160,10 @@ module.exports =
         hireType: 'Salaried',
         skills: ['3+ years full-stack software development experience – STRONG Python, node.js',
             'Specific expertise designing, developing, and debugging human-cognitive interfaces – GUI, UX, etc.',
-            'Experience with responsive web design – javascript, html5, css', 
+            'Experience with responsive web design – javascript, html5, css',
             'Experience with SQL or PostgreSQL and python/javascript web frameworks (bottle, flask, django, pyramid, expressjs, angularjs, etc.)',
-            'Experience with relational databases and distributed systems', 
-            'Experience with online ad servers (i.e. doubleclick), ad exchanges, data management platforms, demand-side platforms, and ad SDKs etc. (any of these are helpful)', 
+            'Experience with relational databases and distributed systems',
+            'Experience with online ad servers (i.e. doubleclick), ad exchanges, data management platforms, demand-side platforms, and ad SDKs etc. (any of these are helpful)',
             'Documented history of open-source software contributions'
         ],
         tools: [],
@@ -189,13 +185,13 @@ module.exports =
         postingDate: new Date('6/2/2015 06:11'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: null,
         notes: 'I personally spoke with recruiting manager.  This company has an ingenious business model and exceptional stock options.'
-    }, 
+    },
 
     {
-        displayFlag : true,
+        displayFlag: true,
         jobId: 'jb-2015-06-02-0600',
         jobTitle: 'Technical Writer',
         degree: 'Bachelor\'s in Tech Field or Equivalent Experience',
@@ -225,13 +221,13 @@ module.exports =
         postingDate: new Date('6/2/2015 06:00'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: null,
         notes: 'I personally spoke with recruiting manager.  This company has an ingenious business model and exceptional stock options.'
     },
 
     {
-        displayFlag : true,
+        displayFlag: true,
         jobId: 'jb-2015-05-24-1727',
         jobTitle: 'Senior Backend Software Engineer / Software Architect',
         degree: null,
@@ -257,11 +253,11 @@ module.exports =
         postingDate: new Date('5/24/2015 17:27'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: 'http://technologyadvice.com/careers',
         notes: 'I am connected to the HR Manager and would love to help you get into the vetting process.  About TechnologyAdvice:  It is based in Nashville, TN, but remote options are open and welcome.  Current team CTO is based in Philadelphia, 1 Senior dev in Idaho, 1 Mid level dev in Idaho, rest of team in Nashville.  TechnologyAdvice is dedicated to educating, advising, and connecting buyers and sellers of business technology. As a trusted resource in a variety of technology verticals, the company helps buyers improve their businesses and vendors find their customers. Through unbiased research and crowd-sourced product reviews, TechnologyAdvice provides the insight that buyers need to find the right technology.  Additionally, the company\'s unique demand generation programs help vendors improve product awareness by placing matched solutions in front of qualified technology buyers. TechnologyAdvice is based in Nashville, Tenn., and was named to the Inc. 5000 list of America\'s Fastest-Growing Private Companies in 2014.'
     }, {
-        displayFlag : true,
+        displayFlag: true,
         jobId: 'jb-2015-05-24-1809',
         jobTitle: 'Backend Software Engineer (Node)',
         degree: null,
@@ -287,13 +283,43 @@ module.exports =
         postingDate: new Date('5/24/2015 17:27'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: 'http://technologyadvice.com/careers',
         notes: 'I am connected to the HR Manager and would love to help you get into the vetting process.  About TechnologyAdvice:  It is based in Nashville, TN, but remote options are open and welcome.  Current team CTO is based in Philadelphia, 1 Senior dev in Idaho, 1 Mid level dev in Idaho, rest of team in Nashville.  TechnologyAdvice is dedicated to educating, advising, and connecting buyers and sellers of business technology. As a trusted resource in a variety of technology verticals, the company helps buyers improve their businesses and vendors find their customers. Through unbiased research and crowd-sourced product reviews, TechnologyAdvice provides the insight that buyers need to find the right technology.  Additionally, the company\'s unique demand generation programs help vendors improve product awareness by placing matched solutions in front of qualified technology buyers. TechnologyAdvice is based in Nashville, Tenn., and was named to the Inc. 5000 list of America\'s Fastest-Growing Private Companies in 2014.'
+    }, {
+        displayFlag: false,
+        jobId: 'jb-2015-03-23-2215',
+        jobTitle: 'UI/Front-End App Developer',
+        degree: 'Bachelor\'s or equivalent',
+        level: 'mid (2 years exp)',
+        hireType: 'Permanent',
+        skills: ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
+        tools: [],
+        responsibilities: [],
+        briefDescr: 'The UI Developer is responsible for creating the UI / Front End Application for PermRecord.  You will report directly to the CTO and work within the Engineering team consisting of other developers and designers.  Because the UI is our direct connection with patrons, it is critically important to our success and marketing strategies.  You will need to innovate and find solutions to complex problems that are simple and intuitive for users.  You will have freedom to pursue modern designs, plugins, tools, and develop software that proudly represents your hard work and creativity while advancing the business needs.  You will be highly involved in design and decision making to ensure we have the best product possible.  We are rapidly iterating to develop and test solutions that will determine what the market needs are.  Being comfortable with prototyping and incomplete specifications is a must – yet maintainable and scalable solutions should be created to ensure future refactoring is minimized.',
+        teamStructureExpertise: 'agile team (tbd)',
+        projectWorkflow: ['agile'],
+        recruiter: 'n/a',
+        hiringCompany: 'PermRecord.org',
+        compensationRange: 'Market',
+        locationOppWork: 'On-Site',
+        locationCompanyOffice: 'South Austin, TX',
+        benefitsGeneral: 'Available',
+
+        employmentEligibility: null,
+
+        vettingProcess: 'Phone screen, then in person',
+        hireTimeframeValue: 'ASAP',
+        postingDate: new Date('3/24/2015 07:55'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: new Date('6/12/2015 09:32'),
+        companyWebSite: null,
+        notes: 'As with most positions, I am directly involved with the hiring managers.  PermRecord.org is a non-profit organization, responsible for guiding this effort to bring together illustrious board and committee members to properly represent the Wealth of Knowledge covering all walks of Life. PermRecord.com is the commercial entity that is building and supporting the archives.  PermRecord is a start-up based in Austin, Texas, founded by technology and content veterans. We seek to create the first credible destination for people to preserve, present, and leverage the stories and learnings of mankind for future generations. We are bringing together the most important and influential members of Society from Technology, Science, Business, Government and Philanthropy to launch a Permanent destination for current and future generations to understand in their own words what they have done and to allow these people to continue to advance their efforts by sharing, collaborating, and supporting the generations to come. We are focused on creating the true Knowledgebase of Mankind, where people from all walks of life can create their Permanent Record for future generations to understand their life’s journey, travails, and essence. PermRecord has been architected to be permanent as well as allow you to powerfully present and share your story, pictures, videos, and documents as you want people to remember you and understand what you have accomplished.'
     },
 
     {
-        displayFlag : true,
+        displayFlag: false,
         jobId: 'jb-2015-03-20-1211',
         jobTitle: 'C#.NET Developer/Tech Writer',
         degree: null,
@@ -323,13 +349,13 @@ module.exports =
         postingDate: new Date('3/20/2015 12:11'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: new Date('6/12/2015 12:00'),
         companyWebSite: null,
         notes: 'I am in direct contact with the hiring manager about this role.  This is a peculiarly interesting role in that there is a substantial need for a well versed developer to substantially analyze and understand the inner workings of these SCCM 2012, custom libraries.  This position will be responsible for documenting the design/architecture; so, slightly above average (at minimum) skills in written communication are required.'
     },
 
     {
-        displayFlag : true,
+        displayFlag: true,
         jobId: 'jb-2015-03-20-1232',
         jobTitle: 'C#.NET Developer',
         degree: null,
@@ -359,7 +385,7 @@ module.exports =
         postingDate: new Date('3/20/2015 12:32'),
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: null,
         notes: 'I am in direct contact with the hiring manager about this role.  This is a straight-forward, software development role, and requires mid to senior level skills--preferably, senior level.'
     }
