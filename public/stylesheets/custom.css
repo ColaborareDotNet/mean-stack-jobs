@@ -165,3 +165,12 @@ h4.lst-cnt-smry{
     padding-top:8px;
     width:50%
 }
+
+.prsu-sctn > div{
+    margin-bottom:8px;
+}
+
+.prsu-sctn label{
+    margin-right: 3px;
+}
+

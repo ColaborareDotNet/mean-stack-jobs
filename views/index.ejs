@@ -34,20 +34,23 @@
 					<div class="panel-body">
 				<!--start job description-->
 						<div class="row">
-							<div class="col-md-2 col-md-push-10">
-								<div class="text-left">
+							<div class="col-md-3 col-md-push-9 lstg-rcol">
+								<div class="text-left prsu-sctn">
 									<!--start Pursue button-->
 						            <!-- cdntodo: convert this anchor into a custom ng directive --> 
 						            <div class="btn btn-success btn-lg" >
 						             	<a href='mailto:{{controller.getMailToString(listing.jobTitle, listing.jobId)}}' >
 						            	PURSUE</a>
 						            </div>
-						            <br><br>
-						            <p class="">ID: {{listing.jobId}}</p>
-	      							<p class="">Date Posted: {{listing.postingDate | date:'MM-dd-yyyy' }}</p>
+						            <div>
+							            <label>ID:</label><span data-ng-bind="listing.jobId"></span>
+							          </div>
+							          <div>
+													<label>Date Posted:</label><span>{{listing.postingDate | date:"MM-dd-yyyy"}}</span>
+	      								</div>
 								</div>
 							</div>
-							<div class="col-md-10 col-md-pull-2">
+							<div class="col-md-9 col-md-pull-3 lstg-lcol">
 								<div class="well">
 									<div class="form-inline">
 										<div class="form-group" data-ng-hide="{{listing.level === null || listing.level === undefined}}">
@@ -134,7 +137,7 @@
 			</div>
 		</article>
 
-  	<h4 class="lst-cnt-smry" data-ng-hide="controller.listings.length <= 0">
+  	<h4 class="lst-cnt-smry ng-cloak" data-ng-hide="controller.listings.length <= 0">
   		Total of 
   		<span data-ng-bind="controller.listings.length"></span>
   		Jobs Listed!<h4>
