@@ -62,7 +62,7 @@ indexNgApp.controller('ListingsController', ['$log', '$location', function($log,
   };
 
   self.collapseAll = function(){
-    var elems = angular.element("div.panel-collapse.collapse")
+    var elems = angular.element("div.panel-collapse.collapse");
     elems.removeClass("in");
   };
 
