@@ -13,13 +13,18 @@ indexNgApp.config(['$routeProvider', function($routeProvider){
         return;
       }
 
-      $timeout(function(){
-            /*
-              Why in here? See (6/5/2015): https://docs.angularjs.org/error/$rootScope/inprog/#triggering-events-programmatically
-            */
-            $scope.elem.trigger('click');
-          },
-        0, false);
+      var collapsibleElem = $scope.elem.parents("div.panel.panel-primary").find("div.panel-collapse.collapse");
+      if (collapsibleElem.attr("class").split(" ").indexOf("in") < 0){
+        $timeout(function(){
+              /*
+                Why in here? See (6/5/2015): https://docs.angularjs.org/error/$rootScope/inprog/#triggering-events-programmatically
+              */
+              $scope.elem.trigger('click');
+            },
+          0, false);
+
+      }
+
 
       var theJobId = $routeParams.jobId;
 
