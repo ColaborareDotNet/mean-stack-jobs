@@ -43,7 +43,7 @@
 						            	PURSUE</a>
 						            </div>
 						            <div>
-							            <label>ID:</label><span data-ng-bind="listing.jobId"></span>
+							            <label>ID:</label><a href="{{$location.absUrl()}}/#/listing/{{listing.jobId}}"><span data-ng-bind="listing.jobId"></span></a>
 							          </div>
 							          <div>
 													<label>Date Posted:</label><span>{{listing.postingDate | date:"MM-dd-yyyy"}}</span>
