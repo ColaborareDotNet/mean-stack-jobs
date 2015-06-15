@@ -120,9 +120,12 @@
 											&nbsp;&nbsp;<span data-ng-bind="listing.locationOppWork"></span>											
 										</div>
 									</div>
-				          <p data-ng-hide="{{listing.notes === null || listing.notes === undefined}}">
-			              <label>Notes: </label>&nbsp;&nbsp;{{listing.notes}}
-			            </p>	
+				          <div data-ng-hide="{{listing.notes === null || listing.notes === undefined || listing.notes.length <= 0}}">
+			              <label>Notes: </label>
+			              <div data-ng-repeat="note in listing.notes">
+			              	<p data-ng-bind="note"></p>
+			            	</div>
+			            </div>	
 						     </div>
 							</div>
 						</div>
