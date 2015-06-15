@@ -12,11 +12,11 @@
         briefDescr: '',
         teamStructureExpertise: null,
         projectWorkflow: null,
-        recruiter: 'n/a',
+        recruiter: null,
         hiringCompany: null,
-        compensationRange: '',
-        locationOppWork: '',
-        locationCompanyOffice: '',
+        compensationRange: null,
+        locationOppWork: null,
+        locationCompanyOffice: null,
         benefitsGeneral: null,
 
         employmentEligibility: null,
@@ -24,9 +24,9 @@
         vettingProcess: null,
         hireTimeframeValue: null,
         postingDate: new Date('6/5/2015 22:25'),
-        hireDate: '',
+        hireDate: null,
         /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: '',
+        closingDate: null,
         companyWebSite: null,
         notes: null
 }
