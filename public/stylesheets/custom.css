@@ -159,17 +159,33 @@ div.clear-both{
     clear:both;
 }
 
-h4.lst-cnt-smry{
+.lst-cnt-smry{
     color:#428bca;
     border-top:1px solid #428bca;
     padding-top:8px;
-    width:75%
+    width:75%;
+    font-size:1.25em;
 }
 
 .lst-cnt-smry > span{
     background-color:#428bca;
     color:#fff;
     padding:1px 8px 1px 8px;
+}
+
+.action{
+    color:#428bca;
+    margin-bottom:10px;
+    font-size:1.25em;
+    cursor:pointer;
+}
+
+.act-left{
+    float:left;
+}
+
+.act-right{
+    float:right;
 }
 
 .prsu-sctn > div{
@@ -180,3 +196,7 @@ h4.lst-cnt-smry{
     margin-right: 3px;
 }
 
+.ng-cloak{
+    /* part of solution to avoiding flicker when ng is loading */
+    display:none;
+}

@@ -55,6 +55,17 @@ indexNgApp.controller('ListingsController', ['$log', '$location', function($log,
     return encodeURI(mailToString);
   };
 
+  self.expandAll = function(){
+    var elems = angular.element("div.panel-collapse.collapse");
+    elems.removeClass("in");//TODO: figure out better way; currently needed to avoid overlap;
+    elems.addClass("in");
+  };
+
+  self.collapseAll = function(){
+    var elems = angular.element("div.panel-collapse.collapse")
+    elems.removeClass("in");
+  };
+
 }]);
 
 })();//IIFE END

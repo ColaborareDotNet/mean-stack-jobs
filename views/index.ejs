@@ -1,12 +1,5 @@
 <% include header.ejs %>
 
-<style>
-/* part of solution to avoiding flicker when ng is loading */
-.ng-cloak{
-	display:none;
-}
-</style>
-
 <div class="content">
 <!--start job listings-->
 	<div class="container" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller' 
@@ -15,6 +8,14 @@
     <p data-ng-bind="">Loading...</p>
 
   	<h4 data-ng-hide='{{controller.listings.length > 0}}' class="listingTitle ng-cloak">No Listings at this time.  Please check later.</h4>
+
+		<div data-ng-click="controller.expandAll()" class="ng-cloak action act-left" data-ng-hide="controller.listings.length <= 0">
+  		Expand All</div>
+
+		<div data-ng-click="controller.collapseAll()" class="ng-cloak action act-right" data-ng-hide="controller.listings.length <= 0">
+  		Collapse All</div>
+
+  	<div class="clear-both"></div>
 
   	<article class='opp-smry-cntnr listingAlternating ng-cloak' 
   				data-ng-repeat="listing in controller.listings">
@@ -137,10 +138,10 @@
 			</div>
 		</article>
 
-  	<h4 class="lst-cnt-smry ng-cloak" data-ng-hide="controller.listings.length <= 0">
+  	<div class="lst-cnt-smry ng-cloak" data-ng-hide="controller.listings.length <= 0">
   		Total of 
   		<span data-ng-bind="controller.listings.length"></span>
-  		Jobs Listed!<h4>
+  		Jobs Listed!</div>
 
 		<div data-ng-view></div>
 	</div>
