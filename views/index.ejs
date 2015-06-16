@@ -68,44 +68,41 @@
 					            <label>Description:</label>
 					            <p class='opp-desc'>{{ listing.briefDescr }}</p>
 							      </div>
-							            <!-- prefer top 5: skills, top 5 tools -->
-							            <div class="form-group">
-								            <label>Skills/Tools/Responsibilities:</label>
-								            <div>
-								              <ul class='skls-tls-resps-lst'>
-								                  <li data-ng-repeat='skill in listing.skills' data-ng-bind="skill"></li>
-								                  <li data-ng-repeat='tool in listing.tools' data-ng-bind="tool"></li>
-								                  <li data-ng-repeat='resp in listing.responsbilities' data-ng-bind="resp"></li>
-								              </ul>
-								            </div>
-							            </div>
-							            <div class="form-group clear-both" data-ng-hide="{{listing.degree === null || listing.degree === undefined}}">
-								            <label>Education/Degree:</label>&nbsp;&nbsp;<span data-ng-bind="listing.degree"></span>
-							            </div>
-							            <div class="form-group" data-ng-hide="{{listing.employmentEligibility === null || listing.employmentEligibility === undefined}}">
-							            	<label>Employment Eligibility:</label>
-							            	<span data-ng-bind="listing.employmentEligibility"></span>
-							            </div>
-							            <div class="form-group" data-ng-hide="{{listing.teamStructureExpertise === null || listing.teamStructureExpertise === undefined}}">
-								            <label title='Please note that numbers could change.'>Team Structure/Expertise<sup title='Please note that numbers could change.'>(*)</sup>:</label>
-								            <p data-ng-bind="listing.teamStructureExpertise"></p>
-							            </div>
-							            <div class="form-group" data-ng-hide="{{listing.projectWorkflow === null || listing.projectWorkflow === undefined}}">
-								            <label>Project Workflow:</label>
-								            <ul>
-								                <li data-ng-repeat='step in listing.projectWorkflow'>{{step}}</li>
-								            </ul>
-													</div>
-						       </div>
-
-						       <div class="clear-both"></div>
+				            <div class="form-group">
+					            <label>Skills/Tools/Responsibilities:</label>
+					            <div>
+					              <ul class='skls-tls-resps-lst'>
+					                  <li data-ng-repeat='skill in listing.skills' data-ng-bind="skill"></li>
+					                  <li data-ng-repeat='tool in listing.tools' data-ng-bind="tool"></li>
+					                  <li data-ng-repeat='resp in listing.responsbilities' data-ng-bind="resp"></li>
+					              </ul>
+					            </div>
+				            </div>
+				            <div class="form-group clear-both" data-ng-hide="{{listing.degree === null || listing.degree === undefined}}">
+					            <label>Education/Degree:</label>&nbsp;&nbsp;<span data-ng-bind="listing.degree"></span>
+				            </div>
+				            <div class="clear-both form-group" data-ng-hide="{{listing.employmentEligibility === null || listing.employmentEligibility === undefined}}">
+				            	<label>Employment Eligibility:</label>
+				            	<span data-ng-bind="listing.employmentEligibility"></span>
+				            </div>
+				            <div class="clear-both form-group" data-ng-hide="{{listing.teamStructureExpertise === null || listing.teamStructureExpertise === undefined}}">
+					            <label title='Please note that numbers could change.'>Team Structure/Expertise<sup title='Please note that numbers could change.'>(*)</sup>:</label>
+					            <p data-ng-bind="listing.teamStructureExpertise"></p>
+				            </div>
+				            <div class="clear-both form-group" data-ng-hide="{{listing.projectWorkflow === null || listing.projectWorkflow === undefined}}">
+					            <label>Project Workflow:</label>
+					            <ul>
+					                <li data-ng-repeat='step in listing.projectWorkflow'>{{step}}</li>
+					            </ul>
+										</div>
+			       			</div>
 						       
-										<div class="form-group" data-ng-hide="{{listing.vettingProcess === null || listing.vettingProcess === undefined}}">
+										<div class="clear-both form-group" data-ng-hide="{{listing.vettingProcess === null || listing.vettingProcess === undefined}}">
 											<label>Vetting Process:</label>
 											&nbsp;&nbsp;<span data-ng-bind="listing.vettingProcess"></span>											
 										</div>
 
-						       <p data-ng-hide="{{listing.companyWebSite === null || listing.companyWebSite === undefined}}">
+						       <p class="clear-both" data-ng-hide="{{listing.companyWebSite === null || listing.companyWebSite === undefined}}">
 						       		<label>Company Web Site:&nbsp;&nbsp;</label>
 						       		<a href="{{listing.companyWebSite}}" target="_blank" data-ng-bind="listing.companyWebSite"></a>
 						       </p>
