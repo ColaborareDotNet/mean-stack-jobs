@@ -1,12 +1,48 @@
 module.exports =
-    [
-{
-        displayFlag : false,
+    [{
+        /* monicotodo: update this with nathan's new description, etc */
+        displayFlag: false,
+        jobId: 'jb-2015-06-15-1300',
+        jobTitle: 'Systems Management Software Dev Senior Engineer',
+        degree: null,
+        level: 'senior',
+        hireType: 'Temp or Perm',
+        skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
+        tools: ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
+        responsibilities: [],
+        briefDescr: 'Responsible for designing and developing products and solutions to provide industry leading manageability of Dell\'s enterprise client products.   As a software development senior engineer in Dell\'s Enterprise Systems Management Software Group, you will have the opportunity to engage across organizational boundaries and with a diverse, talented, and global team.',
+        teamStructureExpertise: '4 Sr Devs, 1 Jr Devs, 3 Sr QA, 2 Jr QA',
+        projectWorkflow: [
+            '3 week sprints', 'sprint planing day 1 w/qa, dev',
+            'daily, vertical dev/qa taks', 'every-other-day scrum using Rally web tool',
+            'periodic demo'
+        ],
+        recruiters: null,
+        hiringCompany: 'Dell, Inc',
+        compensationRange: 'Market',
+        locationOppWork: 'On-Site',
+        locationCompanyOffice: 'Round Rock, TX',
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: 'ASAP',
+        postingDate: new Date('6/15/2015 13:00'),
+        hireDate: '',
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: null,
+        notes: ['I am in direct contact with the hiring manager about this role.  This is a straight-forward, software development role, and requires mid to senior level skills--preferably, senior level.']
+    },
+
+    {
+        displayFlag: false,
         jobId: 'jb-2015-06-15-1205',
         jobTitle: 'Lead Server Engineer',
         degree: 'BS in Computer Science or equivalent experience',
-        level: null,
-        hireType: null,
+        level: 'Mid to Senior (2-8 yrs)',
+        hireType: 'Permanent',
         skills: [
             'Collaborate with Creative, UX, Director of Engineering and Technical Architects for the development and overall execution of the platforms',
             'Mentor and lead team members both in and outside of engineering',
@@ -60,10 +96,10 @@ module.exports =
         projectWorkflow: null,
         recruiters: ['recruiter-000100'],
         hiringCompany: null,
-        compensationRange: null,
+        compensationRange: '$90K-$140K USD, Depends on Experience/Expertise',
         locationOppWork: null,
         locationCompanyOffice: null,
-        benefitsGeneral: null,
+        benefitsGeneral: 'Available',
 
         employmentEligibility: null,
 
@@ -76,19 +112,18 @@ module.exports =
         companyWebSite: null,
         notes: [
             'The Lead Server Engineer is a master of technologies and languages. They lead the vision of the company\'s internal server platforms that scale across multiple clients and projects. This engineer is also responsible for evaluating new technologies that can drive the engineering team forward, whether that is from a process perspective or a new platform.',
-            'The Lead Server Engineer should always be thinking about how to make the company\'s engineering team stronger and will work with the Director of Engineering to ensure that the team is always meeting high engineering standards.', 
+            'The Lead Server Engineer should always be thinking about how to make the company\'s engineering team stronger and will work with the Director of Engineering to ensure that the team is always meeting high engineering standards.',
             'The Lead Server Engineer must have a talent for communicating the technological vision of the platform to our Technical Architects, development team, producers, and account team. Understanding the needs of the company\'s clients and how these can be architected into the solution as a whole are key to success.',
             'This engineer will be a master of languages, platforms and architectural decision making. The crafting of these platforms must never impede on a specific client\'s needs, but foster their advancement in any area it touches. They should have a healthy appetite for experimenting with new languages, software solutions, and libraries to help generate new ideas to add on to our platforms.',
             'The Lead Server Engineer will be responsible for leading the development and maintenance of the cloud server internal and external server platforms, which are powering some amazing brands. The ideal candidate will have a strong Python development background, have multiple years\' experience using Django and have extensive knowledge of cloud deployments on AWS and Rackspace. They should understand that a configuration management tool is key to automated deployments alongside a great continuous integration solution.'
-            ]
-},
-    {
-        displayFlag: false,
+        ]
+    }, {
+        displayFlag: true,
         jobId: 'jb-2015-06-15-1200',
         jobTitle: 'Web Developer',
         degree: "College Degree or equivalent work experience.",
-        level: null,
-        hireType: null,
+        level: 'Mid to Senior (2-8 yrs)',
+        hireType: 'Permanent',
         skills: [
             "Technology assessments, prototyping, architectural design and implementation using a variety of internet and mobile-centric technologies.",
             "Working with product management and engineering teams to translate business objectives to product specifications using agile methodologies.",
@@ -112,21 +147,21 @@ module.exports =
         projectWorkflow: null,
         recruiters: ['recruiter-000100'],
         hiringCompany: null,
-        compensationRange: null,
-        locationOppWork: null,
-        locationCompanyOffice: null,
-        benefitsGeneral: null,
+        compensationRange: '$90K-$140K USD Annually, Depends on Experience/Expertise',
+        locationOppWork: 'Austin, TX',
+        locationCompanyOffice: 'Austin, TX',
+        benefitsGeneral: 'Available',
 
         employmentEligibility: null,
 
-        vettingProcess: null,
+        vettingProcess: 'Initial phone screening, In-person extensive technical interview.',
         hireTimeframeValue: null,
         postingDate: new Date('6/15/2015 12:00'),
         hireDate: null,
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
         companyWebSite: null,
-        notes: null
+        notes: ['This position is opened for a UI/Frontend Developer with Angular and Node expertise.']
     }, {
         displayFlag: true,
         jobId: 'jb-2015-06-11-1537',
@@ -483,7 +518,7 @@ module.exports =
     },
 
     {
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-03-20-1232',
         jobTitle: 'C#.NET Developer',
         degree: null,
@@ -499,7 +534,7 @@ module.exports =
             'daily, vertical dev/qa taks', 'every-other-day scrum using Rally web tool',
             'periodic demo'
         ],
-        recruiters: null,
+        recruiter: '',
         hiringCompany: '',
         compensationRange: 'Market',
         locationOppWork: 'On-Site',
@@ -515,7 +550,8 @@ module.exports =
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
         companyWebSite: null,
-        notes: ['I am in direct contact with the hiring manager about this role.  This is a straight-forward, software development role, and requires mid to senior level skills--preferably, senior level.']
+        notes: 'I am in direct contact with the hiring manager about this role.  This is a straight-forward, software development role, and requires mid to senior level skills--preferably, senior level.'
     }
+
 
 ];
