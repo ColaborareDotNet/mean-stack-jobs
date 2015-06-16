@@ -148,7 +148,7 @@ span.parendJobId{
     font-weight:normal;
 }
 
-ul.skls-tls-resps-lst{
+ul.skls-tls-resps-lst, ul.cstm-lst{
     width:75%;
     min-width: 200px;
     float:left;

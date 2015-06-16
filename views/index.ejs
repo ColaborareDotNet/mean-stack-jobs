@@ -68,7 +68,7 @@
 					            <label>Description:</label>
 					            <p class='opp-desc'>{{ listing.briefDescr }}</p>
 							      </div>
-				            <div class="form-group">
+				            <div class="form-group" data-ng-hide="listing.skills === null && listing.tools === null && listing.responsibilities === null">
 					            <label>Skills/Tools/Responsibilities:</label>
 					            <div>
 					              <ul class='skls-tls-resps-lst'>
@@ -78,6 +78,19 @@
 					              </ul>
 					            </div>
 				            </div>
+
+				            <div class="clear-both" data-ng-repeat="customList in listing.customLists">
+					            <div class="form-group">
+					            		<label data-ng-bind="customList.header"></label>
+					            		<div>
+						            		<ul class='cstm-lst'>
+						            			<li data-ng-bind="item" data-ng-repeat="item in customList.list"></li>
+						            		</ul>
+					            		</div>
+					            </div>
+				          	</div>
+
+
 				            <div class="form-group clear-both" data-ng-hide="{{listing.degree === null || listing.degree === undefined}}">
 					            <label>Education/Degree:</label>&nbsp;&nbsp;<span data-ng-bind="listing.degree"></span>
 				            </div>
@@ -101,6 +114,11 @@
 											<label>Vetting Process:</label>
 											&nbsp;&nbsp;<span data-ng-bind="listing.vettingProcess"></span>											
 										</div>
+
+						       <p class="clear-both" data-ng-hide="{{listing.hiringCompany === null || listing.hiringCompany === undefined}}">
+						       		<label>Hiring Company:&nbsp;&nbsp;</label>
+											<span data-ng-bind="listing.hiringCompany"></span>
+						       </p>
 
 						       <p class="clear-both" data-ng-hide="{{listing.companyWebSite === null || listing.companyWebSite === undefined}}">
 						       		<label>Company Web Site:&nbsp;&nbsp;</label>

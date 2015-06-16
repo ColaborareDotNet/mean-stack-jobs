@@ -5,6 +5,11 @@
         degree: null,
         level: null,
         hireType: null,
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: [
         ],
         tools: [],

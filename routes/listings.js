@@ -1,15 +1,48 @@
 module.exports =
     [{
         /* monicotodo: update this with nathan's new description, etc */
-        displayFlag: false,
+        displayFlag: true,
         jobId: 'jb-2015-06-15-1300',
         jobTitle: 'Systems Management Software Dev Senior Engineer',
         degree: null,
         level: 'senior',
         hireType: 'Temp or Perm',
-        skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
-        tools: ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
-        responsibilities: [],
+
+        /* An array of objects having custom lists.  Item 0 in each array is the custom header */
+        customLists : [
+            {  
+            header: 'Primary Responsibilities',
+            list: [
+                'Assist in development of feature definition and product scoping',
+                'Development of high level and low level design documentation for solutions',
+                'Providing technical leadership to product engineering teams including contributing to product development',
+                'Cross-organization engagement to develop integrated, differentiated solutions',
+                ]},
+            {
+            header: 'Expert Knowledge Of',
+            list: [
+                'Low level programming in C# (and C++)',
+                'GUI development (XAML, WPF, etc.)',
+                'Industry initiatives such as DASH, TruManage, and vPro',
+                'PC Imaging technologies',
+                'Industry leading console solutions such as Microsoft System Center Configuration Manager',
+                'SW Design Principles',
+            ]},
+            {
+            header: 'Proficiency In',
+            list: [
+                'Using standard software development tools such as IDE and Command Line Development Environments, Issue Tracking, Source Control, and Automated Build Scripts',
+                'Systems Management for Windows Operating systems including Group Policy, Active Directory, etc.',
+                'COM, WMI programming',
+                'UEFI / BIOS',
+                'Agile SW Development Methodology',
+                'Leading a SW development team',
+                ]}
+        ],
+
+        skills: null,
+        tools: null,
+        responsibilities: null,
         briefDescr: 'Responsible for designing and developing products and solutions to provide industry leading manageability of Dell\'s enterprise client products.   As a software development senior engineer in Dell\'s Enterprise Systems Management Software Group, you will have the opportunity to engage across organizational boundaries and with a diverse, talented, and global team.',
         teamStructureExpertise: '4 Sr Devs, 1 Jr Devs, 3 Sr QA, 2 Jr QA',
         projectWorkflow: [
@@ -32,7 +65,7 @@ module.exports =
         hireDate: '',
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
-        companyWebSite: null,
+        companyWebSite: 'http://dell.com',
         notes: ['I am in direct contact with the hiring manager about this role.  This is a straight-forward, software development role, and requires mid to senior level skills--preferably, senior level.']
     },
 
@@ -43,6 +76,10 @@ module.exports =
         degree: 'BS in Computer Science or equivalent experience',
         level: 'Mid to Senior (2-8 yrs)',
         hireType: 'Permanent',
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: [
             'Collaborate with Creative, UX, Director of Engineering and Technical Architects for the development and overall execution of the platforms',
             'Mentor and lead team members both in and outside of engineering',
@@ -124,6 +161,11 @@ module.exports =
         degree: "College Degree or equivalent work experience.",
         level: 'Mid to Senior (2-8 yrs)',
         hireType: 'Permanent',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: [
             "Technology assessments, prototyping, architectural design and implementation using a variety of internet and mobile-centric technologies.",
             "Working with product management and engineering teams to translate business objectives to product specifications using agile methodologies.",
@@ -169,6 +211,11 @@ module.exports =
         degree: null,
         level: null,
         hireType: 'Contractor (W-2)',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: [
             'AngularJs (main focus)', 'MongoDB', 'ExpressJs', 'NodeJs', 'Javascript'
         ],
@@ -202,6 +249,11 @@ module.exports =
         degree: 'Computer Science/Engineering or Equivalent Experience',
         level: 'Senior',
         hireType: "Full-time Permanent",
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: [
             '7+ years\' experience building scalable and performant applications.',
             'Expert knowledge in analyzing, designing, and developing solutions to highly complex problems',
@@ -247,6 +299,11 @@ module.exports =
         degree: 'BS Computer Science or Software Engineering (highly preferred)',
         level: 'Senior (2-8 yrs)',
         hireType: 'Permanent',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: [
             'Javascript',
             'MongoDB',
@@ -282,6 +339,11 @@ module.exports =
         degree: 'Not Required',
         level: 'Senior',
         hireType: 'W-2 or C2C Contract',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: [
             'Design and develop the user facing features of client’s Big Data ecosystem using MEAN Stack (MongoDB/MarkLogic, Express, Angular/HTML5, Node.js)',
             'Interview stakeholders to extract and document user stories/requirements; validate designs with wireframe mockups and storyboards.',
@@ -321,6 +383,11 @@ module.exports =
         degree: 'Bachelor\'s degree in engineering or computer science; masters preferred',
         level: null,
         hireType: 'Salaried',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: ['3+ years full-stack software development experience – STRONG Python, node.js',
             'Specific expertise designing, developing, and debugging human-cognitive interfaces – GUI, UX, etc.',
             'Experience with responsive web design – javascript, html5, css',
@@ -360,6 +427,11 @@ module.exports =
         degree: 'Bachelor\'s in Tech Field or Equivalent Experience',
         level: null,
         hireType: 'Salaried',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: ['Experience writing technical documents related to network, telecom, IT, or software systems for both technical and less-technical audiences',
             'Ability to document complex tasks as a sequence of logical and procedural steps using prose, illustrations, flow charts, etc.',
             'Experience with Microsoft Office suite and various graphics and publishing tools (Adobe Creative Suite, MS Vision, etc.)',
@@ -396,6 +468,11 @@ module.exports =
         degree: null,
         level: 'Senior',
         hireType: 'Salaried + Benefits',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
         responsibilities: [],
@@ -426,6 +503,11 @@ module.exports =
         degree: null,
         level: 'Mid-Level',
         hireType: 'Salaried + Benefits',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
         responsibilities: [],
@@ -456,6 +538,11 @@ module.exports =
         degree: 'Bachelor\'s or equivalent',
         level: 'mid (2 years exp)',
         hireType: 'Permanent',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
         tools: [],
         responsibilities: [],
@@ -488,6 +575,11 @@ module.exports =
         degree: null,
         level: 'mid-senior',
         hireType: 'W-2 Contractor',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'MS Word', 'System Center Configuration Manager (SCCM) 2012'],
         responsibilities: [],
@@ -524,6 +616,11 @@ module.exports =
         degree: null,
         level: 'senior',
         hireType: 'W-2 Contractor',
+
+
+        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        customLists : null,
+        
         skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
         responsibilities: [],
