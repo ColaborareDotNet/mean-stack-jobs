@@ -8,7 +8,7 @@ module.exports =
         level: 'senior',
         hireType: 'Temp or Perm',
 
-        /* An array of objects having custom lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : [
             {  
             header: 'Primary Responsibilities',
@@ -77,7 +77,7 @@ module.exports =
         level: 'Mid to Senior (2-8 yrs)',
         hireType: 'Permanent',
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: [
@@ -163,7 +163,7 @@ module.exports =
         hireType: 'Permanent',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: [
@@ -213,7 +213,7 @@ module.exports =
         hireType: 'Contractor (W-2)',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: [
@@ -251,7 +251,7 @@ module.exports =
         hireType: "Full-time Permanent",
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: [
@@ -301,7 +301,7 @@ module.exports =
         hireType: 'Permanent',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: [
@@ -315,7 +315,7 @@ module.exports =
         briefDescr: 'As part of the core engineering team, this candidate will have ownership of huge projects and be responsible for building the most critical components of the stack. Potential to work on Android and iOS as well. Company Travel and Leisure industry; web app and mobile compatible e-commerce platform; company has raised millions of dollars in funding.  Potential to receive equity.  Must be able to re-locate.',
         teamStructureExpertise: '5 engineers in the team',
         projectWorkflow: null,
-        recruiters: null,
+        recruiters: ['recruiter-000102'],
         hiringCompany: null,
         compensationRange: '$110K-$140K USD, Depends on Experience/Expertise',
         locationOppWork: 'San Francisco, CA',
@@ -341,7 +341,7 @@ module.exports =
         hireType: 'W-2 or C2C Contract',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: [
@@ -385,7 +385,7 @@ module.exports =
         hireType: 'Salaried',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: ['3+ years full-stack software development experience – STRONG Python, node.js',
@@ -429,7 +429,7 @@ module.exports =
         hireType: 'Salaried',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: ['Experience writing technical documents related to network, telecom, IT, or software systems for both technical and less-technical audiences',
@@ -470,7 +470,7 @@ module.exports =
         hireType: 'Salaried + Benefits',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
@@ -505,7 +505,7 @@ module.exports =
         hireType: 'Salaried + Benefits',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
@@ -540,7 +540,7 @@ module.exports =
         hireType: 'Permanent',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
@@ -577,7 +577,7 @@ module.exports =
         hireType: 'W-2 Contractor',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
@@ -618,7 +618,7 @@ module.exports =
         hireType: 'W-2 Contractor',
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
+        /* An array of objects having custom lists. */
         customLists : null,
         
         skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
