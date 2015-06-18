@@ -200,3 +200,17 @@ div.clear-both{
     /* part of solution to avoiding flicker when ng is loading */
     display:none;
 }
+
+.hover-box{
+    margin-top: 12px;
+
+}
+
+.hover-link{
+    margin-left: -16px;
+    color: transparent;
+}
+
+.hover-link a:hover{
+    color:#428bca;
+}
