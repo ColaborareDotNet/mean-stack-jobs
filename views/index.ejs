@@ -14,16 +14,14 @@
   	<article class='opp-smry-cntnr listingAlternating ng-cloak' 
   				data-ng-repeat="listing in controller.listings">
 			<div class="pull-left hover-box">
-				<a href="" class="hover-link">
-					<span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+				<a href="{{$location.absUrl()}}/#/listing/{{listing.jobId}}" class="hover-link">
+					<span class="glyphicon glyphicon-link"></span>
 				</a>
 			</div>
 			<div id="{{listing.jobId}}" class="panel panel-primary">
-				<div class="panel-heading">
-					
+				<div class="panel-heading"  title="{{listing.jobId}}">
 					<h3 class="panel-title">
 						<a href="#{{listing.jobId}}-panel" data-toggle="collapse" data-parents="panel-1">{{ listing.jobTitle }} 
-							<span class="parendJobId">({{listing.jobId}})</span>
 						</a>
 						<button type="button"  id="more" class="btn btn-primary pull-right btn-xs" data-toggle="collapse" data-target="#{{listing.jobId}}-panel">
 							<span class="toggle-icon glyphicon glyphicon-chevron-down"></span>
