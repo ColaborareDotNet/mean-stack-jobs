@@ -13,7 +13,7 @@ MEAN Stack Job Listings Application...Collaborare Dot Net, LLC
 
 ### Contributors ###
 * [Monico A. Moreno](http://www.collaborare.net): Main Dev
-* [Angela S. Moreno](http://angela.collaborare.net): UI/Front End Dev
+* [Angela S. Moreno](http://angela.collaborare.net): Contributor
 
 ### Miscellaneous ###
 * Tasks are currently tracked in a private Trello account.  Might eventually port over to GH issues.
