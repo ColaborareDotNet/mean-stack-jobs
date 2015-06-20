@@ -313,7 +313,7 @@ module.exports =
         tools: [],
         responsibilities: [],
         briefDescr: 'As part of the core engineering team, this candidate will have ownership of huge projects and be responsible for building the most critical components of the stack. Potential to work on Android and iOS as well. Company Travel and Leisure industry; web app and mobile compatible e-commerce platform; company has raised millions of dollars in funding.  Potential to receive equity.  Must be able to re-locate.',
-        teamStructureExpertise: '5 engineers in the team',
+        teamStructureExpertise: '5-6 engineers in the team',
         projectWorkflow: null,
         recruiters: ['recruiter-000102'],
         hiringCompany: null,
@@ -322,7 +322,7 @@ module.exports =
         locationCompanyOffice: 'San Francisco, CA',
         benefitsGeneral: 'Available',
 
-        employmentEligibility: null,
+        employmentEligibility: 'Will sponsor',
 
         vettingProcess: 'Initial phone screening, In-person extensive technical interview, Code sample.',
         hireTimeframeValue: 'ASAP (Looking to hire within the next 2-3 weeks)',
@@ -331,7 +331,8 @@ module.exports =
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
         companyWebSite: null,
-        notes: ['This position is opened for a full stack developer or a backend developer.']
+        notes: ['I recently followed up and spoke with the hiring folks about this opportunity!  They are really excited about filling this role!  The position is opened for a full stack developer or a backend developer, and the company will, indeed, cover relocation costs.', 
+            'The culture in this team is very professional and polished.  This is precisely part of reason that they are seeking a permanent developer.  They care about their culture, thus, their people are just as important!  Incidentally, did I mention that this role is in San Francisco, CA?  What\'s more, the location is next to the AT&T Stadium!  Woot!']
     }, {
         displayFlag: true,
         jobId: 'jb-2015-06-05-2225',
