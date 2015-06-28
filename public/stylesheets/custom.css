@@ -208,6 +208,10 @@ div.clear-both{
 
 .hover-link{
     margin-left: -16px;
-    color: transparent;
+    opacity: 0.18;
+}
+
+.hover-link:hover{
+    opacity: 1;
 }
 
