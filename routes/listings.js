@@ -50,9 +50,8 @@ module.exports =
           closingDate: null,
           companyWebSite: '???',
           notes: ['The CIO of this company is very technical and is a MEAN Stack guru!  This is an excting opportunity!']
-      }
-
-      ,{
+      },
+      {
         /* monicotodo: update this with nathan's new description, etc */
         displayFlag: true,
         jobId: 'jb-2015-06-15-1300',
