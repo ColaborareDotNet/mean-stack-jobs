@@ -2,12 +2,12 @@ module.exports =
     [
       {
           /* monicotodo: update this with nathan's new description, etc */
-          displayFlag: false,
+          displayFlag: true,
           jobId: 'jb-2015-09-09-1300',
           jobTitle: 'True MEAN Stack Developer',
           degree: null,
           level: 'senior',
-          hireType: 'Perm',
+          hireType: 'perm',
 
           /* An array of objects having custom lists. */
           customLists : [
@@ -28,27 +28,27 @@ module.exports =
           skills: null,//left for backwards compat
           tools: null,//left for backwards compat
           responsibilities: null,//left for backwards compat
-          briefDescr: 'Two (2) positions open!  This company is looking for true MEAN Stack devs--that is, someone who wants to work on all four layers of the MEAN Stack!  Furthermore, they need someone who has a good understanding of the below requirements and is driven to elevate those skills up a couple of notches.',
+          briefDescr: 'This company is looking for a true MEAN Stack dev--that is, someone who wants to work on all four layers of the MEAN Stack!  Furthermore, they need someone who has a good understanding of the below requirements and is driven to elevate those skills up a couple of notches.',
           teamStructureExpertise: '1 Very Technical CIO, 2 Jr Devs, 1 Biz Analyst/PM',
           projectWorkflow: [
             'Agile Workflow'
           ],
           recruiters: null,
           hiringCompany: null,
-          compensationRange: 'Market',
-          locationOppWork: 'On-Site',
+          compensationRange: 'market',
+          locationOppWork: 'on-site',
           locationCompanyOffice: 'NW Austin, TX, USA',
-          benefitsGeneral: '???',
+          benefitsGeneral: 'pto, medical/dental/vision, etc.',
 
-          employmentEligibility: '??? (e.g. us citizens only or visa sponsored???)',
+          employmentEligibility: null,
 
-          vettingProcess: '??? (e.g. phone screen, followed by face to face)',
-          hireTimeframeValue: '??? (e.g. looking to hire in next few weeks, or start as early as Nov 2015)',
-          postingDate: new Date('9/9/2015 13:00'),
+          vettingProcess: 'phone screen followed by in-person interview',
+          hireTimeframeValue: null,
+          postingDate: new Date('9/15/2015 13:00'),
           hireDate: '',
           /* if null or min AND there is a closingDate, indicates opp was never filled */
           closingDate: null,
-          companyWebSite: '???',
+          companyWebSite: null   ,
           notes: ['The CIO of this company is very technical and is a MEAN Stack guru!  This is an excting opportunity!']
       },
       {
