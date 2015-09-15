@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
     run: { //'grunt-run'
       options: {
-        // Task-specific options go here. 
+        // Task-specific options go here.
       },
       jasmine: {
         cmd: './node_modules/.bin/jasmine',
@@ -22,5 +22,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-run');
 
-
+  grunt.registerTask('default', ['jshint', 'run:jasmine']);
 };
