@@ -1,5 +1,58 @@
 module.exports =
-    [{
+    [
+      {
+          /* monicotodo: update this with nathan's new description, etc */
+          displayFlag: false,
+          jobId: 'jb-2015-09-09-1300',
+          jobTitle: 'True MEAN Stack Developer',
+          degree: null,
+          level: 'senior',
+          hireType: 'Perm',
+
+          /* An array of objects having custom lists. */
+          customLists : [
+              {
+              header: 'Requirements, Good Understanding Of',
+              list: [
+                  'Web Development.',
+                  'MongoDB',
+                  'ExpressJs',
+                  'AngularJs',
+                  'NodeJs',
+                  'HTML',
+                  'CSS',
+                  'Javascript'
+              ]}
+          ],
+
+          skills: null,//left for backwards compat
+          tools: null,//left for backwards compat
+          responsibilities: null,//left for backwards compat
+          briefDescr: 'Two (2) positions open!  This company is looking for true MEAN Stack devs--that is, someone who wants to work on all four layers of the MEAN Stack!  Furthermore, they need someone who has a good understanding of the below requirements and is driven to elevate those skills up a couple of notches.',
+          teamStructureExpertise: '1 Very Technical CIO, 2 Jr Devs, 1 Biz Analyst/PM',
+          projectWorkflow: [
+            'Agile Workflow'
+          ],
+          recruiters: null,
+          hiringCompany: null,
+          compensationRange: 'Market',
+          locationOppWork: 'On-Site',
+          locationCompanyOffice: 'NW Austin, TX, USA',
+          benefitsGeneral: '???',
+
+          employmentEligibility: '??? (e.g. us citizens only or visa sponsored???)',
+
+          vettingProcess: '??? (e.g. phone screen, followed by face to face)',
+          hireTimeframeValue: '??? (e.g. looking to hire in next few weeks, or start as early as Nov 2015)',
+          postingDate: new Date('9/9/2015 13:00'),
+          hireDate: '',
+          /* if null or min AND there is a closingDate, indicates opp was never filled */
+          closingDate: null,
+          companyWebSite: '???',
+          notes: ['The CIO of this company is very technical and is a MEAN Stack guru!  This is an excting opportunity!']
+      }
+
+      ,{
         /* monicotodo: update this with nathan's new description, etc */
         displayFlag: true,
         jobId: 'jb-2015-06-15-1300',
@@ -10,7 +63,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : [
-            {  
+            {
             header: 'Primary Responsibilities',
             list: [
                 'Assist in development of feature definition and product scoping',
@@ -79,7 +132,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: [
             'Collaborate with Creative, UX, Director of Engineering and Technical Architects for the development and overall execution of the platforms',
             'Mentor and lead team members both in and outside of engineering',
@@ -165,7 +218,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: [
             "Technology assessments, prototyping, architectural design and implementation using a variety of internet and mobile-centric technologies.",
             "Working with product management and engineering teams to translate business objectives to product specifications using agile methodologies.",
@@ -215,7 +268,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: [
             'AngularJs (main focus)', 'MongoDB', 'ExpressJs', 'NodeJs', 'Javascript'
         ],
@@ -253,7 +306,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: [
             '7+ years\' experience building scalable and performant applications.',
             'Expert knowledge in analyzing, designing, and developing solutions to highly complex problems',
@@ -303,7 +356,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: [
             'Javascript',
             'MongoDB',
@@ -331,7 +384,7 @@ module.exports =
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
         companyWebSite: null,
-        notes: ['I recently followed up and spoke with the hiring folks about this opportunity!  They are really excited about filling this role!  The position is opened for a full stack developer or a backend developer, and the company will, indeed, cover relocation costs.', 
+        notes: ['I recently followed up and spoke with the hiring folks about this opportunity!  They are really excited about filling this role!  The position is opened for a full stack developer or a backend developer, and the company will, indeed, cover relocation costs.',
             'The culture in this team is very professional and polished.  This is precisely part of reason that they are seeking a permanent developer.  They care about their culture, thus, their people are just as important!  Incidentally, did I mention that this role is in San Francisco, CA?  What\'s more, the location is next to the AT&T Stadium!  Woot!']
     }, {
         displayFlag: true,
@@ -344,7 +397,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: [
             'Design and develop the user facing features of client’s Big Data ecosystem using MEAN Stack (MongoDB/MarkLogic, Express, Angular/HTML5, Node.js)',
             'Interview stakeholders to extract and document user stories/requirements; validate designs with wireframe mockups and storyboards.',
@@ -388,7 +441,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: ['3+ years full-stack software development experience – STRONG Python, node.js',
             'Specific expertise designing, developing, and debugging human-cognitive interfaces – GUI, UX, etc.',
             'Experience with responsive web design – javascript, html5, css',
@@ -432,7 +485,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: ['Experience writing technical documents related to network, telecom, IT, or software systems for both technical and less-technical audiences',
             'Ability to document complex tasks as a sequence of logical and procedural steps using prose, illustrations, flow charts, etc.',
             'Experience with Microsoft Office suite and various graphics and publishing tools (Adobe Creative Suite, MS Vision, etc.)',
@@ -473,7 +526,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
         responsibilities: [],
@@ -508,7 +561,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
         responsibilities: [],
@@ -543,7 +596,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
         tools: [],
         responsibilities: [],
@@ -580,7 +633,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'MS Word', 'System Center Configuration Manager (SCCM) 2012'],
         responsibilities: [],
@@ -621,7 +674,7 @@ module.exports =
 
         /* An array of objects having custom lists. */
         customLists : null,
-        
+
         skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
         responsibilities: [],
