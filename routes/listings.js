@@ -1,5 +1,75 @@
 module.exports =
     [
+    {
+
+          displayFlag: true,
+          jobId: 'jb-2016-03-30-1545',
+          jobTitle: 'Sr. Front-End Web Developer',
+          degree: 'bs/ba or equivalent experience/training',
+          level: 'senior',
+          hireType: 'contract',
+
+          /* An array of objects having custom lists. */
+          customLists : [
+              {
+              header: 'Primary Job Functions',
+              list: [
+                  'Front end development (UI/UX)',
+                  'UI/UX wireframes and interactive mock-ups',
+                  'Collaboration with DevOps',
+                  'Stay abreast of new technologies', 'Others...'
+              ]}, 
+              {
+                header: 'Software Design and Development',
+                list: [
+                    'Implement approved designs into functional components and screens adhering to individual business requirements ',
+                    'Cross browser development', 
+                    'Code Reviews', 'Sprint planning and execution', 'Others...'
+                ]
+              },
+              {
+                header: 'Key Competencies', 
+                list:[
+                    'Logical problem solving skills',
+                    'Minimum of 5 years of web-based application development experience', 'Others...'
+
+                ]
+              },
+              {
+                header: 'Technical Skills, Technologies, & Tools',
+                list:[
+                    'Angular', 'XML/JSON', 'REST', 'SVN/Git', 'Oracle, SQL Server', 'Windows & Linux',
+                    'OOP/D', 'Others...'
+                ]
+              }
+          ],
+
+          skills: null,//left for backwards compat
+          tools: null,//left for backwards compat
+          responsibilities: null,//left for backwards compat
+          briefDescr: 'Expert level, Angular developer needed.',
+          teamStructureExpertise: null,
+          projectWorkflow: [
+            'Agile Workflow'
+          ],
+          recruiters: null,
+          hiringCompany: null,
+          compensationRange: 'market',
+          locationOppWork: null,
+          locationCompanyOffice: 'Tampa, FL, USA',
+          benefitsGeneral: null,
+
+          employmentEligibility: null,
+
+          vettingProcess: null,
+          hireTimeframeValue: null,
+          postingDate: new Date('3/30/2016 15:45'),
+          hireDate: '',
+          /* if null or min AND there is a closingDate, indicates opp was never filled */
+          closingDate: null,
+          companyWebSite: null   ,
+          notes: ['The position is a six month contract to hire (permanent) in Tampa, FL. The client is looking for somebody with serious Angular skills not just somebody that tinkers with Angular.']
+      },
       {
           /* monicotodo: update this with nathan's new description, etc */
           displayFlag: true,
