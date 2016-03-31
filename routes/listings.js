@@ -31,7 +31,8 @@ module.exports =
                 header: 'Key Competencies', 
                 list:[
                     'Logical problem solving skills',
-                    'Minimum of 5 years of web-based application development experience', 'Others...'
+                    'Hands on development experience with the following technologies/environments: Extensive experience with web-based development using HTML, CSS, and JavaScript', 
+                    'Others...'
 
                 ]
               },
