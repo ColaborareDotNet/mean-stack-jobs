@@ -17,12 +17,19 @@ html, body {
     color: #BBC0C9;
     font-size: smaller;
     background: linear-gradient(360deg, #444444, #222222);
-    padding: 20px 50px;
+    padding: 20px 10px;
+}
+
+footer .container{
+    margin-left:10px;/* override bootstrap container class */
 }
 
 header{
 	background-color:#444444;
+}
 
+body header div.jumbotron div.container{
+    margin-left: 10px;
 }
 
 .jumbotron{
@@ -215,3 +222,13 @@ div.clear-both{
     opacity: 1;
 }
 
+.main-content{
+    float:left;
+    margin-left:20px;
+}
+
+article.ggl-ads{
+    float:right;
+    margin-left:8px;
+    margin-right:8px;
+}

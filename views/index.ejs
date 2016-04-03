@@ -1,8 +1,20 @@
 <% include header.ejs %>
 
 <div class="content">
-<!--start job listings-->
-	<div class="container" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller' 
+	<article class="ggl-ads">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Monico MSJ Ad -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:160px;height:600px"
+		     data-ad-client="ca-pub-3567968236692671"
+		     data-ad-slot="8073320943"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	</article>
+
+	<!--start job listings-->
+	<div class="main-content container" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller'
         data-ng-init='controller.listings=<%= listingsData %>'>	
 
     <p data-ng-bind="">Loading...</p>
