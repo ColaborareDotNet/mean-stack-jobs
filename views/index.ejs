@@ -1,30 +1,16 @@
 <% include header.ejs %>
 
-<div class="content">
-	<article class="ggl-ads">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- Monico MSJ Ad -->
-		<ins class="adsbygoogle"
-		     style="display:inline-block;width:160px;height:600px"
-		     data-ad-client="ca-pub-3567968236692671"
-		     data-ad-slot="8073320943"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	</article>
+<div class="content container-fluid">
+	<div class="row">
+		<!--start job listings-->
+		<div class="col-xs-8 col-md-9" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller'
+	        data-ng-init='controller.listings=<%= listingsData %>'>
 
-	<!--start job listings-->
-	<div class="main-content container" data-ng-app="indexNgApp" data-ng-controller='ListingsController as controller'
-        data-ng-init='controller.listings=<%= listingsData %>'>	
+	    <p data-ng-bind="">Loading...</p>
 
-    <p data-ng-bind="">Loading...</p>
+		<h4 data-ng-hide='{{controller.listings.length > 0}}' class="listingTitle ng-cloak">No Listings at this time.  Please check later.</h4>
 
-  	<h4 data-ng-hide='{{controller.listings.length > 0}}' class="listingTitle ng-cloak">No Listings at this time.  Please check later.</h4>
-
-  	<div class="clear-both"></div>
-
-  	<article class='opp-smry-cntnr listingAlternating ng-cloak' 
-  				data-ng-repeat="listing in controller.listings">
+		<article class='opp-smry-cntnr listingAlternating ng-cloak' data-ng-repeat="listing in controller.listings">
 			<div class="pull-left hover-box">
 				<a href="{{$location.absUrl()}}/#/listing/{{listing.jobId}}" class="hover-link">
 					<span class="glyphicon glyphicon-link"></span>
@@ -166,12 +152,27 @@
 			</div>
 		</article>
 
-  	<div class="lst-cnt-smry ng-cloak" data-ng-hide="controller.listings.length <= 0">
-  		Total of 
-  		<span data-ng-bind="controller.listings.length"></span>
-  		Jobs Listed!</div>
+		<div class="lst-cnt-smry ng-cloak" data-ng-hide="controller.listings.length <= 0">
+			Total of
+			<span data-ng-bind="controller.listings.length"></span>
+			Jobs Listed!
+		</div>
 
-		<div data-ng-view></div>
+			<div data-ng-view></div>
+		</div>
+
+		<div class="col-xs-4 col-md-3">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Monico MSJ Ad -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:160px;height:600px"
+			     data-ad-client="ca-pub-3567968236692671"
+			     data-ad-slot="8073320943"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+
 	</div>
 </div>
 	

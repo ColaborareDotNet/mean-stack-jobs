@@ -221,14 +221,3 @@ div.clear-both{
 .hover-link:hover{
     opacity: 1;
 }
-
-.main-content{
-    float:left;
-    margin-left:20px;
-}
-
-article.ggl-ads{
-    float:right;
-    margin-left:8px;
-    margin-right:8px;
-}
