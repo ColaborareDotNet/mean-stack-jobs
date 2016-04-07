@@ -221,3 +221,11 @@ div.clear-both{
 .hover-link:hover{
     opacity: 1;
 }
+
+div.social-nav i {
+    margin-right:10px;
+}
+
+div.social-nav a {
+    color:inherit;
+}
