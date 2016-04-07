@@ -7,8 +7,23 @@
         hireType: null,
 
 
-        /* An array of arrays of lists.  Item 0 in each array is the custom header */
-        customLists : null,
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists : [
+            {
+                header: "header1_value",/* this header will show up as a label in interface */
+                list: [
+                    "list_item_one",
+                    "list_item_two"
+                ]
+            }
+            {
+                header: "header2_value",/* this header will show up as a label in interface */
+                list: [
+                    "list_item_one",
+                    "list_item_two"
+                ]
+            }
+        ],
         
         skills: [
         ],
@@ -33,5 +48,5 @@
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
         companyWebSite: null,
-        notes: null
+        notes: null /* an array of strings */
 }
