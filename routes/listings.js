@@ -1,6 +1,277 @@
 module.exports =
     [
     {
+        displayFlag : true,
+        jobId: 'jb-2016-04-06-1745',
+        jobTitle: 'Senior Web Developer (AngularJS, HTML, CSS, JavaScript)',
+        degree: null,
+        level: null,
+        hireType: null,
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists : [
+          {
+            header:"Responsibilities / Day in the Life",
+            list:[
+              "Collaborate with other disciplines for the production and delivery of web-based product deliverables.",
+              "Create technical solutions according to interaction / visual specifications and client specific environment.",
+              "Estimate work and be accountable for delivering on tasks.",
+              "Others..."
+            ]
+          },
+          {
+            header:"Qualifications",
+            list:[
+              "Bachelor and/or Masters Degree in a relevant field of study (ie: Computer Science, Web Development, Engineering, Graphic Design, Liberal Arts, etc.).",
+              "3+ years professional experience delivering HTML, CSS and JavaScript based sites and applications.",
+              "2+ years professional experience using one or more client side JavaScript frameworks such as AngularJS, React.js, Functional Reactive Programming (RX.js) or similar would be a plus; others include: Ember.js, Backbone.js, Require.js, Durandal, Knockout, Handlebars, Mustache, Underscore, etc.",
+              "Others..."
+            ]
+          },
+          {
+            header:"Bonus Points",
+            list:[
+              "Demonstrated ability to stay abreast of new technical trends and cutting edge web technologies.",
+              "Demonstrated ability to learn new tools and technologies quickly.",
+              "General understanding of UI design principles and best practices.",
+              "Others..."
+            ]
+          },
+          {
+            header:"Perks",
+            list:[
+              "Health",
+              "Dental",
+              "Vision",
+              "Life",
+              "401(k)"
+            ]
+          }
+        ],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: 'We are looking for a Senior Web Developer / Web Developer Lead that is serious about their craft to join and lead a small group of developers to assist in building web / responsive-web applications for multiple clients.This is a technical role that requires hands-on coding throughout most of the day.The role also requires a degree of professionalism and communication as you\'ll serve as the technical point of contact either in person or remotely for existing and/or prospective customer meetings.The ideal applicant will have extensive experience developing scalable web / responsive-web based applications and can think outside the box to help solve complex problems.Applicant must be a self-starter, highly motivated and can demonstrate his/her ability to keep up to date with cutting edge technology.',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: 'InMotion Software',
+        compensationRange: null,
+        locationOppWork: "Round Rock, TX",
+        locationCompanyOffice: "Round Rock, TX",
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('4/6/2016 17:45'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://www.inmotionsoftware.com",
+        notes: ['InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for Consumers and some of America’s most respected Brands.']
+},
+{
+        displayFlag : true,
+        jobId: 'jb-2016-04-06-1746',
+        jobTitle: 'Senior Software Developer (i.e.; iOS, Android, WPF) ',
+        degree: null,
+        level: null,
+        hireType: null,
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists : [
+            {
+                header: "Qualifications",/* this header will show up as a label in interface */
+                list: [
+                  "Knowledge and experience with Design Patterns",
+                  "Knowledge and experience with Agile Methodologies",
+                  "Experience interfacing with Project Management (internal/external)",
+                  "Others..."
+                ]
+            },
+            {
+              header:"Bonus Points",
+              list:[
+                "2+ years hands on experience leading a development team",
+                "Strong knowledge of basic building blocks like UIKit, REST APIs, memory management, etc.",
+                "Understanding of Object Oriented programming principles",
+                "Others..."
+              ]
+            },
+            {
+              header:"Perks",
+              list:[
+                "Full Time Permanent Position",
+                "Full Benefits including Health, Dental, Vision, Life, 401K",
+                "Casual dress",
+                "Others..."
+              ]
+            }
+        ],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: 'In this position your responsibilities will include leading a team of engineers to create end-user client applications for desktop and/or mobile.  This is a technical role which will require hands-on coding throughout a majority of the day incorporating a wide variety of technologies (i.e; iOS, Android, WPF).',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: 'InMotion Software',
+        compensationRange: null,
+        locationOppWork: "Round Rock, TX",
+        locationCompanyOffice: "Round Rock, TX",
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('4/6/2016 17:46'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://www.inmotionsoftware.com",
+        notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for consumers and many of America's top brands."]
+},
+{
+        displayFlag : true,
+        jobId: 'jb-2016-04-06-1747',
+        jobTitle: 'Full-time Lead QA Analyst',
+        degree: null,
+        level: null,
+        hireType: null,
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists : [
+            {
+                header: "Job responsibilities",/* this header will show up as a label in interface */
+                list: [
+                  "Manage a small team of QA analysts, and mentor new analysts as they join the team.",
+                  "Communicate on a regular basis with clients as needed.",
+                  "Perform hands-on testing of all products and document any defects.",
+                  "Others..."
+                ]
+            },
+            {
+                header: "Requirements",/* this header will show up as a label in interface */
+                list: [
+                  "Previous Lead experience in a QA testing environment.",
+                  "Strong hands-on testing skills (general testing and regression testing).",
+                  "Ability to manage Jira and Trello tracking systems.",
+                  "Others..."
+                ]
+            },
+            {
+                header: "Desirable",/* this header will show up as a label in interface */
+                list: [
+                  "Experience with JIRA.",
+                  "Knowledge of Java and server-side testing.",
+                  "Previous testing experience within game development.                ",
+                  "Others..."
+                ]
+            }
+        ],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: 'Looking to hire a full-time Lead QA Analyst to ensure the delivery of the highest quality products to our customers. The Lead QA Analyst will be responsible for managing a relatively small QA team, as well as performing hands on testing. In this role, you will build test and release procedures for both games and cross-platform applications, perform hands on testing, and work closely with the development team to release high-quality applications.',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: 'InMotion Software',
+        compensationRange: null,
+        locationOppWork: "Round Rock, TX",
+        locationCompanyOffice: "Round Rock, TX",
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('4/6/2016 17:47'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://www.inmotionsoftware.com",
+        notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for consumers and many of America's top brands."]
+},
+{
+        displayFlag : true,
+        jobId: 'jb-2016-04-06-1748',
+        jobTitle: 'Junior Java Developer (Spring, Play, REST, GIT, SQL / NoSQL)',
+        degree: null,
+        level: null,
+        hireType: null,
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists : [
+            {
+                header: "Responsibilities",/* this header will show up as a label in interface */
+                list: [
+                  "Write high-quality code that meets design specifications.",
+                  "Write tests for and demo your code to verify it meets business and technical requirements.",
+                  "Work with the product department to understand requirements and refine solutions.",
+                  "Others..."
+                ]
+            },
+            {
+                header: "Requirements / Qualifications",/* this header will show up as a label in interface */
+                list: [
+                  "1 - 3 years professional Java software development experience.",
+                  "1 - 3 years provable experience working with REST services / APIs.",
+                  "1 - 3 years working in Agile environment.                ",
+                  "Others..."
+                ]
+            },
+            {
+                header: "Bonus Points",/* this header will show up as a label in interface */
+                list: [
+                  "Understanding of Relational and NoSQL database technologies.",
+                  "Knowledge of essential design-patterns, especially those used in Java frequently.",
+                  "Atlassian tool suite including BitBucket, JUnit, SOAP Web Services, MVC, XSD, WSDL, Hibernate.",
+                  "Others..."
+                ]
+            },
+            {
+                header: "Additional information",/* this header will show up as a label in interface */
+                list: [
+                  "Benefits (Health, Dental, Vision, Life, 401k)",
+                  "Casual dress code",
+                  "Vacation                ",
+                  "Others..."
+                ]
+            }
+        ],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: 'As a junior - mid level Java Developer you will participate as a core member of our Server / Engineering team.  The team works in 2 - 3 week iterative development cycles with the goal of completing potentially shippable software each sprint.  As a result, we aim to identify a new team member with 1 - 3 years experience developing Java applications with highly scalable architectures.',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: 'InMotion Software',
+        compensationRange: null,
+        locationOppWork: "Round Rock, TX",
+        locationCompanyOffice: "Round Rock, TX",
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('4/6/2016 17:48'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://www.inmotionsoftware.com",
+        notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for Consumers and some of America’s most respected Brands."]
+},
+    {
 
           displayFlag: true,
           jobId: 'jb-2016-03-30-1545',
@@ -9,7 +280,7 @@ module.exports =
           level: 'senior',
           hireType: 'contract',
 
-          /* An array of objects having custom lists. */
+          /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
           customLists : [
               {
               header: 'Primary Job Functions',
@@ -80,7 +351,7 @@ module.exports =
           level: 'senior',
           hireType: 'perm',
 
-          /* An array of objects having custom lists. */
+          /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
           customLists : [
               {
               header: 'Requirements, Good Understanding Of',
@@ -131,7 +402,7 @@ module.exports =
         level: 'senior',
         hireType: 'Temp or Perm',
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : [
             {
             header: 'Primary Responsibilities',
@@ -200,7 +471,7 @@ module.exports =
         level: 'Mid to Senior (2-8 yrs)',
         hireType: 'Permanent',
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: [
@@ -286,7 +557,7 @@ module.exports =
         hireType: 'Permanent',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: [
@@ -336,7 +607,7 @@ module.exports =
         hireType: 'Contractor (W-2)',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: [
@@ -374,7 +645,7 @@ module.exports =
         hireType: "Full-time Permanent",
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: [
@@ -424,7 +695,7 @@ module.exports =
         hireType: 'Permanent',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: [
@@ -465,7 +736,7 @@ module.exports =
         hireType: 'W-2 or C2C Contract',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: [
@@ -509,7 +780,7 @@ module.exports =
         hireType: 'Salaried',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: ['3+ years full-stack software development experience – STRONG Python, node.js',
@@ -553,7 +824,7 @@ module.exports =
         hireType: 'Salaried',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: ['Experience writing technical documents related to network, telecom, IT, or software systems for both technical and less-technical audiences',
@@ -594,7 +865,7 @@ module.exports =
         hireType: 'Salaried + Benefits',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
@@ -629,7 +900,7 @@ module.exports =
         hireType: 'Salaried + Benefits',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
@@ -664,7 +935,7 @@ module.exports =
         hireType: 'Permanent',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
@@ -701,7 +972,7 @@ module.exports =
         hireType: 'W-2 Contractor',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
@@ -742,7 +1013,7 @@ module.exports =
         hireType: 'W-2 Contractor',
 
 
-        /* An array of objects having custom lists. */
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists : null,
 
         skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
