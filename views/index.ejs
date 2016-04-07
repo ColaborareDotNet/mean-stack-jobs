@@ -35,12 +35,12 @@
 								<div class="text-left prsu-sctn">
 									<!--start Pursue button-->
 						            <!-- cdntodo: convert this anchor into a custom ng directive --> 
-						            <div class="btn btn-success btn-lg" >
+						            <div class="btn btn-success btn-lg" data-toggle="tooltip" title="Not applying..no commitment...just getting more information.">
 						             	<a href='mailto:{{controller.getMailToString(listing.jobTitle, listing.jobId)}}' >
-						            	PURSUE</a>
+										Explore</a>
 						            </div>
 						            <div>
-							            <label>ID:</label><a href="{{$location.absUrl()}}/#/listing/{{listing.jobId}}"><span data-ng-bind="listing.jobId"></span></a>
+							            <label>ID:</label><a data-toggle="tooltip" title="Gets direct link to this job post." href="{{$location.absUrl()}}/#/listing/{{listing.jobId}}"><span data-ng-bind="listing.jobId"></span></a>
 							          </div>
 							          <div>
 													<label>Date Posted:</label><span>{{listing.postingDate | date:"MM-dd-yyyy"}}</span>
@@ -91,6 +91,8 @@
 					            		</div>
 					            </div>
 				          	</div>
+
+							<div class="clear-both"></div>
 
 
 				            <div class="form-group clear-both" data-ng-hide="{{listing.degree === null || listing.degree === undefined}}">
@@ -161,17 +163,6 @@
 			<div data-ng-view></div>
 		</div>
 
-		<div class="col-xs-4 col-md-3">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Monico MSJ Ad -->
-			<ins class="adsbygoogle"
-			     style="display:inline-block;width:160px;height:600px"
-			     data-ad-client="ca-pub-3567968236692671"
-			     data-ad-slot="8073320943"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
 
 	</div>
 </div>

@@ -49,8 +49,8 @@ indexNgApp.controller('ListingsController', ['$log', '$location', function($log,
 
   self.emailAddr = 'jobs@meanstack.org';
   self.getMailToString = function(jobTitle, jobId){
-    var mailToString = self.emailAddr + "?subject=Pursuing Job: " +  jobTitle + ", (ID: " +
-      jobId + ")&body=To Whom It May Concern:\n\nI am interested in pursuing the \"" + jobTitle +
+    var mailToString = self.emailAddr + "?subject=Exploring Job: " +  jobTitle + ", (ID: " +
+      jobId + ")&body=To Whom It May Concern:\n\nI am interested in exploring the \"" + jobTitle +
       "\" opportunity listed on your web site! I have included my contact information below:\n\n" +
       "Phone: <recommended>\nEmail: <if different from current>\nLinkedIn Profile: <recommended>\n" + 
       "Resume: <recommended, url or attached, PDF recommended>\n" +
