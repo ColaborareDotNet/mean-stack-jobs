@@ -39,6 +39,10 @@ body header div.jumbotron div.container{
     padding-bottom:0;
 }
 
+header > div.jumbotron {
+    margin-bottom:0;
+}
+
 
 label{
 	color: #4c4c4c;
@@ -228,4 +232,13 @@ div.social-nav i {
 
 div.social-nav a {
     color:inherit;
+}
+
+p.latest {
+    color:#ccc;
+    padding-left:30px;
+}
+p.latest>a {
+    color:#ccc;
+    text-decoration: none;
 }
