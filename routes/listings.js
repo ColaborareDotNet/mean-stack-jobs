@@ -68,8 +68,8 @@ module.exports =
         companyWebSite: 'http://www.cersnow.com',
         notes: ['All roles are in South Florida (Boca Raton)',
           'For consideration please apply within or contact Jamie at 561-910-8000'] /* an array of strings */
-}
-    ,{
+},
+{
         displayFlag : true,
         jobId: 'jb-2016-04-06-1745',
         jobTitle: 'Senior Web Developer (AngularJS, HTML, CSS, JavaScript)',
