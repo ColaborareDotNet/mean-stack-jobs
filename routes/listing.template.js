@@ -15,7 +15,7 @@
                     "list_item_one",
                     "list_item_two"
                 ]
-            }
+            },
             {
                 header: "header2_value",/* this header will show up as a label in interface */
                 list: [

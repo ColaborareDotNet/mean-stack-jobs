@@ -1,6 +1,75 @@
 module.exports =
     [
-    {
+{
+        displayFlag : true,
+        jobId: 'jb-2016-04-13-1130',
+        jobTitle: 'MEAN Stack Software Engineers--3 Spots!',
+        degree: null,
+        level: null,
+        hireType: null,
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists : [
+            {
+                header: "Primary Responsibilities",/* this header will show up as a label in interface */
+                list: [
+                "Architect, build, ship, and maintain high quality web applications and services that address the needs of operations, product development, publisher, analytics, and finance teams. ",
+                "Collaborate with other teams to come up with unique, high-performing, and user-friendly ad products.",
+                "Devise and contribute to best practices within the team for development, build, release, and monitoring."
+                ]
+            },
+            {
+                header: "Required Skills and Experience",/* this header will show up as a label in interface */
+                list: [
+                  "5+ years’ experience building production web software that is highly scalable and maintainable",
+                  "CS degree or equivalent real-world experience and knowledge of CS fundamentals ",
+                  "Proficiency in at least one server-side language (Python, Ruby, PHP, or Java Node.js experience a plus!)",
+                  "Solid understanding of modern front-end web technologies (HTML5, CSS3, JavaScript)",
+                  "Experience with newer JavaScript frameworks (AngularJS, React/Flux, etc.)",
+                  "Knowledge of relational and NoSQL databases; able to write SQL.",
+                  "Experience both implementing and consuming Web APIs (SOAP, REST) ",
+                  "Knowledge of flow control techniques in asynchronous programming"
+                  ]
+            },
+            {
+                header: "Perks",/* this header will show up as a label in interface */
+                list: [
+                  "Competitive salary",
+                  "Bonus structure (10-20%)",
+                  "Matching 401k",
+                  "Over 3 weeks of paid vacation",
+                  "On-site yoga, stocked kitchen snacks, espresso machine, achievement awards",
+                  "team building events"
+                  ]
+            }
+        ],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: 'A Cutting Edge Recruiting Solutions (CERS) client, backed by one of the nation’s largest media companies, is seeking Software Engineers to work primarily on server-side applications, writing clean, modular and maintainable code.  Current applications are written in PHP, java and Node.js and the focus is to trend more towards new Open Source technology stack using MongoDB, Angular and Node.  Our client is looking for fill 3 positions at mid to senior level.  Rock stars preferred!  Please see below for additional details and apply now for IMMEDIATE consideration.',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: '$80,000 – $130,000',
+        locationOppWork: null,
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('4/13/2016 11:30'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: 'http://www.cersnow.com',
+        notes: ['All roles are in South Florida (Boca Raton)',
+          'For consideration please apply within or contact Jamie at 561-910-8000'] /* an array of strings */
+}
+    ,{
         displayFlag : true,
         jobId: 'jb-2016-04-06-1745',
         jobTitle: 'Senior Web Developer (AngularJS, HTML, CSS, JavaScript)',
@@ -793,7 +862,7 @@ module.exports =
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'We seek an experienced full-stack web software engineer with experience in UI development to develop an Advanced Advertising platform supporting multiple devices (mobile, streaming, TV).  Salary depends on experience.  Relocation benefits are available.',
+        briefDescr: 'We seek an experienced full-stack web software engineer with experience in UI development to develop an Advanced Advertising platform supporting multiple devices (mobile, streaming, TV).  ` depends on experience.  Relocation benefits are available.',
         teamStructureExpertise: 'Small Team (currently); will be adding 100 devs in the next 6-12 months.',
         projectWorkflow: ['Agile'],
         recruiters: null,
