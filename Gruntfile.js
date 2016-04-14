@@ -23,4 +23,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-run');
 
   grunt.registerTask('default', ['jshint', 'run:jasmine']);
+
+  //TODO: modified date
+  //TODO: copyright year
+
 };
