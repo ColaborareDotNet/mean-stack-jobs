@@ -1,7 +1,144 @@
-module.exports =
-    [
-{
-        displayFlag : true,
+module.exports = [{
+        displayFlag: true,
+        jobId: 'jb-2016-07-20-1828',
+        jobTitle: 'Front End Software Developer - UI, JavaScript, AngularJS',
+        degree: null,
+        level: null,
+        hireType: null,
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Primary Responsibilities",
+            /* this header will show up as a label in interface */
+            list: [
+                ""
+            ]
+        }, {
+            header: "Required Skills and Experience",
+            /* this header will show up as a label in interface */
+            list: [
+                ""
+            ]
+        }, ],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: ['With thousands of high-profile customers worldwide, our client continues to cultivate an innovative approach to preventing software security breaches. This company, located in scenic Austin, Texas, has over 8,000 employees in more than 100 countries around the world, and are continuously expanding their reaches.  They need you, an experienced  Front End Software Developer, to join their team of elite engineers and take control of the full UI life cycle for their highly specialized services and products.  ', "boo"],
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: null,
+        locationOppWork: null,
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('7/20/2016 18:28'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: 'http://www.cersnow.com',
+        notes: [''] /* an array of strings */
+    }, {
+        displayFlag: true,
+        jobId: 'jb-2016-07-20-1827',
+        jobTitle: '',
+        degree: null,
+        level: null,
+        hireType: null,
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Primary Responsibilities",
+            /* this header will show up as a label in interface */
+            list: [
+                ""
+            ]
+        }, {
+            header: "Required Skills and Experience",
+            /* this header will show up as a label in interface */
+            list: [
+                ""
+            ]
+        }, ],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: '',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: null,
+        locationOppWork: null,
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('7/20/2016 18:27'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: 'http://www.cersnow.com',
+        notes: [''] /* an array of strings */
+
+    }, {
+        displayFlag: true,
+        jobId: 'jb-2016-07-20-1826',
+        jobTitle: '',
+        degree: null,
+        level: null,
+        hireType: null,
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Primary Responsibilities",
+            /* this header will show up as a label in interface */
+            list: [
+                ""
+            ]
+        }, {
+            header: "Required Skills and Experience",
+            /* this header will show up as a label in interface */
+            list: [
+                ""
+            ]
+        }, ],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: '',
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: null,
+        locationOppWork: null,
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('7/20/2016 18:26'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: 'http://www.cersnow.com',
+        notes: [''] /* an array of strings */
+    }, {
+        displayFlag: true,
         jobId: 'jb-2016-04-13-1130',
         jobTitle: 'MEAN Stack Software Engineers--3 Spots!',
         degree: null,
@@ -10,40 +147,39 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : [
-            {
-                header: "Primary Responsibilities",/* this header will show up as a label in interface */
-                list: [
+        customLists: [{
+            header: "Primary Responsibilities",
+            /* this header will show up as a label in interface */
+            list: [
                 "Architect, build, ship, and maintain high quality web applications and services that address the needs of operations, product development, publisher, analytics, and finance teams. ",
                 "Collaborate with other teams to come up with unique, high-performing, and user-friendly ad products.",
                 "Devise and contribute to best practices within the team for development, build, release, and monitoring."
-                ]
-            },
-            {
-                header: "Required Skills and Experience",/* this header will show up as a label in interface */
-                list: [
-                  "5+ years’ experience building production web software that is highly scalable and maintainable",
-                  "CS degree or equivalent real-world experience and knowledge of CS fundamentals ",
-                  "Proficiency in at least one server-side language (Python, Ruby, PHP, or Java Node.js experience a plus!)",
-                  "Solid understanding of modern front-end web technologies (HTML5, CSS3, JavaScript)",
-                  "Experience with newer JavaScript frameworks (AngularJS, React/Flux, etc.)",
-                  "Knowledge of relational and NoSQL databases; able to write SQL.",
-                  "Experience both implementing and consuming Web APIs (SOAP, REST) ",
-                  "Knowledge of flow control techniques in asynchronous programming"
-                  ]
-            },
-            {
-                header: "Perks",/* this header will show up as a label in interface */
-                list: [
-                  "Competitive salary",
-                  "Bonus structure (10-20%)",
-                  "Matching 401k",
-                  "Over 3 weeks of paid vacation",
-                  "On-site yoga, stocked kitchen snacks, espresso machine, achievement awards",
-                  "team building events"
-                  ]
-            }
-        ],
+            ]
+        }, {
+            header: "Required Skills and Experience",
+            /* this header will show up as a label in interface */
+            list: [
+                "5+ years’ experience building production web software that is highly scalable and maintainable",
+                "CS degree or equivalent real-world experience and knowledge of CS fundamentals ",
+                "Proficiency in at least one server-side language (Python, Ruby, PHP, or Java Node.js experience a plus!)",
+                "Solid understanding of modern front-end web technologies (HTML5, CSS3, JavaScript)",
+                "Experience with newer JavaScript frameworks (AngularJS, React/Flux, etc.)",
+                "Knowledge of relational and NoSQL databases; able to write SQL.",
+                "Experience both implementing and consuming Web APIs (SOAP, REST) ",
+                "Knowledge of flow control techniques in asynchronous programming"
+            ]
+        }, {
+            header: "Perks",
+            /* this header will show up as a label in interface */
+            list: [
+                "Competitive salary",
+                "Bonus structure (10-20%)",
+                "Matching 401k",
+                "Over 3 weeks of paid vacation",
+                "On-site yoga, stocked kitchen snacks, espresso machine, achievement awards",
+                "team building events"
+            ]
+        }],
         skills: null,
         tools: null,
         responsibilities: null,
@@ -67,10 +203,10 @@ module.exports =
         closingDate: null,
         companyWebSite: 'http://www.cersnow.com',
         notes: ['All roles are in South Florida (Boca Raton)',
-          'For consideration please apply within or contact Jamie at 561-910-8000'] /* an array of strings */
-},
-{
-        displayFlag : true,
+            'For consideration please apply within or contact Jamie at 561-910-8000'
+        ] /* an array of strings */
+    }, {
+        displayFlag: true,
         jobId: 'jb-2016-04-06-1745',
         jobTitle: 'Senior Web Developer (AngularJS, HTML, CSS, JavaScript)',
         degree: null,
@@ -79,45 +215,40 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : [
-          {
-            header:"Responsibilities / Day in the Life",
-            list:[
-              "Collaborate with other disciplines for the production and delivery of web-based product deliverables.",
-              "Create technical solutions according to interaction / visual specifications and client specific environment.",
-              "Estimate work and be accountable for delivering on tasks.",
-              "Others..."
+        customLists: [{
+            header: "Responsibilities / Day in the Life",
+            list: [
+                "Collaborate with other disciplines for the production and delivery of web-based product deliverables.",
+                "Create technical solutions according to interaction / visual specifications and client specific environment.",
+                "Estimate work and be accountable for delivering on tasks.",
+                "Others..."
             ]
-          },
-          {
-            header:"Qualifications",
-            list:[
-              "Bachelor and/or Masters Degree in a relevant field of study (ie: Computer Science, Web Development, Engineering, Graphic Design, Liberal Arts, etc.).",
-              "3+ years professional experience delivering HTML, CSS and JavaScript based sites and applications.",
-              "2+ years professional experience using one or more client side JavaScript frameworks such as AngularJS, React.js, Functional Reactive Programming (RX.js) or similar would be a plus; others include: Ember.js, Backbone.js, Require.js, Durandal, Knockout, Handlebars, Mustache, Underscore, etc.",
-              "Others..."
+        }, {
+            header: "Qualifications",
+            list: [
+                "Bachelor and/or Masters Degree in a relevant field of study (ie: Computer Science, Web Development, Engineering, Graphic Design, Liberal Arts, etc.).",
+                "3+ years professional experience delivering HTML, CSS and JavaScript based sites and applications.",
+                "2+ years professional experience using one or more client side JavaScript frameworks such as AngularJS, React.js, Functional Reactive Programming (RX.js) or similar would be a plus; others include: Ember.js, Backbone.js, Require.js, Durandal, Knockout, Handlebars, Mustache, Underscore, etc.",
+                "Others..."
             ]
-          },
-          {
-            header:"Bonus Points",
-            list:[
-              "Demonstrated ability to stay abreast of new technical trends and cutting edge web technologies.",
-              "Demonstrated ability to learn new tools and technologies quickly.",
-              "General understanding of UI design principles and best practices.",
-              "Others..."
+        }, {
+            header: "Bonus Points",
+            list: [
+                "Demonstrated ability to stay abreast of new technical trends and cutting edge web technologies.",
+                "Demonstrated ability to learn new tools and technologies quickly.",
+                "General understanding of UI design principles and best practices.",
+                "Others..."
             ]
-          },
-          {
-            header:"Perks",
-            list:[
-              "Health",
-              "Dental",
-              "Vision",
-              "Life",
-              "401(k)"
+        }, {
+            header: "Perks",
+            list: [
+                "Health",
+                "Dental",
+                "Vision",
+                "Life",
+                "401(k)"
             ]
-          }
-        ],
+        }],
         skills: null,
         tools: null,
         responsibilities: null,
@@ -141,9 +272,8 @@ module.exports =
         closingDate: null,
         companyWebSite: "http://www.inmotionsoftware.com",
         notes: ['InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for Consumers and some of America’s most respected Brands.']
-},
-{
-        displayFlag : true,
+    }, {
+        displayFlag: true,
         jobId: 'jb-2016-04-06-1746',
         jobTitle: 'Senior Software Developer (i.e.; iOS, Android, WPF) ',
         degree: null,
@@ -152,35 +282,32 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : [
-            {
-                header: "Qualifications",/* this header will show up as a label in interface */
-                list: [
-                  "Knowledge and experience with Design Patterns",
-                  "Knowledge and experience with Agile Methodologies",
-                  "Experience interfacing with Project Management (internal/external)",
-                  "Others..."
-                ]
-            },
-            {
-              header:"Bonus Points",
-              list:[
+        customLists: [{
+            header: "Qualifications",
+            /* this header will show up as a label in interface */
+            list: [
+                "Knowledge and experience with Design Patterns",
+                "Knowledge and experience with Agile Methodologies",
+                "Experience interfacing with Project Management (internal/external)",
+                "Others..."
+            ]
+        }, {
+            header: "Bonus Points",
+            list: [
                 "2+ years hands on experience leading a development team",
                 "Strong knowledge of basic building blocks like UIKit, REST APIs, memory management, etc.",
                 "Understanding of Object Oriented programming principles",
                 "Others..."
-              ]
-            },
-            {
-              header:"Perks",
-              list:[
+            ]
+        }, {
+            header: "Perks",
+            list: [
                 "Full Time Permanent Position",
                 "Full Benefits including Health, Dental, Vision, Life, 401K",
                 "Casual dress",
                 "Others..."
-              ]
-            }
-        ],
+            ]
+        }],
         skills: null,
         tools: null,
         responsibilities: null,
@@ -204,9 +331,8 @@ module.exports =
         closingDate: null,
         companyWebSite: "http://www.inmotionsoftware.com",
         notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for consumers and many of America's top brands."]
-},
-{
-        displayFlag : true,
+    }, {
+        displayFlag: true,
         jobId: 'jb-2016-04-06-1747',
         jobTitle: 'Full-time Lead QA Analyst',
         degree: null,
@@ -215,35 +341,34 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : [
-            {
-                header: "Job responsibilities",/* this header will show up as a label in interface */
-                list: [
-                  "Manage a small team of QA analysts, and mentor new analysts as they join the team.",
-                  "Communicate on a regular basis with clients as needed.",
-                  "Perform hands-on testing of all products and document any defects.",
-                  "Others..."
-                ]
-            },
-            {
-                header: "Requirements",/* this header will show up as a label in interface */
-                list: [
-                  "Previous Lead experience in a QA testing environment.",
-                  "Strong hands-on testing skills (general testing and regression testing).",
-                  "Ability to manage Jira and Trello tracking systems.",
-                  "Others..."
-                ]
-            },
-            {
-                header: "Desirable",/* this header will show up as a label in interface */
-                list: [
-                  "Experience with JIRA.",
-                  "Knowledge of Java and server-side testing.",
-                  "Previous testing experience within game development.                ",
-                  "Others..."
-                ]
-            }
-        ],
+        customLists: [{
+            header: "Job responsibilities",
+            /* this header will show up as a label in interface */
+            list: [
+                "Manage a small team of QA analysts, and mentor new analysts as they join the team.",
+                "Communicate on a regular basis with clients as needed.",
+                "Perform hands-on testing of all products and document any defects.",
+                "Others..."
+            ]
+        }, {
+            header: "Requirements",
+            /* this header will show up as a label in interface */
+            list: [
+                "Previous Lead experience in a QA testing environment.",
+                "Strong hands-on testing skills (general testing and regression testing).",
+                "Ability to manage Jira and Trello tracking systems.",
+                "Others..."
+            ]
+        }, {
+            header: "Desirable",
+            /* this header will show up as a label in interface */
+            list: [
+                "Experience with JIRA.",
+                "Knowledge of Java and server-side testing.",
+                "Previous testing experience within game development.                ",
+                "Others..."
+            ]
+        }],
         skills: null,
         tools: null,
         responsibilities: null,
@@ -267,9 +392,8 @@ module.exports =
         closingDate: null,
         companyWebSite: "http://www.inmotionsoftware.com",
         notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for consumers and many of America's top brands."]
-},
-{
-        displayFlag : true,
+    }, {
+        displayFlag: true,
         jobId: 'jb-2016-04-06-1748',
         jobTitle: 'Junior Java Developer (Spring, Play, REST, GIT, SQL / NoSQL)',
         degree: null,
@@ -278,44 +402,43 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : [
-            {
-                header: "Responsibilities",/* this header will show up as a label in interface */
-                list: [
-                  "Write high-quality code that meets design specifications.",
-                  "Write tests for and demo your code to verify it meets business and technical requirements.",
-                  "Work with the product department to understand requirements and refine solutions.",
-                  "Others..."
-                ]
-            },
-            {
-                header: "Requirements / Qualifications",/* this header will show up as a label in interface */
-                list: [
-                  "1 - 3 years professional Java software development experience.",
-                  "1 - 3 years provable experience working with REST services / APIs.",
-                  "1 - 3 years working in Agile environment.                ",
-                  "Others..."
-                ]
-            },
-            {
-                header: "Bonus Points",/* this header will show up as a label in interface */
-                list: [
-                  "Understanding of Relational and NoSQL database technologies.",
-                  "Knowledge of essential design-patterns, especially those used in Java frequently.",
-                  "Atlassian tool suite including BitBucket, JUnit, SOAP Web Services, MVC, XSD, WSDL, Hibernate.",
-                  "Others..."
-                ]
-            },
-            {
-                header: "Additional information",/* this header will show up as a label in interface */
-                list: [
-                  "Benefits (Health, Dental, Vision, Life, 401k)",
-                  "Casual dress code",
-                  "Vacation                ",
-                  "Others..."
-                ]
-            }
-        ],
+        customLists: [{
+            header: "Responsibilities",
+            /* this header will show up as a label in interface */
+            list: [
+                "Write high-quality code that meets design specifications.",
+                "Write tests for and demo your code to verify it meets business and technical requirements.",
+                "Work with the product department to understand requirements and refine solutions.",
+                "Others..."
+            ]
+        }, {
+            header: "Requirements / Qualifications",
+            /* this header will show up as a label in interface */
+            list: [
+                "1 - 3 years professional Java software development experience.",
+                "1 - 3 years provable experience working with REST services / APIs.",
+                "1 - 3 years working in Agile environment.                ",
+                "Others..."
+            ]
+        }, {
+            header: "Bonus Points",
+            /* this header will show up as a label in interface */
+            list: [
+                "Understanding of Relational and NoSQL database technologies.",
+                "Knowledge of essential design-patterns, especially those used in Java frequently.",
+                "Atlassian tool suite including BitBucket, JUnit, SOAP Web Services, MVC, XSD, WSDL, Hibernate.",
+                "Others..."
+            ]
+        }, {
+            header: "Additional information",
+            /* this header will show up as a label in interface */
+            list: [
+                "Benefits (Health, Dental, Vision, Life, 401k)",
+                "Casual dress code",
+                "Vacation                ",
+                "Others..."
+            ]
+        }],
         skills: null,
         tools: null,
         responsibilities: null,
@@ -339,130 +462,122 @@ module.exports =
         closingDate: null,
         companyWebSite: "http://www.inmotionsoftware.com",
         notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for Consumers and some of America’s most respected Brands."]
-},
-    {
+    }, {
 
-          displayFlag: true,
-          jobId: 'jb-2016-03-30-1545',
-          jobTitle: 'Sr. Front-End Web Developer',
-          degree: 'bs/ba or equivalent experience/training',
-          level: 'senior',
-          hireType: 'contract',
+        displayFlag: true,
+        jobId: 'jb-2016-03-30-1545',
+        jobTitle: 'Sr. Front-End Web Developer',
+        degree: 'bs/ba or equivalent experience/training',
+        level: 'senior',
+        hireType: 'contract',
 
-          /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-          customLists : [
-              {
-              header: 'Primary Job Functions',
-              list: [
-                  'Front end development (UI/UX)',
-                  'UI/UX wireframes and interactive mock-ups',
-                  'Collaboration with DevOps',
-                  'Stay abreast of new technologies', 'Others...'
-              ]}, 
-              {
-                header: 'Software Design and Development',
-                list: [
-                    'Implement approved designs into functional components and screens adhering to individual business requirements ',
-                    'Cross browser development', 
-                    'Code Reviews', 'Sprint planning and execution', 'Others...'
-                ]
-              },
-              {
-                header: 'Key Competencies', 
-                list:[
-                    'Logical problem solving skills',
-                    'Hands on development experience with the following technologies/environments: Extensive experience with web-based development using HTML, CSS, and JavaScript', 
-                    'Others...'
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: 'Primary Job Functions',
+            list: [
+                'Front end development (UI/UX)',
+                'UI/UX wireframes and interactive mock-ups',
+                'Collaboration with DevOps',
+                'Stay abreast of new technologies', 'Others...'
+            ]
+        }, {
+            header: 'Software Design and Development',
+            list: [
+                'Implement approved designs into functional components and screens adhering to individual business requirements ',
+                'Cross browser development',
+                'Code Reviews', 'Sprint planning and execution', 'Others...'
+            ]
+        }, {
+            header: 'Key Competencies',
+            list: [
+                'Logical problem solving skills',
+                'Hands on development experience with the following technologies/environments: Extensive experience with web-based development using HTML, CSS, and JavaScript',
+                'Others...'
 
-                ]
-              },
-              {
-                header: 'Technical Skills, Technologies, & Tools',
-                list:[
-                    'Angular', 'XML/JSON', 'REST', 'SVN/Git', 'Oracle, SQL Server', 'Windows & Linux',
-                    'OOP/D', 'Others...'
-                ]
-              }
-          ],
+            ]
+        }, {
+            header: 'Technical Skills, Technologies, & Tools',
+            list: [
+                'Angular', 'XML/JSON', 'REST', 'SVN/Git', 'Oracle, SQL Server', 'Windows & Linux',
+                'OOP/D', 'Others...'
+            ]
+        }],
 
-          skills: null,//left for backwards compat
-          tools: null,//left for backwards compat
-          responsibilities: null,//left for backwards compat
-          briefDescr: 'Expert level, Angular developer needed.',
-          teamStructureExpertise: null,
-          projectWorkflow: [
+        skills: null, //left for backwards compat
+        tools: null, //left for backwards compat
+        responsibilities: null, //left for backwards compat
+        briefDescr: 'Expert level, Angular developer needed.',
+        teamStructureExpertise: null,
+        projectWorkflow: [
             'Agile Workflow'
-          ],
-          recruiters: null,
-          hiringCompany: null,
-          compensationRange: 'market',
-          locationOppWork: null,
-          locationCompanyOffice: 'Tampa, FL, USA',
-          benefitsGeneral: null,
+        ],
+        recruiters: null,
+        hiringCompany: null,
+        compensationRange: 'market',
+        locationOppWork: null,
+        locationCompanyOffice: 'Tampa, FL, USA',
+        benefitsGeneral: null,
 
-          employmentEligibility: null,
+        employmentEligibility: null,
 
-          vettingProcess: null,
-          hireTimeframeValue: null,
-          postingDate: new Date('3/30/2016 15:45'),
-          hireDate: '',
-          /* if null or min AND there is a closingDate, indicates opp was never filled */
-          closingDate: null,
-          companyWebSite: null   ,
-          notes: ['The position is a six month contract to hire (permanent) in Tampa, FL. The client is looking for somebody with serious Angular skills not just somebody that tinkers with Angular.']
-      },
-      {
-          /* monicotodo: update this with nathan's new description, etc */
-          displayFlag: true,
-          jobId: 'jb-2015-09-09-1300',
-          jobTitle: 'True MEAN Stack Developer',
-          degree: null,
-          level: 'senior',
-          hireType: 'perm',
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('3/30/2016 15:45'),
+        hireDate: '',
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: null,
+        notes: ['The position is a six month contract to hire (permanent) in Tampa, FL. The client is looking for somebody with serious Angular skills not just somebody that tinkers with Angular.']
+    }, {
+        /* monicotodo: update this with nathan's new description, etc */
+        displayFlag: true,
+        jobId: 'jb-2015-09-09-1300',
+        jobTitle: 'True MEAN Stack Developer',
+        degree: null,
+        level: 'senior',
+        hireType: 'perm',
 
-          /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-          customLists : [
-              {
-              header: 'Requirements, Good Understanding Of',
-              list: [
-                  'Web Development.',
-                  'MongoDB',
-                  'ExpressJs',
-                  'AngularJs',
-                  'NodeJs',
-                  'HTML',
-                  'CSS',
-                  'Javascript'
-              ]}
-          ],
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: 'Requirements, Good Understanding Of',
+            list: [
+                'Web Development.',
+                'MongoDB',
+                'ExpressJs',
+                'AngularJs',
+                'NodeJs',
+                'HTML',
+                'CSS',
+                'Javascript'
+            ]
+        }],
 
-          skills: null,//left for backwards compat
-          tools: null,//left for backwards compat
-          responsibilities: null,//left for backwards compat
-          briefDescr: 'This company is looking for a true MEAN Stack dev--that is, someone who wants to work on all four layers of the MEAN Stack!  Furthermore, they need someone who has a good understanding of the below requirements and is driven to elevate those skills up a couple of notches.',
-          teamStructureExpertise: '1 Very Technical CIO, 2 Jr Devs, 1 Biz Analyst/PM',
-          projectWorkflow: [
+        skills: null, //left for backwards compat
+        tools: null, //left for backwards compat
+        responsibilities: null, //left for backwards compat
+        briefDescr: 'This company is looking for a true MEAN Stack dev--that is, someone who wants to work on all four layers of the MEAN Stack!  Furthermore, they need someone who has a good understanding of the below requirements and is driven to elevate those skills up a couple of notches.',
+        teamStructureExpertise: '1 Very Technical CIO, 2 Jr Devs, 1 Biz Analyst/PM',
+        projectWorkflow: [
             'Agile Workflow'
-          ],
-          recruiters: null,
-          hiringCompany: null,
-          compensationRange: 'market',
-          locationOppWork: 'on-site',
-          locationCompanyOffice: 'NW Austin, TX, USA',
-          benefitsGeneral: 'pto, medical/dental/vision, etc.',
+        ],
+        recruiters: null,
+        hiringCompany: null,
+        compensationRange: 'market',
+        locationOppWork: 'on-site',
+        locationCompanyOffice: 'NW Austin, TX, USA',
+        benefitsGeneral: 'pto, medical/dental/vision, etc.',
 
-          employmentEligibility: null,
+        employmentEligibility: null,
 
-          vettingProcess: 'phone screen followed by in-person interview',
-          hireTimeframeValue: null,
-          postingDate: new Date('9/15/2015 13:00'),
-          hireDate: '',
-          /* if null or min AND there is a closingDate, indicates opp was never filled */
-          closingDate: null,
-          companyWebSite: null   ,
-          notes: ['The CIO of this company is very technical and is a MEAN Stack guru!  This is an excting opportunity!']
-      },
-      {
+        vettingProcess: 'phone screen followed by in-person interview',
+        hireTimeframeValue: null,
+        postingDate: new Date('9/15/2015 13:00'),
+        hireDate: '',
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: null,
+        notes: ['The CIO of this company is very technical and is a MEAN Stack guru!  This is an excting opportunity!']
+    }, {
         /* monicotodo: update this with nathan's new description, etc */
         displayFlag: true,
         jobId: 'jb-2015-06-15-1300',
@@ -472,16 +587,15 @@ module.exports =
         hireType: 'Temp or Perm',
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : [
-            {
+        customLists: [{
             header: 'Primary Responsibilities',
             list: [
                 'Assist in development of feature definition and product scoping',
                 'Development of high level and low level design documentation for solutions',
                 'Providing technical leadership to product engineering teams including contributing to product development',
                 'Cross-organization engagement to develop integrated, differentiated solutions',
-                ]},
-            {
+            ]
+        }, {
             header: 'Expert Knowledge Of',
             list: [
                 'Low level programming in C# (and C++)',
@@ -490,8 +604,8 @@ module.exports =
                 'PC Imaging technologies',
                 'Industry leading console solutions such as Microsoft System Center Configuration Manager',
                 'SW Design Principles',
-            ]},
-            {
+            ]
+        }, {
             header: 'Proficiency In',
             list: [
                 'Using standard software development tools such as IDE and Command Line Development Environments, Issue Tracking, Source Control, and Automated Build Scripts',
@@ -500,8 +614,8 @@ module.exports =
                 'UEFI / BIOS',
                 'Agile SW Development Methodology',
                 'Leading a SW development team',
-                ]}
-        ],
+            ]
+        }],
 
         skills: null,
         tools: null,
@@ -541,7 +655,7 @@ module.exports =
         hireType: 'Permanent',
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: [
             'Collaborate with Creative, UX, Director of Engineering and Technical Architects for the development and overall execution of the platforms',
@@ -627,7 +741,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: [
             "Technology assessments, prototyping, architectural design and implementation using a variety of internet and mobile-centric technologies.",
@@ -677,7 +791,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: [
             'AngularJs (main focus)', 'MongoDB', 'ExpressJs', 'NodeJs', 'Javascript'
@@ -715,7 +829,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: [
             '7+ years\' experience building scalable and performant applications.',
@@ -765,7 +879,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: [
             'Javascript',
@@ -795,7 +909,8 @@ module.exports =
         closingDate: null,
         companyWebSite: null,
         notes: ['I recently followed up and spoke with the hiring folks about this opportunity!  They are really excited about filling this role!  The position is opened for a full stack developer or a backend developer, and the company will, indeed, cover relocation costs.',
-            'The culture in this team is very professional and polished.  This is precisely part of reason that they are seeking a permanent developer.  They care about their culture, thus, their people are just as important!  Incidentally, did I mention that this role is in San Francisco, CA?  What\'s more, the location is next to the AT&T Stadium!  Woot!']
+            'The culture in this team is very professional and polished.  This is precisely part of reason that they are seeking a permanent developer.  They care about their culture, thus, their people are just as important!  Incidentally, did I mention that this role is in San Francisco, CA?  What\'s more, the location is next to the AT&T Stadium!  Woot!'
+        ]
     }, {
         displayFlag: true,
         jobId: 'jb-2015-06-05-2225',
@@ -806,7 +921,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: [
             'Design and develop the user facing features of client’s Big Data ecosystem using MEAN Stack (MongoDB/MarkLogic, Express, Angular/HTML5, Node.js)',
@@ -850,7 +965,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: ['3+ years full-stack software development experience – STRONG Python, node.js',
             'Specific expertise designing, developing, and debugging human-cognitive interfaces – GUI, UX, etc.',
@@ -894,7 +1009,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: ['Experience writing technical documents related to network, telecom, IT, or software systems for both technical and less-technical audiences',
             'Ability to document complex tasks as a sequence of logical and procedural steps using prose, illustrations, flow charts, etc.',
@@ -935,7 +1050,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
@@ -970,7 +1085,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
@@ -1005,7 +1120,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
         tools: [],
@@ -1042,7 +1157,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'MS Word', 'System Center Configuration Manager (SCCM) 2012'],
@@ -1083,7 +1198,7 @@ module.exports =
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : null,
+        customLists: null,
 
         skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
