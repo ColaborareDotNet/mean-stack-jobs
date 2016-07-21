@@ -1,10 +1,140 @@
-module.exports = [{
+module.exports = [
+    {
+        /*********************************************************/
+        displayFlag: true,
+        jobId: 'jb-2016-07-20-1826',
+        jobTitle: 'Senior Front End Software Developer - Cordova, Angular.js, JavaScript',
+        originId: "02373627",
+        originUrl: "http://jobs.technologynavigators.com/jobseeker/Senior_Front_End_Software_Developer__Cordova_Angularjs_JavaScript_J02373627.aspx",
+        degree: null,
+        level: null,
+        hireType: "Direct Hire",
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "What you get to do:",
+            /* this header will show up as a label in interface */
+            list: [
+                "Use your development expertise to create cutting edge hybrid web and mobile applications",
+                "Generate fresh JavaScript code for mobile, web and desktop applications",
+                "Collaborate frequently with the Quality Assurance team to ensure compatibility"
+            ]
+        }, {
+            header: "What you need to succeed:",
+            /* this header will show up as a label in interface */
+            list: [
+                "Several years of front end development experience using a wide variety of frameworks",
+                "Strong track record of designing web and mobile applications using HTML5, CSS, JavaScript and AJAX",
+                "Proven understanding of automated testing, source control tools, RDBMS, SOA and RESTful architecture"
+            ]
+        },
+    {
+        header:"What’s in it for you:",
+        list: [
+            "Our client provides an energetic work environment that thrives by hiring the best and brightest. Their staff profit from great medical, dental, and vision care, 401k contribution, IRS flex spending accounts, gym membership discount, free soft drinks, and flexible work schedules. If you are looking for an open and collaborative work environment, with the best and brightest staff, then this opportunity is for you."
+        ]
+    }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: [
+            "A pioneer in the industry since its inception in 1999, our client’s prepaid debit cards give financial freedom and convenience to the more than 100 million under banked consumers in the United States. Our client is the only company in the prepaid debit industry to offer an end-to-end solution for consumers and merchants.",
+            "As the company continues to experience explosive growth, they are looking to hire an experienced  Senior Software Developer who will design and develop patented software in a high transaction environment."
+        ],
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: "$118,000/year",
+        locationOppWork: "Austin, TX",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('7/20/2016 18:26'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://technologynavigators.com/",
+        notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
+    },    {
+        /*********************************************************/
+        displayFlag: true,
+        jobId: 'jb-2016-07-20-1827',
+        jobTitle: 'Senior Software Developer - Cordova, Angular.js, JavaScript',
+        originId:  "02377442",
+        originUrl: "http://jobs.technologynavigators.com/jobseeker/Senior_Software_Developer__Cordova_Angularjs_JavaScript_J02377442.aspx",
+        degree: null,
+        level: null,
+        hireType: "Contract",
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "What you get to do:",
+            /* this header will show up as a label in interface */
+            list: [
+                "Use your development expertise to create cutting edge hybrid web and mobile applications",
+                "Generate fresh JavaScript code for mobile, web and desktop applications",
+                "Collaborate frequently with the Quality Assurance team to ensure compatibility"
+            ]
+        }, {
+            header: "What you need to succeed:",
+            /* this header will show up as a label in interface */
+            list: [
+                "Several years of front end development experience using a wide variety of frameworks",
+                "Strong track record of designing web and mobile applications using HTML5, CSS, JavaScript and AJAX",
+                "Proven understanding of automated testing, source control tools, RDBMS, SOA and RESTful architecture"
+            ]
+        },
+    {
+        header:"What’s in it for you:",
+        list: [
+            "This is a contract opportunity with a stable, local organization. If you work well in a fast-paced environment while managing multiple tasks simultaneously, we want to hear from you! As a contractor for Technology Navigators, you will have access to our amazing client list, the support of a great team, and the opportunity to enroll in health benefits, including medical, dental, and vision. In addition to taking on a challenging role, you will be a member of one of the best and brightest teams in Austin."
+        ]
+    }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        briefDescr: [
+            "A pioneer in the industry since its inception in 1999, our client’s prepaid debit cards give financial freedom and convenience to the more than 100 million under banked consumers in the United States. Our client is the only company in the prepaid debit industry to offer an end-to-end solution for consumers and merchants.",
+            "As the company continues to experience explosive growth, they are looking to hire an experienced  Senior Software Developer who will design and develop patented software in a high transaction environment."
+            ],
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: "$70/hour",
+        locationOppWork: "Austin, TX",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('7/20/2016 18:27'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://technologynavigators.com/",
+        notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
+
+    },    
+    {
+    /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-07-20-1828',
         jobTitle: 'Front End Software Developer - UI, JavaScript, AngularJS',
+        originId: "02378792",
+        originUrl: "http://jobs.technologynavigators.com/jobseeker/Front_End_Software_Developer__UI_JavaScript_AngularJS_J02378792.aspx",
         degree: null,
         level: null,
-        hireType: null,
+        hireType: "Direct Hire",
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
@@ -43,8 +173,8 @@ module.exports = [{
         projectWorkflow: null,
         recruiter: null,
         hiringCompany: null,
-        compensationRange: null,
-        locationOppWork: null,
+        compensationRange: "$120,000",
+        locationOppWork: "Austin, TX",
         locationCompanyOffice: null,
         benefitsGeneral: null,
 
@@ -58,126 +188,8 @@ module.exports = [{
         closingDate: null,
         companyWebSite: "http://technologynavigators.com/",
         notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
-    }, {
-        displayFlag: true,
-        jobId: 'jb-2016-07-20-1827',
-        jobTitle: 'Senior Software Developer - Cordova, Angular.js, JavaScript',
-        degree: null,
-        level: null,
-        hireType: null,
-
-
-        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists: [{
-            header: "What you get to do:",
-            /* this header will show up as a label in interface */
-            list: [
-                "Use your development expertise to create cutting edge hybrid web and mobile applications",
-                "Generate fresh JavaScript code for mobile, web and desktop applications",
-                "Collaborate frequently with the Quality Assurance team to ensure compatibility"
-            ]
-        }, {
-            header: "What you need to succeed:",
-            /* this header will show up as a label in interface */
-            list: [
-                "Several years of front end development experience using a wide variety of frameworks",
-                "Strong track record of designing web and mobile applications using HTML5, CSS, JavaScript and AJAX",
-                "Proven understanding of automated testing, source control tools, RDBMS, SOA and RESTful architecture"
-            ]
-        },
-    {
-        header:"What’s in it for you:",
-        list: [
-            "This is a contract opportunity with a stable, local organization. If you work well in a fast-paced environment while managing multiple tasks simultaneously, we want to hear from you! As a contractor for Technology Navigators, you will have access to our amazing client list, the support of a great team, and the opportunity to enroll in health benefits, including medical, dental, and vision. In addition to taking on a challenging role, you will be a member of one of the best and brightest teams in Austin."
-        ]
-    }],
-        skills: null,
-        tools: null,
-        responsibilities: null,
-        briefDescr: [
-            "A pioneer in the industry since its inception in 1999, our client’s prepaid debit cards give financial freedom and convenience to the more than 100 million under banked consumers in the United States. Our client is the only company in the prepaid debit industry to offer an end-to-end solution for consumers and merchants.",
-            "As the company continues to experience explosive growth, they are looking to hire an experienced  Senior Software Developer who will design and develop patented software in a high transaction environment."
-            ],
-        teamStructureExpertise: null,
-        projectWorkflow: null,
-        recruiter: null,
-        hiringCompany: null,
-        compensationRange: null,
-        locationOppWork: null,
-        locationCompanyOffice: null,
-        benefitsGeneral: null,
-
-        employmentEligibility: null,
-
-        vettingProcess: null,
-        hireTimeframeValue: null,
-        postingDate: new Date('7/20/2016 18:27'),
-        hireDate: null,
-        /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: null,
-        companyWebSite: "http://technologynavigators.com/",
-        notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
-
-    }, {
-        displayFlag: true,
-        jobId: 'jb-2016-07-20-1826',
-        jobTitle: 'Senior Front End Software Developer - Cordova, Angular.js, JavaScript',
-        degree: null,
-        level: null,
-        hireType: null,
-
-
-        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists: [{
-            header: "What you get to do:",
-            /* this header will show up as a label in interface */
-            list: [
-                "Use your development expertise to create cutting edge hybrid web and mobile applications",
-                "Generate fresh JavaScript code for mobile, web and desktop applications",
-                "Collaborate frequently with the Quality Assurance team to ensure compatibility"
-            ]
-        }, {
-            header: "What you need to succeed:",
-            /* this header will show up as a label in interface */
-            list: [
-                "Several years of front end development experience using a wide variety of frameworks",
-                "Strong track record of designing web and mobile applications using HTML5, CSS, JavaScript and AJAX",
-                "Proven understanding of automated testing, source control tools, RDBMS, SOA and RESTful architecture"
-            ]
-        },
-    {
-        header:"What’s in it for you:",
-        list: [
-            "Our client provides an energetic work environment that thrives by hiring the best and brightest. Their staff profit from great medical, dental, and vision care, 401k contribution, IRS flex spending accounts, gym membership discount, free soft drinks, and flexible work schedules. If you are looking for an open and collaborative work environment, with the best and brightest staff, then this opportunity is for you."
-        ]
-    }],
-        skills: null,
-        tools: null,
-        responsibilities: null,
-        briefDescr: [
-            "A pioneer in the industry since its inception in 1999, our client’s prepaid debit cards give financial freedom and convenience to the more than 100 million under banked consumers in the United States. Our client is the only company in the prepaid debit industry to offer an end-to-end solution for consumers and merchants.",
-            "As the company continues to experience explosive growth, they are looking to hire an experienced  Senior Software Developer who will design and develop patented software in a high transaction environment."
-        ],
-        teamStructureExpertise: null,
-        projectWorkflow: null,
-        recruiter: null,
-        hiringCompany: null,
-        compensationRange: null,
-        locationOppWork: null,
-        locationCompanyOffice: null,
-        benefitsGeneral: null,
-
-        employmentEligibility: null,
-
-        vettingProcess: null,
-        hireTimeframeValue: null,
-        postingDate: new Date('7/20/2016 18:26'),
-        hireDate: null,
-        /* if null or min AND there is a closingDate, indicates opp was never filled */
-        closingDate: null,
-        companyWebSite: "http://technologynavigators.com/",
-        notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
-    }, {
+    },   {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-04-13-1130',
         jobTitle: 'MEAN Stack Software Engineers--3 Spots!',
@@ -246,6 +258,7 @@ module.exports = [{
             'For consideration please apply within or contact Jamie at 561-910-8000'
         ] /* an array of strings */
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-04-06-1745',
         jobTitle: 'Senior Web Developer (AngularJS, HTML, CSS, JavaScript)',
@@ -313,6 +326,7 @@ module.exports = [{
         companyWebSite: "http://www.inmotionsoftware.com",
         notes: ['InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for Consumers and some of America’s most respected Brands.']
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-04-06-1746',
         jobTitle: 'Senior Software Developer (i.e.; iOS, Android, WPF) ',
@@ -372,6 +386,7 @@ module.exports = [{
         companyWebSite: "http://www.inmotionsoftware.com",
         notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for consumers and many of America's top brands."]
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-04-06-1747',
         jobTitle: 'Full-time Lead QA Analyst',
@@ -433,6 +448,7 @@ module.exports = [{
         companyWebSite: "http://www.inmotionsoftware.com",
         notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for consumers and many of America's top brands."]
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-04-06-1748',
         jobTitle: 'Junior Java Developer (Spring, Play, REST, GIT, SQL / NoSQL)',
@@ -504,6 +520,7 @@ module.exports = [{
         notes: ["InMotion Software is a creative technology studio that creates and deploys custom web and mobile-based applications for Consumers and some of America’s most respected Brands."]
     }, {
 
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-03-30-1545',
         jobTitle: 'Sr. Front-End Web Developer',
@@ -569,6 +586,7 @@ module.exports = [{
         companyWebSite: null,
         notes: ['The position is a six month contract to hire (permanent) in Tampa, FL. The client is looking for somebody with serious Angular skills not just somebody that tinkers with Angular.']
     }, {
+        /*********************************************************/
         /* monicotodo: update this with nathan's new description, etc */
         displayFlag: true,
         jobId: 'jb-2015-09-09-1300',
@@ -618,6 +636,7 @@ module.exports = [{
         companyWebSite: null,
         notes: ['The CIO of this company is very technical and is a MEAN Stack guru!  This is an excting opportunity!']
     }, {
+        /*********************************************************/
         /* monicotodo: update this with nathan's new description, etc */
         displayFlag: true,
         jobId: 'jb-2015-06-15-1300',
@@ -687,6 +706,7 @@ module.exports = [{
     },
 
     {
+        /*********************************************************/
         displayFlag: false,
         jobId: 'jb-2015-06-15-1205',
         jobTitle: 'Lead Server Engineer',
@@ -772,6 +792,7 @@ module.exports = [{
             'The Lead Server Engineer will be responsible for leading the development and maintenance of the cloud server internal and external server platforms, which are powering some amazing brands. The ideal candidate will have a strong Python development background, have multiple years\' experience using Django and have extensive knowledge of cloud deployments on AWS and Rackspace. They should understand that a configuration management tool is key to automated deployments alongside a great continuous integration solution.'
         ]
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-06-15-1200',
         jobTitle: 'Web Developer',
@@ -822,6 +843,7 @@ module.exports = [{
         companyWebSite: null,
         notes: ['This position is opened for a UI/Frontend Developer with Angular and Node expertise.']
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-06-11-1537',
         jobTitle: 'AngularJs (MEAN) Developer',
@@ -860,6 +882,7 @@ module.exports = [{
         companyWebSite: null,
         notes: ['Interviews as soon as tomorrow (6/12/2015)!  This role can work remotely, but might require an initial face-to-face in Austin, TX.']
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-06-10-1724',
         jobTitle: 'Senior API Developer',
@@ -910,6 +933,7 @@ module.exports = [{
         companyWebSite: null,
         notes: ['The hiring company provides enterprise and mobile ecommerce solutions for world class brands such as Walmart, Costco, Walgreens and Sam\’s Club. The platform connects digital content, whether from mobile, online, desktop or in-store kiosks with retailers that provide on-demand production of personalized products for their customers. ']
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-06-10-1654',
         jobTitle: 'MEAN Stack Web Developer',
@@ -952,6 +976,7 @@ module.exports = [{
             'The culture in this team is very professional and polished.  This is precisely part of reason that they are seeking a permanent developer.  They care about their culture, thus, their people are just as important!  Incidentally, did I mention that this role is in San Francisco, CA?  What\'s more, the location is next to the AT&T Stadium!  Woot!'
         ]
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-06-05-2225',
         jobTitle: 'MEAN Stack UX Design/Developer',
@@ -996,6 +1021,7 @@ module.exports = [{
         companyWebSite: null,
         notes: null
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-06-02-0611',
         jobTitle: 'Full-Stack Web Software Engineer, UIX',
@@ -1040,6 +1066,7 @@ module.exports = [{
     },
 
     {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-06-02-0600',
         jobTitle: 'Technical Writer',
@@ -1081,6 +1108,7 @@ module.exports = [{
     },
 
     {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-05-24-1727',
         jobTitle: 'Senior Backend Software Engineer / Software Architect',
@@ -1116,6 +1144,7 @@ module.exports = [{
         companyWebSite: 'http://technologyadvice.com/careers',
         notes: ['I am connected to the HR Manager and would love to help you get into the vetting process.  About TechnologyAdvice:  It is based in Nashville, TN, but remote options are open and welcome.  Current team CTO is based in Philadelphia, 1 Senior dev in Idaho, 1 Mid level dev in Idaho, rest of team in Nashville.  TechnologyAdvice is dedicated to educating, advising, and connecting buyers and sellers of business technology. As a trusted resource in a variety of technology verticals, the company helps buyers improve their businesses and vendors find their customers. Through unbiased research and crowd-sourced product reviews, TechnologyAdvice provides the insight that buyers need to find the right technology.  Additionally, the company\'s unique demand generation programs help vendors improve product awareness by placing matched solutions in front of qualified technology buyers. TechnologyAdvice is based in Nashville, Tenn., and was named to the Inc. 5000 list of America\'s Fastest-Growing Private Companies in 2014.']
     }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2015-05-24-1809',
         jobTitle: 'Backend Software Engineer (Node)',
@@ -1151,6 +1180,7 @@ module.exports = [{
         companyWebSite: 'http://technologyadvice.com/careers',
         notes: ['I am connected to the HR Manager and would love to help you get into the vetting process.  About TechnologyAdvice:  It is based in Nashville, TN, but remote options are open and welcome.  Current team CTO is based in Philadelphia, 1 Senior dev in Idaho, 1 Mid level dev in Idaho, rest of team in Nashville.  TechnologyAdvice is dedicated to educating, advising, and connecting buyers and sellers of business technology. As a trusted resource in a variety of technology verticals, the company helps buyers improve their businesses and vendors find their customers. Through unbiased research and crowd-sourced product reviews, TechnologyAdvice provides the insight that buyers need to find the right technology.  Additionally, the company\'s unique demand generation programs help vendors improve product awareness by placing matched solutions in front of qualified technology buyers. TechnologyAdvice is based in Nashville, Tenn., and was named to the Inc. 5000 list of America\'s Fastest-Growing Private Companies in 2014.']
     }, {
+        /*********************************************************/
         displayFlag: false,
         jobId: 'jb-2015-03-23-2215',
         jobTitle: 'UI/Front-End App Developer',
@@ -1188,6 +1218,7 @@ module.exports = [{
     },
 
     {
+        /*********************************************************/
         displayFlag: false,
         jobId: 'jb-2015-03-20-1211',
         jobTitle: 'C#.NET Developer/Tech Writer',
@@ -1229,6 +1260,7 @@ module.exports = [{
     },
 
     {
+        /*********************************************************/
         displayFlag: false,
         jobId: 'jb-2015-03-20-1232',
         jobTitle: 'C#.NET Developer',
