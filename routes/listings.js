@@ -9,22 +9,36 @@ module.exports = [{
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists: [{
-            header: "Primary Responsibilities",
+            header: "What you get to do:",
             /* this header will show up as a label in interface */
             list: [
-                ""
-            ]
+                "Take ownership of the UI life cycle (designing, building, and delivering user interfaces)",
+                "Create state-of-the-art consumer-facing web applications",
+                "Collaborate with other internal teams to yield style guides and interfaces",
+                "Create functional front-end interfaces from original designs and mockups",
+                "Troubleshoot technical codes and web browser compatibility conflicts",
+                "Mentor the technical team on best practices"            ]
         }, {
-            header: "Required Skills and Experience",
+            header: "What you need to succeed:",
             /* this header will show up as a label in interface */
             list: [
-                ""
+                "Several years of experience creating dynamic interfaces as a Web / UI developer",
+                "Strong knowledge of AngularJS, HTML5, CSS3, JSON / XML, JQuery, and REST",
+                "Previous experience with Responsive Web Design and implementing API-based interfaces",
+                "Experience with UI development and browser compatibility tools",
+                "Experience with Python, Java, and scalable web applications are all bonuses but not required!"
             ]
-        }, ],
+        },
+    {
+        header:"What’s in it for you:",
+        list: [
+            "Join this innovative team of experts and prepare for awesome perks and incentives! Not only does this client provide health and life insurance, they also offer flexible spending accounts, employee assistance programs, and employee referral program! In addition, you’ll be eligible for their generous PTO plan, paid holidays, and a 401k plan."
+        ]
+    }],
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: ['With thousands of high-profile customers worldwide, our client continues to cultivate an innovative approach to preventing software security breaches. This company, located in scenic Austin, Texas, has over 8,000 employees in more than 100 countries around the world, and are continuously expanding their reaches.  They need you, an experienced  Front End Software Developer, to join their team of elite engineers and take control of the full UI life cycle for their highly specialized services and products.  ', "boo"],
+        briefDescr: ['With thousands of high-profile customers worldwide, our client continues to cultivate an innovative approach to preventing software security breaches. This company, located in scenic Austin, Texas, has over 8,000 employees in more than 100 countries around the world, and are continuously expanding their reaches.', 'They need you, an experienced  Front End Software Developer, to join their team of elite engineers and take control of the full UI life cycle for their highly specialized services and products.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -42,12 +56,12 @@ module.exports = [{
         hireDate: null,
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
-        companyWebSite: 'http://www.cersnow.com',
-        notes: [''] /* an array of strings */
+        companyWebSite: "http://technologynavigators.com/",
+        notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
     }, {
         displayFlag: true,
         jobId: 'jb-2016-07-20-1827',
-        jobTitle: '',
+        jobTitle: 'Senior Software Developer - Cordova, Angular.js, JavaScript',
         degree: null,
         level: null,
         hireType: null,
@@ -55,22 +69,35 @@ module.exports = [{
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists: [{
-            header: "Primary Responsibilities",
+            header: "What you get to do:",
             /* this header will show up as a label in interface */
             list: [
-                ""
+                "Use your development expertise to create cutting edge hybrid web and mobile applications",
+                "Generate fresh JavaScript code for mobile, web and desktop applications",
+                "Collaborate frequently with the Quality Assurance team to ensure compatibility"
             ]
         }, {
-            header: "Required Skills and Experience",
+            header: "What you need to succeed:",
             /* this header will show up as a label in interface */
             list: [
-                ""
+                "Several years of front end development experience using a wide variety of frameworks",
+                "Strong track record of designing web and mobile applications using HTML5, CSS, JavaScript and AJAX",
+                "Proven understanding of automated testing, source control tools, RDBMS, SOA and RESTful architecture"
             ]
-        }, ],
+        },
+    {
+        header:"What’s in it for you:",
+        list: [
+            "This is a contract opportunity with a stable, local organization. If you work well in a fast-paced environment while managing multiple tasks simultaneously, we want to hear from you! As a contractor for Technology Navigators, you will have access to our amazing client list, the support of a great team, and the opportunity to enroll in health benefits, including medical, dental, and vision. In addition to taking on a challenging role, you will be a member of one of the best and brightest teams in Austin."
+        ]
+    }],
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: '',
+        briefDescr: [
+            "A pioneer in the industry since its inception in 1999, our client’s prepaid debit cards give financial freedom and convenience to the more than 100 million under banked consumers in the United States. Our client is the only company in the prepaid debit industry to offer an end-to-end solution for consumers and merchants.",
+            "As the company continues to experience explosive growth, they are looking to hire an experienced  Senior Software Developer who will design and develop patented software in a high transaction environment."
+            ],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -88,13 +115,13 @@ module.exports = [{
         hireDate: null,
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
-        companyWebSite: 'http://www.cersnow.com',
-        notes: [''] /* an array of strings */
+        companyWebSite: "http://technologynavigators.com/",
+        notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
 
     }, {
         displayFlag: true,
         jobId: 'jb-2016-07-20-1826',
-        jobTitle: '',
+        jobTitle: 'Senior Front End Software Developer - Cordova, Angular.js, JavaScript',
         degree: null,
         level: null,
         hireType: null,
@@ -102,22 +129,35 @@ module.exports = [{
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists: [{
-            header: "Primary Responsibilities",
+            header: "What you get to do:",
             /* this header will show up as a label in interface */
             list: [
-                ""
+                "Use your development expertise to create cutting edge hybrid web and mobile applications",
+                "Generate fresh JavaScript code for mobile, web and desktop applications",
+                "Collaborate frequently with the Quality Assurance team to ensure compatibility"
             ]
         }, {
-            header: "Required Skills and Experience",
+            header: "What you need to succeed:",
             /* this header will show up as a label in interface */
             list: [
-                ""
+                "Several years of front end development experience using a wide variety of frameworks",
+                "Strong track record of designing web and mobile applications using HTML5, CSS, JavaScript and AJAX",
+                "Proven understanding of automated testing, source control tools, RDBMS, SOA and RESTful architecture"
             ]
-        }, ],
+        },
+    {
+        header:"What’s in it for you:",
+        list: [
+            "Our client provides an energetic work environment that thrives by hiring the best and brightest. Their staff profit from great medical, dental, and vision care, 401k contribution, IRS flex spending accounts, gym membership discount, free soft drinks, and flexible work schedules. If you are looking for an open and collaborative work environment, with the best and brightest staff, then this opportunity is for you."
+        ]
+    }],
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: '',
+        briefDescr: [
+            "A pioneer in the industry since its inception in 1999, our client’s prepaid debit cards give financial freedom and convenience to the more than 100 million under banked consumers in the United States. Our client is the only company in the prepaid debit industry to offer an end-to-end solution for consumers and merchants.",
+            "As the company continues to experience explosive growth, they are looking to hire an experienced  Senior Software Developer who will design and develop patented software in a high transaction environment."
+        ],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -135,8 +175,8 @@ module.exports = [{
         hireDate: null,
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
-        companyWebSite: 'http://www.cersnow.com',
-        notes: [''] /* an array of strings */
+        companyWebSite: "http://technologynavigators.com/",
+        notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
     }, {
         displayFlag: true,
         jobId: 'jb-2016-04-13-1130',
@@ -183,7 +223,7 @@ module.exports = [{
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: 'A Cutting Edge Recruiting Solutions (CERS) client, backed by one of the nation’s largest media companies, is seeking Software Engineers to work primarily on server-side applications, writing clean, modular and maintainable code.  Current applications are written in PHP, java and Node.js and the focus is to trend more towards new Open Source technology stack using MongoDB, Angular and Node.  Our client is looking for fill 3 positions at mid to senior level.  Rock stars preferred!  Please see below for additional details and apply now for IMMEDIATE consideration.',
+        briefDescr: ['A Cutting Edge Recruiting Solutions (CERS) client, backed by one of the nation’s largest media companies, is seeking Software Engineers to work primarily on server-side applications, writing clean, modular and maintainable code.  Current applications are written in PHP, java and Node.js and the focus is to trend more towards new Open Source technology stack using MongoDB, Angular and Node.  Our client is looking for fill 3 positions at mid to senior level.  Rock stars preferred!  Please see below for additional details and apply now for IMMEDIATE consideration.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -201,7 +241,7 @@ module.exports = [{
         hireDate: null,
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
-        companyWebSite: 'http://www.cersnow.com',
+        companyWebSite: null,
         notes: ['All roles are in South Florida (Boca Raton)',
             'For consideration please apply within or contact Jamie at 561-910-8000'
         ] /* an array of strings */
@@ -252,7 +292,7 @@ module.exports = [{
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: 'We are looking for a Senior Web Developer / Web Developer Lead that is serious about their craft to join and lead a small group of developers to assist in building web / responsive-web applications for multiple clients.This is a technical role that requires hands-on coding throughout most of the day.The role also requires a degree of professionalism and communication as you\'ll serve as the technical point of contact either in person or remotely for existing and/or prospective customer meetings.The ideal applicant will have extensive experience developing scalable web / responsive-web based applications and can think outside the box to help solve complex problems.Applicant must be a self-starter, highly motivated and can demonstrate his/her ability to keep up to date with cutting edge technology.',
+        briefDescr: ['We are looking for a Senior Web Developer / Web Developer Lead that is serious about their craft to join and lead a small group of developers to assist in building web / responsive-web applications for multiple clients.This is a technical role that requires hands-on coding throughout most of the day.The role also requires a degree of professionalism and communication as you\'ll serve as the technical point of contact either in person or remotely for existing and/or prospective customer meetings.The ideal applicant will have extensive experience developing scalable web / responsive-web based applications and can think outside the box to help solve complex problems.Applicant must be a self-starter, highly motivated and can demonstrate his/her ability to keep up to date with cutting edge technology.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -311,7 +351,7 @@ module.exports = [{
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: 'In this position your responsibilities will include leading a team of engineers to create end-user client applications for desktop and/or mobile.  This is a technical role which will require hands-on coding throughout a majority of the day incorporating a wide variety of technologies (i.e; iOS, Android, WPF).',
+        briefDescr: ['In this position your responsibilities will include leading a team of engineers to create end-user client applications for desktop and/or mobile.  This is a technical role which will require hands-on coding throughout a majority of the day incorporating a wide variety of technologies (i.e; iOS, Android, WPF).'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -372,7 +412,7 @@ module.exports = [{
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: 'Looking to hire a full-time Lead QA Analyst to ensure the delivery of the highest quality products to our customers. The Lead QA Analyst will be responsible for managing a relatively small QA team, as well as performing hands on testing. In this role, you will build test and release procedures for both games and cross-platform applications, perform hands on testing, and work closely with the development team to release high-quality applications.',
+        briefDescr: ['Looking to hire a full-time Lead QA Analyst to ensure the delivery of the highest quality products to our customers. The Lead QA Analyst will be responsible for managing a relatively small QA team, as well as performing hands on testing. In this role, you will build test and release procedures for both games and cross-platform applications, perform hands on testing, and work closely with the development team to release high-quality applications.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -442,7 +482,7 @@ module.exports = [{
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: 'As a junior - mid level Java Developer you will participate as a core member of our Server / Engineering team.  The team works in 2 - 3 week iterative development cycles with the goal of completing potentially shippable software each sprint.  As a result, we aim to identify a new team member with 1 - 3 years experience developing Java applications with highly scalable architectures.',
+        briefDescr: ['As a junior - mid level Java Developer you will participate as a core member of our Server / Engineering team.  The team works in 2 - 3 week iterative development cycles with the goal of completing potentially shippable software each sprint.  As a result, we aim to identify a new team member with 1 - 3 years experience developing Java applications with highly scalable architectures.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -506,7 +546,7 @@ module.exports = [{
         skills: null, //left for backwards compat
         tools: null, //left for backwards compat
         responsibilities: null, //left for backwards compat
-        briefDescr: 'Expert level, Angular developer needed.',
+        briefDescr: ['Expert level, Angular developer needed.'],
         teamStructureExpertise: null,
         projectWorkflow: [
             'Agile Workflow'
@@ -555,7 +595,7 @@ module.exports = [{
         skills: null, //left for backwards compat
         tools: null, //left for backwards compat
         responsibilities: null, //left for backwards compat
-        briefDescr: 'This company is looking for a true MEAN Stack dev--that is, someone who wants to work on all four layers of the MEAN Stack!  Furthermore, they need someone who has a good understanding of the below requirements and is driven to elevate those skills up a couple of notches.',
+        briefDescr: ['This company is looking for a true MEAN Stack dev--that is, someone who wants to work on all four layers of the MEAN Stack!  Furthermore, they need someone who has a good understanding of the below requirements and is driven to elevate those skills up a couple of notches.'],
         teamStructureExpertise: '1 Very Technical CIO, 2 Jr Devs, 1 Biz Analyst/PM',
         projectWorkflow: [
             'Agile Workflow'
@@ -620,7 +660,7 @@ module.exports = [{
         skills: null,
         tools: null,
         responsibilities: null,
-        briefDescr: 'Responsible for designing and developing products and solutions to provide industry leading manageability of Dell\'s enterprise client products.   As a software development senior engineer in Dell\'s Enterprise Systems Management Software Group, you will have the opportunity to engage across organizational boundaries and with a diverse, talented, and global team.',
+        briefDescr: ['Responsible for designing and developing products and solutions to provide industry leading manageability of Dell\'s enterprise client products.   As a software development senior engineer in Dell\'s Enterprise Systems Management Software Group, you will have the opportunity to engage across organizational boundaries and with a diverse, talented, and global team.'],
         teamStructureExpertise: '4 Sr Devs, 1 Jr Devs, 3 Sr QA, 2 Jr QA',
         projectWorkflow: [
             '3 week sprints', 'sprint planing day 1 w/qa, dev',
@@ -705,7 +745,7 @@ module.exports = [{
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'In need of a well-rounded Lead Server Engineer that posseses a variety of technical skills as well as soft skills at an advanced level.  Please see notes below for more details.',
+        briefDescr: ['In need of a well-rounded Lead Server Engineer that posseses a variety of technical skills as well as soft skills at an advanced level.  Please see notes below for more details.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiters: ['recruiter-000100'],
@@ -761,7 +801,7 @@ module.exports = [{
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'Well-funded stealth mode startup is seeking a Web Developer to join their team in the core product group.',
+        briefDescr: ['Well-funded stealth mode startup is seeking a Web Developer to join their team in the core product group.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiters: ['recruiter-000100'],
@@ -798,7 +838,7 @@ module.exports = [{
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'AngularJs development opportunity! Work will be within the MEAN Stack! Immediate need to fill this role!',
+        briefDescr: ['AngularJs development opportunity! Work will be within the MEAN Stack! Immediate need to fill this role!'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiters: null,
@@ -849,7 +889,7 @@ module.exports = [{
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'Senior C# API developer who can work on a cross functional team of multiple front end developers, API developers, UI/UX designers and product managers. You will develop and implement well-tested, efficient, highly-scalable server-based solutions in an agile environment with massive data storage (5 PB) that serve copious volumes of customers (20 million) and data (2 TB daily) online. We are looking for an individual with experience in high volume / high transaction SaaS based products.',
+        briefDescr: ['Senior C# API developer who can work on a cross functional team of multiple front end developers, API developers, UI/UX designers and product managers. You will develop and implement well-tested, efficient, highly-scalable server-based solutions in an agile environment with massive data storage (5 PB) that serve copious volumes of customers (20 million) and data (2 TB daily) online. We are looking for an individual with experience in high volume / high transaction SaaS based products.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiters: null,
@@ -889,7 +929,7 @@ module.exports = [{
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'As part of the core engineering team, this candidate will have ownership of huge projects and be responsible for building the most critical components of the stack. Potential to work on Android and iOS as well. Company Travel and Leisure industry; web app and mobile compatible e-commerce platform; company has raised millions of dollars in funding.  Potential to receive equity.  Must be able to re-locate.',
+        briefDescr: ['As part of the core engineering team, this candidate will have ownership of huge projects and be responsible for building the most critical components of the stack. Potential to work on Android and iOS as well. Company Travel and Leisure industry; web app and mobile compatible e-commerce platform; company has raised millions of dollars in funding.  Potential to receive equity.  Must be able to re-locate.'],
         teamStructureExpertise: '5-6 engineers in the team',
         projectWorkflow: null,
         recruiters: ['recruiter-000102'],
@@ -935,7 +975,7 @@ module.exports = [{
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'We have a large health care client here in the Houston area that is currently searching for an experienced MEAN Stack Developer to join their team on an exciting data project. This project will establish a Big Data ecosystem for client\'s patient care information; enabling multiple stakeholders to securely process and analyze the data at scale. The role of the User Experience (UX) Designer/Developer is to be the creator and chief designer of how people interact with this environment. This is a 3-6 month project with possible extension.',
+        briefDescr: ['We have a large health care client here in the Houston area that is currently searching for an experienced MEAN Stack Developer to join their team on an exciting data project. This project will establish a Big Data ecosystem for client\'s patient care information; enabling multiple stakeholders to securely process and analyze the data at scale. The role of the User Experience (UX) Designer/Developer is to be the creator and chief designer of how people interact with this environment. This is a 3-6 month project with possible extension.'],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiters: null,
@@ -977,7 +1017,7 @@ module.exports = [{
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'We seek an experienced full-stack web software engineer with experience in UI development to develop an Advanced Advertising platform supporting multiple devices (mobile, streaming, TV).  ` depends on experience.  Relocation benefits are available.',
+        briefDescr: ['We seek an experienced full-stack web software engineer with experience in UI development to develop an Advanced Advertising platform supporting multiple devices (mobile, streaming, TV).  ` depends on experience.  Relocation benefits are available.'],
         teamStructureExpertise: 'Small Team (currently); will be adding 100 devs in the next 6-12 months.',
         projectWorkflow: ['Agile'],
         recruiters: null,
@@ -1018,7 +1058,7 @@ module.exports = [{
         ],
         tools: [],
         responsibilities: [],
-        briefDescr: 'Seeking a Technical Writer to provide documentation for complex network and software for both technical and non-technical audiences. High technical aptitude and strong research and communication skills are required. The company is a small division (50-100) of a larger fast growing company (3000+ employees). Relocation support is provided. Great benefits package in a rapidly growing, market leading firm.',
+        briefDescr: ['Seeking a Technical Writer to provide documentation for complex network and software for both technical and non-technical audiences. High technical aptitude and strong research and communication skills are required. The company is a small division (50-100) of a larger fast growing company (3000+ employees). Relocation support is provided. Great benefits package in a rapidly growing, market leading firm.'],
         teamStructureExpertise: 'Small Tech Writing Team (~3-4)',
         projectWorkflow: null,
         recruiters: null,
@@ -1055,7 +1095,7 @@ module.exports = [{
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
         responsibilities: [],
-        briefDescr: 'Collaborate with the CTO and other engineers to define and build the products that drive the company forward.  Mentor a growing engineering team in technologies and patterns they\'re not yet familiar with, and be mentored by them in areas you\'re not familiar with.  Evaluate existing products and proactively recommend improvements and enhancements.  Work closely with a distributed team in an agile setting to prioritize workflow on a daily basis',
+        briefDescr: ['Collaborate with the CTO and other engineers to define and build the products that drive the company forward.  Mentor a growing engineering team in technologies and patterns they\'re not yet familiar with, and be mentored by them in areas you\'re not familiar with.  Evaluate existing products and proactively recommend improvements and enhancements.  Work closely with a distributed team in an agile setting to prioritize workflow on a daily basis'],
         teamStructureExpertise: '3 Sr Devs, 1 Jr Devs, 1 Data Strategist, 2 UX designers',
         projectWorkflow: ['Agile', 'Utilize Pivotal tracker'],
         recruiters: null,
@@ -1090,7 +1130,7 @@ module.exports = [{
         skills: ['Javascript', 'NodeJs', 'PHP', 'Open-source development technologies', 'Amazon Web Services and core product offerings (EC2, RDS, S3, DynamoDB) (production exp with additional AWS offerings a plus)', 'Knowledge of MySQL, PostgreSQL, Redis, Dynamo-based storage', 'Cloud-artchitectural patterns'],
         tools: [],
         responsibilities: [],
-        briefDescr: 'Contribute to existing and future technical projects to drive the company forward.  Evaluate existing products and proactively recommend improvements and enhancements.  Work closely with a distributed team in an agile setting to prioritize workflow on a daily basis.',
+        briefDescr: ['Contribute to existing and future technical projects to drive the company forward.  Evaluate existing products and proactively recommend improvements and enhancements.  Work closely with a distributed team in an agile setting to prioritize workflow on a daily basis.'],
         teamStructureExpertise: '3 Sr Devs, 1 Jr Devs, 1 Data Strategist, 2 UX designers',
         projectWorkflow: ['Agile', 'Utilize Pivotal tracker'],
         recruiters: null,
@@ -1125,7 +1165,7 @@ module.exports = [{
         skills: ['AngularJS', 'HTML 5', 'Javascript', 'related frameworks', 'PHP (desired)', 'MySQL (desired)'],
         tools: [],
         responsibilities: [],
-        briefDescr: 'The UI Developer is responsible for creating the UI / Front End Application for PermRecord.  You will report directly to the CTO and work within the Engineering team consisting of other developers and designers.  Because the UI is our direct connection with patrons, it is critically important to our success and marketing strategies.  You will need to innovate and find solutions to complex problems that are simple and intuitive for users.  You will have freedom to pursue modern designs, plugins, tools, and develop software that proudly represents your hard work and creativity while advancing the business needs.  You will be highly involved in design and decision making to ensure we have the best product possible.  We are rapidly iterating to develop and test solutions that will determine what the market needs are.  Being comfortable with prototyping and incomplete specifications is a must – yet maintainable and scalable solutions should be created to ensure future refactoring is minimized.',
+        briefDescr: ['The UI Developer is responsible for creating the UI / Front End Application for PermRecord.  You will report directly to the CTO and work within the Engineering team consisting of other developers and designers.  Because the UI is our direct connection with patrons, it is critically important to our success and marketing strategies.  You will need to innovate and find solutions to complex problems that are simple and intuitive for users.  You will have freedom to pursue modern designs, plugins, tools, and develop software that proudly represents your hard work and creativity while advancing the business needs.  You will be highly involved in design and decision making to ensure we have the best product possible.  We are rapidly iterating to develop and test solutions that will determine what the market needs are.  Being comfortable with prototyping and incomplete specifications is a must – yet maintainable and scalable solutions should be created to ensure future refactoring is minimized.'],
         teamStructureExpertise: 'agile team (tbd)',
         projectWorkflow: ['agile'],
         recruiters: null,
@@ -1162,7 +1202,7 @@ module.exports = [{
         skills: ['C#.NET', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'MS Word', 'System Center Configuration Manager (SCCM) 2012'],
         responsibilities: [],
-        briefDescr: 'SCCM 2012 custom, extensions-library, source code needs to be substantially analyzed to document its design/architecture for maintenance/rewriting.  This position will primaarily be documenting, INITIALLY, and will potentially step into maintenance and rewritng of these custom libraries.',
+        briefDescr: ['SCCM 2012 custom, extensions-library, source code needs to be substantially analyzed to document its design/architecture for maintenance/rewriting.  This position will primaarily be documenting, INITIALLY, and will potentially step into maintenance and rewritng of these custom libraries.'],
         teamStructureExpertise: '4 Sr Devs, 1 Jr Dev, 3 Sr QA, 2 Jr QA',
         projectWorkflow: [
             '3 week sprints', 'sprint planing day 1 w/qa, dev',
@@ -1203,7 +1243,7 @@ module.exports = [{
         skills: ['C#.NET', 'OOP/D', 'Verbal/Written Communication', 'Rudimentary Network Admin Skills/Knowledge'],
         tools: ['VS 2013', 'SVN/TortoiseSVN', 'System Center Configuration Manager (SCCM) 2012'],
         responsibilities: [],
-        briefDescr: 'Will maintain, design, and develop SCCM 2012 extensions libraries.',
+        briefDescr: ['Will maintain, design, and develop SCCM 2012 extensions libraries.'],
         teamStructureExpertise: '4 Sr Devs, 1 Jr Devs, 3 Sr QA, 2 Jr QA',
         projectWorkflow: [
             '3 week sprints', 'sprint planing day 1 w/qa, dev',
