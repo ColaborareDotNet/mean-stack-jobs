@@ -57,7 +57,7 @@ module.exports = [
             /* if null or min AND there is a closingDate, indicates opp was never filled */
             closingDate: null,
             companyWebSite: null,
-            notes: ['',
+            notes: [
             'Candidates must be authorized to work in the United States on a full-time basis for any employer.',
             'Principals only. Recruiters, please do not contact this job poster.'],
             miscNotes:[

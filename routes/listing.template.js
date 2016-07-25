@@ -1,41 +1,40 @@
-{
-        displayFlag : false,
+        /*********************************************************/
+        displayFlag: true,
         jobId: 'jb-yyyy-mm-dd-hhmm',
         jobTitle: '',
+        briefDescr: [
+            "",
+            ""
+        ],
+        originId: null,
+        originUrl: null,
         degree: null,
         level: null,
-        hireType: null,
+        hireType: "",
 
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-        customLists : [
-            {
-                header: "header1_value",/* this header will show up as a label in interface */
-                list: [
-                    "list_item_one",
-                    "list_item_two"
-                ]
-            },
-            {
-                header: "header2_value",/* this header will show up as a label in interface */
-                list: [
-                    "list_item_one",
-                    "list_item_two"
-                ]
-            }
-        ],
-        
-        skills: [
-        ],
-        tools: [],
-        responsibilities: [],
-        briefDescr: '',
+        customLists: [{
+            header: "",
+            /* this header will show up as a label in interface */
+            list: ["",""
+            ]
+        }, {
+        customLists: [{
+            header: "",
+            /* this header will show up as a label in interface */
+            list: ["",""
+            ]
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
         hiringCompany: null,
         compensationRange: null,
-        locationOppWork: null,
+        locationOppWork: "",
         locationCompanyOffice: null,
         benefitsGeneral: null,
 
@@ -43,10 +42,17 @@
 
         vettingProcess: null,
         hireTimeframeValue: null,
-        postingDate: new Date('6/5/2015 22:25'),
+        postingDate: new Date('mm/dd/yyyy hh:mm'),
         hireDate: null,
         /* if null or min AND there is a closingDate, indicates opp was never filled */
         closingDate: null,
         companyWebSite: null,
-        notes: null /* an array of strings */
-}
+        notes: ['',''],
+        miscNotes:[
+            {
+                header:"",
+                paragraphs: [
+                    ""
+                ]
+            }
+        ]
