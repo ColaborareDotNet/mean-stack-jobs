@@ -1,5 +1,75 @@
 module.exports = [
     {
+            /*********************************************************/
+            displayFlag: true,
+            jobId: 'jb-2016-07-25-1554',
+            jobTitle: 'JavaScript / Node.js Developer',
+            briefDescr: [
+                "We are looking for a strong Javascript Developer with Node.js experience who is excited about working in a fun and challenging environment.  This is a direct hire opportunity located in Downtown Austin.",
+                "We are looking for someone who is a Node.js “convert”.  This is a great opportunity for a full-stack developer with strong JavaScript, that may have started their career in Java."
+            ],
+            originId: null,
+            originUrl: null,
+            degree: null,
+            level: null,
+            hireType: "",
+
+
+            /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+            customLists: [{
+                header: "Technology Stack:  You should have solid skills in the following:",
+                /* this header will show up as a label in interface */
+                list: [
+                    "Strong Javascript development skills ",
+                    "Node.js experience including development and deployment",
+                    "Full-stack development experience ",
+                    "Strong Object Oriented Analysis and Design Skills "
+                ]
+            }, {
+                header: "Skills in the following ",
+                /* this header will show up as a label in interface */
+                list: [
+                    "Knowledge of testing for Javascript: Mocha",
+                    "Experience working in an agile environment of some flavor. ",
+                    "Experience working with Continuous Integration and Continuous Delivery ",
+                    "Java deployments",
+                    "React "
+                ]
+            }],
+            skills: null,
+            tools: null,
+            responsibilities: null,
+            teamStructureExpertise: null,
+            projectWorkflow: null,
+            recruiter: null,
+            hiringCompany: null,
+            compensationRange: null,
+            locationOppWork: "Downtown Austin, TX, USA",
+            locationCompanyOffice: null,
+            benefitsGeneral: null,
+
+            employmentEligibility: null,
+
+            vettingProcess: null,
+            hireTimeframeValue: null,
+            postingDate: new Date('7/25/2016 15:54'),
+            hireDate: null,
+            /* if null or min AND there is a closingDate, indicates opp was never filled */
+            closingDate: null,
+            companyWebSite: null,
+            notes: ['',
+            'Candidates must be authorized to work in the United States on a full-time basis for any employer.',
+            'Principals only. Recruiters, please do not contact this job poster.'],
+            miscNotes:[
+                {
+                    header:"MeanStack Jobs Notes:",
+                    paragraphs: [
+                        "I have known these guys ever since I started running the MEAN Stack meetup and have had candidates hired through them.  These guys are awesome!    Looking forward to hearing back from any potential candidates!"
+                    ]
+                }
+            ]
+    },
+    {
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-07-20-1826',

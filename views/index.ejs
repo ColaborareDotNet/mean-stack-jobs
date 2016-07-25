@@ -159,6 +159,14 @@
 			              	<p data-ng-bind="note"></p>
 			            	</div>
 			            </div>	
+				          <div data-ng-hide="{{listing.miscNotes === null || listing.miscNotes === undefined || listing.miscNotes.length <= 0}}">
+							 <div data-ng-repeat="note in listing.miscNotes">
+					              <label>{{note.header}}</label>
+								 <div data-ng-repeat="para in note.paragraphs">
+						              <p>{{para}}</p>
+								</div>
+							</div>
+			            </div>
 						     </div>
 							</div>
 						</div>
