@@ -9,7 +9,7 @@
         * jobId objects DO NOT point to company objects
         * contact objects point to company objects but not vice versa
 */
-[{
+module.exports = [{
     jobId: 'jb-2016-07-25-1554',
     jobTitle: '',
     originId: null,
@@ -61,4 +61,4 @@
     name: 'Apex Systems',
     url: 'http://www.apexsystemsinc.com/',
     notes: [""]
-}]
+}];
