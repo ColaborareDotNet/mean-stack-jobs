@@ -1,75 +1,72 @@
-module.exports = [
-    {
-            /*********************************************************/
-            displayFlag: true,
-            jobId: 'jb-2016-07-25-1554',
-            jobTitle: 'JavaScript / Node.js Developer',
-            briefDescr: [
-                "We are looking for a strong Javascript Developer with Node.js experience who is excited about working in a fun and challenging environment.  This is a direct hire opportunity located in Downtown Austin.",
-                "We are looking for someone who is a Node.js “convert”.  This is a great opportunity for a full-stack developer with strong JavaScript, that may have started their career in Java."
-            ],
-            originId: null,
-            originUrl: null,
-            degree: null,
-            level: null,
-            hireType: "",
+module.exports = [{
+        /*********************************************************/
+        displayFlag: true,
+        jobId: 'jb-2016-07-25-1554',
+        jobTitle: 'JavaScript / Node.js Developer',
+        briefDescr: [
+            "We are looking for a strong Javascript Developer with Node.js experience who is excited about working in a fun and challenging environment.  This is a direct hire opportunity located in Downtown Austin.",
+            "We are looking for someone who is a Node.js “convert”.  This is a great opportunity for a full-stack developer with strong JavaScript, that may have started their career in Java."
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: null,
+        hireType: "",
 
 
-            /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-            customLists: [{
-                header: "Technology Stack:  You should have solid skills in the following:",
-                /* this header will show up as a label in interface */
-                list: [
-                    "Strong Javascript development skills ",
-                    "Node.js experience including development and deployment",
-                    "Full-stack development experience ",
-                    "Strong Object Oriented Analysis and Design Skills "
-                ]
-            }, {
-                header: "Skills in the following ",
-                /* this header will show up as a label in interface */
-                list: [
-                    "Knowledge of testing for Javascript: Mocha",
-                    "Experience working in an agile environment of some flavor. ",
-                    "Experience working with Continuous Integration and Continuous Delivery ",
-                    "Java deployments",
-                    "React "
-                ]
-            }],
-            skills: null,
-            tools: null,
-            responsibilities: null,
-            teamStructureExpertise: null,
-            projectWorkflow: null,
-            recruiter: null,
-            hiringCompany: null,
-            compensationRange: null,
-            locationOppWork: "Downtown Austin, TX, USA",
-            locationCompanyOffice: null,
-            benefitsGeneral: null,
-
-            employmentEligibility: null,
-
-            vettingProcess: null,
-            hireTimeframeValue: null,
-            postingDate: new Date('7/25/2016 15:54'),
-            hireDate: null,
-            /* if null or min AND there is a closingDate, indicates opp was never filled */
-            closingDate: null,
-            companyWebSite: null,
-            notes: [
-            'Candidates must be authorized to work in the United States on a full-time basis for any employer.',
-            'Principals only. Recruiters, please do not contact this job poster.'],
-            miscNotes:[
-                {
-                    header:"MeanStack Jobs Notes:",
-                    paragraphs: [
-                        "I have known these guys ever since I started running the MEAN Stack meetup and have had candidates hired through them.  These guys are awesome!    Looking forward to hearing back from any potential candidates!"
-                    ]
-                }
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Technology Stack:  You should have solid skills in the following:",
+            /* this header will show up as a label in interface */
+            list: [
+                "Strong Javascript development skills ",
+                "Node.js experience including development and deployment",
+                "Full-stack development experience ",
+                "Strong Object Oriented Analysis and Design Skills "
             ]
-    },
-    {
+        }, {
+            header: "Skills in the following ",
+            /* this header will show up as a label in interface */
+            list: [
+                "Knowledge of testing for Javascript: Mocha",
+                "Experience working in an agile environment of some flavor. ",
+                "Experience working with Continuous Integration and Continuous Delivery ",
+                "Java deployments",
+                "React "
+            ]
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: null,
+        locationOppWork: "Downtown Austin, TX, USA",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('7/25/2016 15:54'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: null,
+        notes: [
+            'Candidates must be authorized to work in the United States on a full-time basis for any employer.',
+            'Principals only. Recruiters, please do not contact this job poster.'
+        ],
+        miscNotes: [{
+            header: "MeanStack Jobs Notes:",
+            paragraphs: [
+                "I have known these guys ever since I started running the MEAN Stack meetup and have had candidates hired through them.  These guys are awesome!    Looking forward to hearing back from any potential candidates!"
+            ]
+        }]
+    }, {
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-07-20-1826',
@@ -98,13 +95,12 @@ module.exports = [
                 "Strong track record of designing web and mobile applications using HTML5, CSS, JavaScript and AJAX",
                 "Proven understanding of automated testing, source control tools, RDBMS, SOA and RESTful architecture"
             ]
-        },
-    {
-        header:"What’s in it for you:",
-        list: [
-            "Our client provides an energetic work environment that thrives by hiring the best and brightest. Their staff profit from great medical, dental, and vision care, 401k contribution, IRS flex spending accounts, gym membership discount, free soft drinks, and flexible work schedules. If you are looking for an open and collaborative work environment, with the best and brightest staff, then this opportunity is for you."
-        ]
-    }],
+        }, {
+            header: "What’s in it for you:",
+            list: [
+                "Our client provides an energetic work environment that thrives by hiring the best and brightest. Their staff profit from great medical, dental, and vision care, 401k contribution, IRS flex spending accounts, gym membership discount, free soft drinks, and flexible work schedules. If you are looking for an open and collaborative work environment, with the best and brightest staff, then this opportunity is for you."
+            ]
+        }],
         skills: null,
         tools: null,
         responsibilities: null,
@@ -131,12 +127,12 @@ module.exports = [
         closingDate: null,
         companyWebSite: "http://technologynavigators.com/",
         notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
-    },    {
+    }, {
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-07-20-1827',
         jobTitle: 'Senior Software Developer - Cordova, Angular.js, JavaScript',
-        originId:  "02377442",
+        originId: "02377442",
         originUrl: "http://jobs.technologynavigators.com/jobseeker/Senior_Software_Developer__Cordova_Angularjs_JavaScript_J02377442.aspx",
         degree: null,
         level: null,
@@ -160,20 +156,19 @@ module.exports = [
                 "Strong track record of designing web and mobile applications using HTML5, CSS, JavaScript and AJAX",
                 "Proven understanding of automated testing, source control tools, RDBMS, SOA and RESTful architecture"
             ]
-        },
-    {
-        header:"What’s in it for you:",
-        list: [
-            "This is a contract opportunity with a stable, local organization. If you work well in a fast-paced environment while managing multiple tasks simultaneously, we want to hear from you! As a contractor for Technology Navigators, you will have access to our amazing client list, the support of a great team, and the opportunity to enroll in health benefits, including medical, dental, and vision. In addition to taking on a challenging role, you will be a member of one of the best and brightest teams in Austin."
-        ]
-    }],
+        }, {
+            header: "What’s in it for you:",
+            list: [
+                "This is a contract opportunity with a stable, local organization. If you work well in a fast-paced environment while managing multiple tasks simultaneously, we want to hear from you! As a contractor for Technology Navigators, you will have access to our amazing client list, the support of a great team, and the opportunity to enroll in health benefits, including medical, dental, and vision. In addition to taking on a challenging role, you will be a member of one of the best and brightest teams in Austin."
+            ]
+        }],
         skills: null,
         tools: null,
         responsibilities: null,
         briefDescr: [
             "A pioneer in the industry since its inception in 1999, our client’s prepaid debit cards give financial freedom and convenience to the more than 100 million under banked consumers in the United States. Our client is the only company in the prepaid debit industry to offer an end-to-end solution for consumers and merchants.",
             "As the company continues to experience explosive growth, they are looking to hire an experienced  Senior Software Developer who will design and develop patented software in a high transaction environment."
-            ],
+        ],
         teamStructureExpertise: null,
         projectWorkflow: null,
         recruiter: null,
@@ -194,9 +189,8 @@ module.exports = [
         companyWebSite: "http://technologynavigators.com/",
         notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
 
-    },    
-    {
-    /*********************************************************/
+    }, {
+        /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-07-20-1828',
         jobTitle: 'Front End Software Developer - UI, JavaScript, AngularJS',
@@ -217,7 +211,8 @@ module.exports = [
                 "Collaborate with other internal teams to yield style guides and interfaces",
                 "Create functional front-end interfaces from original designs and mockups",
                 "Troubleshoot technical codes and web browser compatibility conflicts",
-                "Mentor the technical team on best practices"            ]
+                "Mentor the technical team on best practices"
+            ]
         }, {
             header: "What you need to succeed:",
             /* this header will show up as a label in interface */
@@ -228,13 +223,12 @@ module.exports = [
                 "Experience with UI development and browser compatibility tools",
                 "Experience with Python, Java, and scalable web applications are all bonuses but not required!"
             ]
-        },
-    {
-        header:"What’s in it for you:",
-        list: [
-            "Join this innovative team of experts and prepare for awesome perks and incentives! Not only does this client provide health and life insurance, they also offer flexible spending accounts, employee assistance programs, and employee referral program! In addition, you’ll be eligible for their generous PTO plan, paid holidays, and a 401k plan."
-        ]
-    }],
+        }, {
+            header: "What’s in it for you:",
+            list: [
+                "Join this innovative team of experts and prepare for awesome perks and incentives! Not only does this client provide health and life insurance, they also offer flexible spending accounts, employee assistance programs, and employee referral program! In addition, you’ll be eligible for their generous PTO plan, paid holidays, and a 401k plan."
+            ]
+        }],
         skills: null,
         tools: null,
         responsibilities: null,
@@ -258,7 +252,147 @@ module.exports = [
         closingDate: null,
         companyWebSite: "http://technologynavigators.com/",
         notes: ['I am in close contact with this hiring company.  Please feel free to reach out (i.e. "Explore") and ask me before applying.'] /* an array of strings */
-    },   {
+    }, {
+        /*********************************************************/
+        /* monicotodo: move these 2 to proper date order location */
+        displayFlag: true,
+        jobId: 'jb-2016-5-24-1200',
+        jobTitle: 'Senior Android and iOS Developer(s)',
+        briefDescr: [
+            "This team is responsible for designing and implementing software that makes the delivery of purchased items possible in one hour or less. The software has to take into account item, delivery associate, network and environmental constraints to provide a fast delivery experience for their end consumers. This team is currently developing backend services, websites and mobile applications to aid the delivery process.  The iOS and Android Application works in concert with our client’s advanced logistics systems and technology. The application will allow the delivery partner to onboard, schedule delivery times in advance or on demand, guide them through their deliveries with in-app mapping and navigation."
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: null,
+        hireType: "Direct Hire (Salary + Bonus + Relocation if needed)",
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Skills/Tools/Responsibilities ((Android)):",
+            /* this header will show up as a label in interface */
+            list: [
+                "3+ years of Android SDK",
+                "Java JDK",
+                "Connecting your application using web services (Create and Consume)",
+                "Strong problem solving and algorithms",
+                "Strong computer fundamentals and data structures experience",
+                "BS Degree in Computer Science (MS Degree preferred)"
+            ]
+        }, {
+            header: "Skills/Tools/Responsibilities  ((iOS))",
+            list: [
+                "3+ years of Objective-C (Swift is not required, plus)",
+                "Cocoa Touch ",
+                "Connecting your application using web services (Create and Consume)",
+                "Strong problem solving and algorithms",
+                "Strong computer fundamentals and data structures experience",
+                "BS Degree in Computer Science (MS Degree preferred)    "
+            ]
+        }, {
+            header: "Team Structure/Expertise:",
+            list: ["Two teams, Android and iOS both supporting V1 application – new teams"]
+        }, {
+            header: "Project Workflow:",
+            list: ["Agile"]
+
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: "Confidential/Apex Systems",
+        compensationRange: null,
+        locationOppWork: "Austin, TX, onsite",
+        locationCompanyOffice: null,
+        benefitsGeneral: "Available",
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('5/24/2016 12:00'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://itcareers.apexsystemsinc.com/",
+        notes: ['We are working directly with this client to help build out their “New” development hub for one of their biggest company initiatives.  Candidates can expect feedback from date of submission in 24 to 48 hours.  Face to face interview dates have been targeted and we are working through our clients process to set our candidates up as quickly as possible.'],
+        miscNotes: [{
+            header: "",
+            paragraphs: [
+                ""
+            ]
+        }]
+
+    }, {
+
+        /*********************************************************/
+        /* monicotodo: move these 2 to proper date order location */
+        displayFlag: true,
+        jobId: 'jb-2016-5-24-1201',
+        jobTitle: 'Senior Backend Developer',
+        briefDescr: [
+            "This team is responsible for designing and implementing large scale distributed software that makes the delivery of purchased items possible in one hour or less. The software has to take into account item, delivery associate, network and environmental constraints to provide a fast delivery experience for their end consumers. This team is currently developing backend services, websites and mobile applications to aid the delivery process."
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: null,
+        hireType: "Direct Hire (Salary + Bonus + Relocation if needed)",
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Skills/Tools/Responsibilities:",
+            /* this header will show up as a label in interface */
+            list: [
+                "3+ years of OOP (Java or C++ or C# or Perl or Python)",
+                "AWS (preferred)",
+                "Strong problem solving and algorithms",
+                "Strong computer fundamentals and data structures experience",
+                "BS Degree in Computer Science (MS Degree preferred)"
+            ]
+        }, {
+            header: "Team Structure/Expertise:",
+            list: ["NEW Teams"]
+        }, {
+            header: "Project Workflow:",
+            list: ["Agile"]
+
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: "Confidential/Apex Systems",
+        compensationRange: null,
+        locationOppWork: "Austin, TX, onsite",
+        locationCompanyOffice: null,
+        benefitsGeneral: "Available",
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('5/24/2016 12:01'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://itcareers.apexsystemsinc.com/",
+        notes: ['We are working directly with this client to help build out their “New” development hub for one of their biggest company initiatives.  Candidates can expect feedback from date of submission in 24 to 48 hours.  Face to face interview dates have been targeted and we are working through our clients process to set our candidates up as quickly as possible.'],
+        miscNotes: [{
+            header: "",
+            paragraphs: [
+                ""
+            ]
+        }]
+
+    }, {
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-04-13-1130',

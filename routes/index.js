@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+
+//monicotodo: sort by date desc
 var listings = require('./listings').filter(function(elem){
   return elem.displayFlag;
 });
