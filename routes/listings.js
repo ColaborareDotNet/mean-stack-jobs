@@ -1,6 +1,72 @@
 module.exports = [{
         /*********************************************************/
         displayFlag: true,
+        jobId: 'jb-2016-08-14-1200',
+        jobTitle: 'ATX Local NodeJs, Hapi, REST API Dev',
+        briefDescr: [
+            "Looking for a NodeJs/Hapi developer that will help build a REST API, to be consumed by a web app, that is also built on NodeJs.",
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: "Mid-to-Senior Level",
+        hireType: "W-2 Contract",
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Skills/Tools (Required)",
+            /* this header will show up as a label in interface */
+            list: [
+               "Javascript (client/server)", "NodeJs/NPM",
+               "Mac OS X", "OS X CLI",
+               "Web App Dev",
+               "Exposure to REST API Design/Dev",
+               "git/GitHub",
+               "Software Dev Best Practices",
+            ]
+        },{
+            header: "Skills/Tools/Creds (Desired)",
+            /* this header will show up as a label in interface */
+            list: [
+               "Hapi",
+               "Experience in REST API Design/Dev",
+               "Jira", "Slack",
+               "BS or BA in Computer Science or related field"
+            ]
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: "Brooksource",
+        compensationRange: null,
+        locationOppWork: "The Domain, Austin, TX, USA",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: "ASAP",
+        postingDate: new Date('8/14/2016 12:00'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://Brooksource.com",
+        notes: null,
+        miscNotes: [{
+            header: "Notes",
+            paragraphs: [
+                "This is an on-site opportunity at HomeAway.com via Brooksource.  The team is small, agile, and includes 'yours truly' as a NodeJs dev.",
+                "Please feel free to click the 'Explore' button to simply ask me about the role."
+            ]
+        }]
+},{
+        /*********************************************************/
+        displayFlag: true,
         jobId: 'jb-2016-07-25-1554',
         jobTitle: 'JavaScript / Node.js Developer',
         briefDescr: [
