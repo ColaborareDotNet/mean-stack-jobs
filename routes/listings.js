@@ -1,6 +1,9 @@
 module.exports = [{
         /*********************************************************/
-        displayFlag: true,
+        /*
+            Position filled with Julia J.
+        */
+        displayFlag: false,
         jobId: 'jb-2016-08-14-1200',
         jobTitle: 'ATX Local NodeJs, Hapi, REST API Dev',
         briefDescr: [
