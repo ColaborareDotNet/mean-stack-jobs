@@ -3,7 +3,7 @@ module.exports = [
                 /*********************************************************/
                 displayFlag: true,
                 jobId: 'jb-2016-09-01-2028',
-                jobTitle: 'ATX Local NodeJs, Hapi, REST API Dev',
+                jobTitle: 'ATX Local NodeJs, Hapi, WebApp/REST API Dev',
                 briefDescr: [
                     "Looking for a NodeJs/Hapi/Express developer that will help develop/maintain two NodeJs apps. One is a web app, and the other is a RESTful API.",
                 ],
