@@ -51,7 +51,7 @@ indexNgApp.controller('ListingsController', ['$log', '$location', function($log,
   self.getMailToString = function(jobTitle, jobId){
     var mailToString = self.emailAddr + "?subject=Exploring Job: " +  jobTitle + ", (ID: " +
       jobId + ")&body=To Whom It May Concern:\n\nI am interested in exploring the \"" + jobTitle +
-      "\" opportunity listed on your web site! I have included my contact information below:\n\n" +
+      "\" opportunity listed on your web site!\n\n--------------------\n\n[remove following sentence if NOT interested in being considered for screen(s)/interview(s)]\n*** I am interested in being considered for an interview.\n\n--------------------\n\n[remove the following if you do not have questions]\nI have the following questions:\n\n--------------------\n\nI have included my contact information below:\n\n" +
       "Phone: <recommended>\nEmail: <if different from current>\nLinkedIn Profile: <recommended>\n" + 
       "Resume: <recommended, url or attached, PDF recommended>\n" +
       "Twitter: <optional>\nGithub: <optional>\nWeb Site or Portfolio: <optional>" + 
