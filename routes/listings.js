@@ -1,4 +1,74 @@
-module.exports = [{
+module.exports = [
+    {
+                /*********************************************************/
+                displayFlag: true,
+                jobId: 'jb-2016-09-01-2028',
+                jobTitle: 'ATX Local NodeJs, Hapi, REST API Dev',
+                briefDescr: [
+                    "Looking for a NodeJs/Hapi/Express developer that will help develop/maintain two NodeJs apps. One is a web app, and the other is a RESTful API.",
+                ],
+                originId: null,
+                originUrl: null,
+                degree: null,
+                level: "Highly-Skilled-Mid-Level to Senior-Level",
+                hireType: "W-2 Contract",
+
+
+                /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+                customLists: [{
+                    header: "Skills/Tools (Required)",
+                    /* this header will show up as a label in interface */
+                    list: [
+                       "Javascript (client/server)", "NodeJs/NPM",
+                       "ExpressJs OR HapiJs",
+                       "Mac OS X", "OS X CLI",
+                       "Web App Dev",
+                       "Exposure to REST API Design/Dev",
+                       "git/GitHub",
+                       "Software Dev Best Practices",
+                    ]
+                },{
+                    header: "Skills/Tools/Creds (Desired)",
+                    /* this header will show up as a label in interface */
+                    list: [
+                       "ExpressJs AND HapiJs",
+                       "Experience in REST API Design/Dev",
+                       "BackboneJs", "ReactJs", "HandlebarsJs",
+                       "ReactJs",
+                       "Jira", "Slack",
+                       "BS or BA in Computer Science or related field"
+                    ]
+                }],
+                skills: null,
+                tools: null,
+                responsibilities: null,
+                teamStructureExpertise: "1 Sr Dev to Fill, 2 Sr Devs, 1 Sr QA",
+                projectWorkflow: null,
+                recruiter: null,
+                hiringCompany: "Brooksource",
+                compensationRange: null,
+                locationOppWork: "The Domain, Austin, TX, USA",
+                locationCompanyOffice: null,
+                benefitsGeneral: null,
+
+                employmentEligibility: null,
+
+                vettingProcess: null,
+                hireTimeframeValue: "ASAP",
+                postingDate: new Date('9/2/2016 20:28'),
+                hireDate: null,
+                /* if null or min AND there is a closingDate, indicates opp was never filled */
+                closingDate: null,
+                companyWebSite: "http://Brooksource.com",
+                notes: null,
+                miscNotes: [{
+                    header: "Notes",
+                    paragraphs: [
+                        "This is an on-site opportunity at HomeAway.com via Brooksource.  The team is small, agile, and includes 'yours truly' as a NodeJs dev.",
+                        "Please feel free to click the 'Explore' button to simply ask me about the role."
+                    ]
+                }]
+    }, {
         /*********************************************************/
         /*
             Position filled with Julia J.
