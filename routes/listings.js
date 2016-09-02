@@ -34,7 +34,6 @@ module.exports = [
                        "ExpressJs AND HapiJs",
                        "Experience in REST API Design/Dev",
                        "BackboneJs", "ReactJs", "HandlebarsJs",
-                       "ReactJs",
                        "Jira", "Slack",
                        "BS or BA in Computer Science or related field"
                     ]
