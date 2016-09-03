@@ -9,7 +9,15 @@
         * jobId objects DO NOT point to company objects
         * contact objects point to company objects but not vice versa
 */
+
 module.exports = [{
+    jobId: 'jb-2016-09-03-1400',
+    jobTitle: '',
+    originId: null,
+    originUrl: null,
+    contactIds: ['cont-2016-09-03-1400'],
+    notes: [""]
+},{
     jobId: 'jb-2016-07-26-1200',
     jobTitle: '',
     originId: null,
@@ -23,6 +31,15 @@ module.exports = [{
     originUrl: null,
     contactIds: ['cont-2016-07-25-1748'],
     notes: [""]
+},{
+    contactId: 'cont-2016-09-03-1400',
+    fname: 'Byron',
+    lname: 'Hogan',
+    mi: null,
+    email: 'byron@help.com',
+    phone: '',
+    companyIds: [],
+    notes: ["works at help.com"]
 },{
     contactId: 'cont-2016-07-26-1200',
     fname: 'Christine',

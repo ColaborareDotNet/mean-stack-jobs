@@ -1,5 +1,87 @@
 module.exports = [
     {
+                    /*********************************************************/
+                    displayFlag: true,
+                    jobId: 'jb-2016-09-03-1400',
+                    jobTitle: "Senior Software Engineer (Backend - Node.js)",
+                    briefDescr: [
+                        "We're looking for a solid backend developer who has been around the block to help us build out our API driven (micro) services architecture. We're working with the realtime web (websockets) so we have some interesting challenges that you won't see at a pure RESTful HTTP shop.",
+                    ],
+                    originId: null,
+                    originUrl: null,
+                    degree: null,
+                    level: null,
+                    hireType: "FULL-TIME",
+
+
+                    /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+                    customLists: [{
+                        header: "SOME OF THE FOLLOWING COULD MAKE YOU A GREAT FIT TO WORK AT HELP.COM",
+                        /* this header will show up as a label in interface */
+                        list: [
+                            "You are excited about working at a startup and on a small, talented team.",
+                            "You are excited about JavaScript, Node.js, microservices, and/or messaging systems, and can explain the benefits and detriments of these technology choices. ",
+                            "You are active in the open source community or have a desire to start contributing; our software engineers are constantly learning, using, and contributing to open source projects.",
+                            "You care deeply about code quality, performance, and execution, but aren't a dogmatic perfectionist.",
+                            "You don’t mind helping out on other areas of the stack if necessary.",
+                            "You are comfortable in an environment where projects are time-sensitive.",
+                            "Adapting to changes in products, projects, and direction won’t throw you for a loop."                        ]
+                    },{
+                        header: "QUALIFICATIONS",
+                        /* this header will show up as a label in interface */
+                        list: [
+                            "5+ years experience in development using modern stacks/frameworks/technologies",
+                            "An expert understanding of JavaScript and Node.js",
+                            "Experience with object-oriented and MVC design patterns",
+                            "API design experience",
+                            "Strong understanding of systems using real time interactions (websockets, long-polling, server sent events)",
+                            "Familiarity with Service Oriented Architecture (SOA) or Distributed Systems",
+                            "Experience with \"Big Data\" data stores and technologies (ElasticSearch, Cassandra)",
+                            "Proficiency with a Linux environment",
+                            "Experience with Relational Database Schema Design (preferably PostgreSQL or MySQL)"
+                        ]
+                    }, {
+                        header: "NICE-TO-HAVE SKILLS",
+                        /* this header will show up as a label in interface */
+                        list: [
+                            "Experience with Docker",
+                            "Development experience on a SaaS product",
+                            "Experience with CI/CD systems"
+                        ]
+                    }],
+                    skills: null,
+                    tools: null,
+                    responsibilities: null,
+                    teamStructureExpertise: null,
+                    projectWorkflow: null,
+                    recruiter: null,
+                    hiringCompany: "Help.com",
+                    compensationRange: null,
+                    locationOppWork: "Austin, TX, USA",
+                    locationCompanyOffice: null,
+                    benefitsGeneral: null,
+
+                    employmentEligibility: null,
+
+                    vettingProcess: null,
+                    hireTimeframeValue: null,
+                    postingDate: new Date('9/3/2016 14:00'),
+                    hireDate: null,
+                    /* if null or min AND there is a closingDate, indicates opp was never filled */
+                    closingDate: null,
+                    companyWebSite: null,
+                    notes: null,
+                    miscNotes: [{
+                        header: "Notes",
+                        paragraphs: [
+                            "At Help.com, we want to help eliminate terrible customer service experiences and make good experiences great. Waiting around for agents to locate your account information, lookup a company policy, or see your previous interaction history will become a thing of the past. ",
+                            "We're just getting started so you have the chance to come in and help us build new products on a small, agile team. Your contributions will be felt immediately and you'll be able to help us shape our products and development path.",
+                            "We are predominantly in the JavaScript/Node.js ecosystem, but are developing a microservice architecture that gives us immense flexibility in our choice of languages and tools. We take pride in making sure that our APIs are well documented, our code is well tested, and our team understands what we're building and why.",
+                            "All of our positions are based in our office in downtown Austin, TX. We offer competitive compensation (both cash and equity), an unlimited vacation policy, as well as fully paid medical benefits (health, dental, vision) for eligible employees. Best of all, we have the energy, agility, and fun of a startup.",
+                            "Help.com is an equal opportunity employer and we value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We are unable to sponsor visas at this time, so all candidates must be legally authorized to work in the US."
+                        ]
+                    }]
+    },{
                 /*********************************************************/
                 displayFlag: true,
                 jobId: 'jb-2016-09-01-2028',
