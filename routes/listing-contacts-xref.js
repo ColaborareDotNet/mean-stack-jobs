@@ -10,15 +10,31 @@
         * contact objects point to company objects but not vice versa
 */
 module.exports = [{
+    jobId: 'jb-2016-07-26-1200',
+    jobTitle: '',
+    originId: null,
+    originUrl: null,
+    contactIds: ['cont-2016-07-26-1200'],
+    notes: [""]
+},{
     jobId: 'jb-2016-07-25-1554',
     jobTitle: '',
     originId: null,
     originUrl: null,
-    contactIds: ['cont-2016-7-25-1748'],
+    contactIds: ['cont-2016-07-25-1748'],
     notes: [""]
 },{
+    contactId: 'cont-2016-07-26-1200',
+    fname: 'Christine',
+    lname: 'Lee',
+    mi: null,
+    email: 'clee@apollogroup.io',
+    phone: '',
+    companyIds: [],
+    notes: ["contacted me via meetup message in Austin Javascript Stack Dev"]
+},{
     
-    contactId: 'cont-2016-7-25-1748',
+    contactId: 'cont-2016-07-25-1748',
     fname: 'Will',
     lname: 'Longenecker',
     mi: null,

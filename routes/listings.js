@@ -137,6 +137,80 @@ module.exports = [
             ]
         }]
 },{
+                /*********************************************************/
+                displayFlag: true,
+                jobId: 'jb-2016-07-26-1200',
+                jobTitle: 'Full Stack Developer (Javascript/Node.js)',
+                briefDescr: [
+                    "Experienced, full stack developer needed!"
+                ],
+                originId: null,
+                originUrl: null,
+                degree: null,
+                level: null,
+                hireType: "Contract: 15-20 hours/week",
+
+
+                /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+                customLists: [{
+                    header: "Job Responsibilities",
+                    /* this header will show up as a label in interface */
+                    list: [
+                        "We’re looking for a super-sharp and experienced Full Stack Developer interested in contributing to the development of a powerful compensation engine and platform. As a full stack developer, you will build new applications and services and extend that functionality of existing ones. Initially, a code review and code audit will be required and this developer will be leading the efforts and working directly with the CTO and co-founders. "
+                    ]
+                }, {
+                    header: "Job Requirements",
+                    /* this header will show up as a label in interface */
+                    list: [
+                        "2-3 years of professional Javascript (Node.js) full-stack development experience in SaaS/cloud based environments.",
+                        "Experience with Amazon Web Services (AWS).",
+                        "Experience developing distributed systems and RESTful web/cloud services.",
+                        "Experience with MongoDB, DynamoDB, SQL",
+                        "Experience with git source management, Agile methodologies and a startup mentality",
+                        "Experience with DevOps tooling (CAPS) is a plus.",
+                        "Both a self-starter and ability to work well in a distributed remote team",
+                        "Clear and logical thinker, communicates well - can break down highly technical concepts and convey clearly to non-technical audiences (e.g. project manager, internal non-technical teammates)",
+                        "Reliable, hard-working, high integrity, positive/can-do attitude, creative problem-solving approach",
+                        "Bachelor’s degree in computer science or related field from accredited university"
+                    ]
+                }],
+                skills: null,
+                tools: null,
+                responsibilities: null,
+                teamStructureExpertise: null,
+                projectWorkflow: null,
+                recruiter: null,
+                hiringCompany: null,
+                compensationRange: null,
+                locationOppWork: "Remote/Austin, TX (US citizens/residents only)",
+                locationCompanyOffice: null,
+                benefitsGeneral: null,
+
+                employmentEligibility: null,
+
+                vettingProcess: null,
+                hireTimeframeValue: null,
+                postingDate: new Date('7/26/2016 12:00'),
+                hireDate: null,
+                /* if null or min AND there is a closingDate, indicates opp was never filled */
+                closingDate: null,
+                companyWebSite: null,
+                notes: [
+                ],
+                miscNotes: [{
+                    header: "Notes",
+                    paragraphs: [
+                        "Contact duration: 2-3 months."
+                    ]
+                },
+                {
+                    header:"About Apollo Group",
+                    paragraphs: [
+                        "Founded in 2015, Apollo Group (www.apollogroup.net) is a SaaS, cloud-based application and private compensation network that empowers hiring teams of enterprise companies and recruiting firms with precise compensation intelligence. The Apollo platform is built on real-time data and powerful data science algorithms to deliver accurate compensation metrics across all functions within a company and levels. By eliminating the reliance on incomplete and outdated salary surveys, the Apollo salary engine seamlessly translates differentials between market and industry, geographic location, stage and size of companies.",
+                        "Apollo Group's founding team is based in Boulder, CO, Palo Alto, CA and Austin, TX. This role will be a work-from-home remote opportunity."
+                    ]
+                }]
+},{
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-07-25-1554',
