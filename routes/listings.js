@@ -220,7 +220,7 @@ module.exports = [
         }]
 },{
                 /*********************************************************/
-                displayFlag: true,
+                displayFlag: false,
                 jobId: 'jb-2016-07-26-1200',
                 jobTitle: 'Full Stack Developer (Javascript/Node.js)',
                 briefDescr: [
