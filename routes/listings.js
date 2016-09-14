@@ -83,7 +83,7 @@ module.exports = [
                     }]
     },{
                 /*********************************************************/
-                displayFlag: true,
+                displayFlag: false,
                 jobId: 'jb-2016-09-01-2028',
                 jobTitle: 'ATX Local NodeJs, Hapi, WebApp/REST API Dev',
                 briefDescr: [
@@ -141,7 +141,7 @@ module.exports = [
                 /* if null or min AND there is a closingDate, indicates opp was never filled */
                 closingDate: null,
                 companyWebSite: "http://Brooksource.com",
-                notes: null,
+                notes: ["FILLED"],
                 miscNotes: [{
                     header: "Notes",
                     paragraphs: [
