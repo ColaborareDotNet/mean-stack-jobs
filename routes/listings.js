@@ -2,6 +2,62 @@ module.exports = [
     {
                     /*********************************************************/
                     displayFlag: true,
+                    jobId: 'jb-2016-09-22-2000',
+                    jobTitle: "User Experience/ UX Designer",
+                    briefDescr: [
+                        "User Experience/ UX Designer",
+                    ],
+                    originId: null,
+                    originUrl: null,
+                    degree: null,
+                    level: null,
+                    hireType: null,
+
+
+                    /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+                    customLists: [{
+                        header: "Required Skills",
+                        /* this header will show up as a label in interface */
+                        list: [
+                            "UX designer with 9+ years of experience.",
+                            "Responsible for designing app on iOS and/or Android mobile and tablet platforms",
+                            "Responsible for the design research in the initial phase and will be involved in the customer pinpoint analysis and journey mapping in the immersion phase.",
+                            "Responsible for the UX Design specification in the Discovery phase.",
+                            "Responsible to come up with the site persona and experience design in the design phase."
+                        ]
+                    }],
+                    skills: null,
+                    tools: null,
+                    responsibilities: null,
+                    teamStructureExpertise: null,
+                    projectWorkflow: null,
+                    recruiter: null,
+                    hiringCompany: null,
+                    compensationRange: null,
+                    locationOppWork: "Barton Creek, TX",
+                    locationCompanyOffice: null,
+                    benefitsGeneral: null,
+
+                    employmentEligibility: null,
+
+                    vettingProcess: null,
+                    hireTimeframeValue: null,
+                    postingDate: new Date('9/22/2016 20:00'),
+                    hireDate: null,
+                    /* if null or min AND there is a closingDate, indicates opp was never filled */
+                    closingDate: null,
+                    companyWebSite: null,
+                    notes: null,
+                    miscNotes: [{
+                        header: "Notes",
+                        paragraphs: [
+                            "Contract duration is 12+ months",
+                        ]
+                    }]
+    },
+    {
+                    /*********************************************************/
+                    displayFlag: true,
                     jobId: 'jb-2016-09-03-1400',
                     jobTitle: "Senior Software Engineer (Backend - Node.js)",
                     briefDescr: [
