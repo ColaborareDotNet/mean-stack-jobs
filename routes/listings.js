@@ -1,210 +1,209 @@
-module.exports = [
-    {
-                    /*********************************************************/
-                    displayFlag: true,
-                    jobId: 'jb-2016-09-22-2000',
-                    jobTitle: "User Experience/ UX Designer",
-                    briefDescr: [
-                        "User Experience/ UX Designer",
-                    ],
-                    originId: null,
-                    originUrl: null,
-                    degree: null,
-                    level: null,
-                    hireType: null,
+module.exports = [{
+        /*********************************************************/
+        displayFlag: true,
+        jobId: 'jb-2016-09-22-2000',
+        jobTitle: "User Experience/ UX Designer",
+        briefDescr: [
+            "User Experience/ UX Designer",
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: null,
+        hireType: null,
 
 
-                    /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-                    customLists: [{
-                        header: "Required Skills",
-                        /* this header will show up as a label in interface */
-                        list: [
-                            "UX designer with 9+ years of experience.",
-                            "Responsible for designing app on iOS and/or Android mobile and tablet platforms",
-                            "Responsible for the design research in the initial phase and will be involved in the customer pinpoint analysis and journey mapping in the immersion phase.",
-                            "Responsible for the UX Design specification in the Discovery phase.",
-                            "Responsible to come up with the site persona and experience design in the design phase."
-                        ]
-                    }],
-                    skills: null,
-                    tools: null,
-                    responsibilities: null,
-                    teamStructureExpertise: null,
-                    projectWorkflow: null,
-                    recruiter: null,
-                    hiringCompany: null,
-                    compensationRange: null,
-                    locationOppWork: "Barton Creek, TX",
-                    locationCompanyOffice: null,
-                    benefitsGeneral: null,
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Required Skills",
+            /* this header will show up as a label in interface */
+            list: [
+                "UX designer with 9+ years of experience.",
+                "Responsible for designing app on iOS and/or Android mobile and tablet platforms",
+                "Responsible for the design research in the initial phase and will be involved in the customer pinpoint analysis and journey mapping in the immersion phase.",
+                "Responsible for the UX Design specification in the Discovery phase.",
+                "Responsible to come up with the site persona and experience design in the design phase."
+            ]
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: null,
+        locationOppWork: "Barton Creek, TX",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
 
-                    employmentEligibility: null,
+        employmentEligibility: null,
 
-                    vettingProcess: null,
-                    hireTimeframeValue: null,
-                    postingDate: new Date('9/22/2016 20:00'),
-                    hireDate: null,
-                    /* if null or min AND there is a closingDate, indicates opp was never filled */
-                    closingDate: null,
-                    companyWebSite: null,
-                    notes: null,
-                    miscNotes: [{
-                        header: "Notes",
-                        paragraphs: [
-                            "Contract duration is 12+ months",
-                        ]
-                    }]
-    },
-    {
-                    /*********************************************************/
-                    displayFlag: true,
-                    jobId: 'jb-2016-09-03-1400',
-                    jobTitle: "Senior Software Engineer (Backend - Node.js)",
-                    briefDescr: [
-                        "We're looking for a solid backend developer who has been around the block to help us build out our API driven (micro) services architecture. We're working with the realtime web (websockets) so we have some interesting challenges that you won't see at a pure RESTful HTTP shop.",
-                    ],
-                    originId: null,
-                    originUrl: null,
-                    degree: null,
-                    level: null,
-                    hireType: "FULL-TIME",
-
-
-                    /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-                    customLists: [{
-                        header: "SOME OF THE FOLLOWING COULD MAKE YOU A GREAT FIT TO WORK AT HELP.COM",
-                        /* this header will show up as a label in interface */
-                        list: [
-                            "You are excited about working at a startup and on a small, talented team.",
-                            "You are excited about JavaScript, Node.js, microservices, and/or messaging systems, and can explain the benefits and detriments of these technology choices. ",
-                            "You are active in the open source community or have a desire to start contributing; our software engineers are constantly learning, using, and contributing to open source projects.",
-                            "You care deeply about code quality, performance, and execution, but aren't a dogmatic perfectionist.",
-                            "You don’t mind helping out on other areas of the stack if necessary.",
-                            "You are comfortable in an environment where projects are time-sensitive.",
-                            "Adapting to changes in products, projects, and direction won’t throw you for a loop."                        ]
-                    },{
-                        header: "QUALIFICATIONS",
-                        /* this header will show up as a label in interface */
-                        list: [
-                            "5+ years experience in development using modern stacks/frameworks/technologies",
-                            "An expert understanding of JavaScript and Node.js",
-                            "Experience with object-oriented and MVC design patterns",
-                            "API design experience",
-                            "Strong understanding of systems using real time interactions (websockets, long-polling, server sent events)",
-                            "Familiarity with Service Oriented Architecture (SOA) or Distributed Systems",
-                            "Experience with \"Big Data\" data stores and technologies (ElasticSearch, Cassandra)",
-                            "Proficiency with a Linux environment",
-                            "Experience with Relational Database Schema Design (preferably PostgreSQL or MySQL)"
-                        ]
-                    }, {
-                        header: "NICE-TO-HAVE SKILLS",
-                        /* this header will show up as a label in interface */
-                        list: [
-                            "Experience with Docker",
-                            "Development experience on a SaaS product",
-                            "Experience with CI/CD systems"
-                        ]
-                    }],
-                    skills: null,
-                    tools: null,
-                    responsibilities: null,
-                    teamStructureExpertise: null,
-                    projectWorkflow: null,
-                    recruiter: null,
-                    hiringCompany: "Help.com",
-                    compensationRange: null,
-                    locationOppWork: "Austin, TX, USA",
-                    locationCompanyOffice: null,
-                    benefitsGeneral: null,
-
-                    employmentEligibility: null,
-
-                    vettingProcess: null,
-                    hireTimeframeValue: null,
-                    postingDate: new Date('9/3/2016 14:00'),
-                    hireDate: null,
-                    /* if null or min AND there is a closingDate, indicates opp was never filled */
-                    closingDate: null,
-                    companyWebSite: null,
-                    notes: null,
-                    miscNotes: [{
-                        header: "Notes",
-                        paragraphs: [
-                            "At Help.com, we want to help eliminate terrible customer service experiences and make good experiences great. Waiting around for agents to locate your account information, lookup a company policy, or see your previous interaction history will become a thing of the past. ",
-                            "We're just getting started so you have the chance to come in and help us build new products on a small, agile team. Your contributions will be felt immediately and you'll be able to help us shape our products and development path.",
-                            "We are predominantly in the JavaScript/Node.js ecosystem, but are developing a microservice architecture that gives us immense flexibility in our choice of languages and tools. We take pride in making sure that our APIs are well documented, our code is well tested, and our team understands what we're building and why.",
-                            "All of our positions are based in our office in downtown Austin, TX. We offer competitive compensation (both cash and equity), an unlimited vacation policy, as well as fully paid medical benefits (health, dental, vision) for eligible employees. Best of all, we have the energy, agility, and fun of a startup.",
-                            "Help.com is an equal opportunity employer and we value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We are unable to sponsor visas at this time, so all candidates must be legally authorized to work in the US."
-                        ]
-                    }]
-    },{
-                /*********************************************************/
-                displayFlag: false,
-                jobId: 'jb-2016-09-01-2028',
-                jobTitle: 'ATX Local NodeJs, Hapi, WebApp/REST API Dev',
-                briefDescr: [
-                    "Looking for a NodeJs/Hapi/Express developer that will help develop/maintain two NodeJs apps. One is a web app, and the other is a RESTful API.",
-                ],
-                originId: null,
-                originUrl: null,
-                degree: null,
-                level: "Highly-Skilled-Mid-Level to Senior-Level",
-                hireType: "W-2 Contract",
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('9/22/2016 20:00'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: null,
+        notes: null,
+        miscNotes: [{
+            header: "Notes",
+            paragraphs: [
+                "Contract duration is 12+ months",
+            ]
+        }]
+    }, {
+        /*********************************************************/
+        displayFlag: true,
+        jobId: 'jb-2016-09-03-1400',
+        jobTitle: "Senior Software Engineer (Backend - Node.js)",
+        briefDescr: [
+            "We're looking for a solid backend developer who has been around the block to help us build out our API driven (micro) services architecture. We're working with the realtime web (websockets) so we have some interesting challenges that you won't see at a pure RESTful HTTP shop.",
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: null,
+        hireType: "FULL-TIME",
 
 
-                /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-                customLists: [{
-                    header: "Skills/Tools (Required)",
-                    /* this header will show up as a label in interface */
-                    list: [
-                       "Javascript (client/server)", "NodeJs/NPM",
-                       "ExpressJs OR HapiJs",
-                       "Mac OS X", "OS X CLI",
-                       "Web App Dev",
-                       "Exposure to REST API Design/Dev",
-                       "git/GitHub",
-                       "Software Dev Best Practices",
-                    ]
-                },{
-                    header: "Skills/Tools/Creds (Desired)",
-                    /* this header will show up as a label in interface */
-                    list: [
-                       "ExpressJs AND HapiJs",
-                       "Experience in REST API Design/Dev",
-                       "BackboneJs", "ReactJs", "HandlebarsJs",
-                       "Jira", "Slack",
-                       "BS or BA in Computer Science or related field"
-                    ]
-                }],
-                skills: null,
-                tools: null,
-                responsibilities: null,
-                teamStructureExpertise: "1 Sr Dev to Fill, 2 Sr Devs, 1 Sr QA",
-                projectWorkflow: null,
-                recruiter: null,
-                hiringCompany: "Brooksource",
-                compensationRange: null,
-                locationOppWork: "The Domain, Austin, TX, USA",
-                locationCompanyOffice: null,
-                benefitsGeneral: null,
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "SOME OF THE FOLLOWING COULD MAKE YOU A GREAT FIT TO WORK AT HELP.COM",
+            /* this header will show up as a label in interface */
+            list: [
+                "You are excited about working at a startup and on a small, talented team.",
+                "You are excited about JavaScript, Node.js, microservices, and/or messaging systems, and can explain the benefits and detriments of these technology choices. ",
+                "You are active in the open source community or have a desire to start contributing; our software engineers are constantly learning, using, and contributing to open source projects.",
+                "You care deeply about code quality, performance, and execution, but aren't a dogmatic perfectionist.",
+                "You don’t mind helping out on other areas of the stack if necessary.",
+                "You are comfortable in an environment where projects are time-sensitive.",
+                "Adapting to changes in products, projects, and direction won’t throw you for a loop."
+            ]
+        }, {
+            header: "QUALIFICATIONS",
+            /* this header will show up as a label in interface */
+            list: [
+                "5+ years experience in development using modern stacks/frameworks/technologies",
+                "An expert understanding of JavaScript and Node.js",
+                "Experience with object-oriented and MVC design patterns",
+                "API design experience",
+                "Strong understanding of systems using real time interactions (websockets, long-polling, server sent events)",
+                "Familiarity with Service Oriented Architecture (SOA) or Distributed Systems",
+                "Experience with \"Big Data\" data stores and technologies (ElasticSearch, Cassandra)",
+                "Proficiency with a Linux environment",
+                "Experience with Relational Database Schema Design (preferably PostgreSQL or MySQL)"
+            ]
+        }, {
+            header: "NICE-TO-HAVE SKILLS",
+            /* this header will show up as a label in interface */
+            list: [
+                "Experience with Docker",
+                "Development experience on a SaaS product",
+                "Experience with CI/CD systems"
+            ]
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: "Help.com",
+        compensationRange: null,
+        locationOppWork: "Austin, TX, USA",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
 
-                employmentEligibility: null,
+        employmentEligibility: null,
 
-                vettingProcess: null,
-                hireTimeframeValue: "ASAP",
-                postingDate: new Date('9/2/2016 20:28'),
-                hireDate: null,
-                /* if null or min AND there is a closingDate, indicates opp was never filled */
-                closingDate: null,
-                companyWebSite: "http://Brooksource.com",
-                notes: ["FILLED"],
-                miscNotes: [{
-                    header: "Notes",
-                    paragraphs: [
-                        "This is an on-site opportunity at HomeAway.com via Brooksource.  The team is small, agile, and includes 'yours truly' as a NodeJs dev.",
-                        "Please feel free to click the 'Explore' button to simply ask me about the role."
-                    ]
-                }]
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('9/3/2016 14:00'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: null,
+        notes: null,
+        miscNotes: [{
+            header: "Notes",
+            paragraphs: [
+                "At Help.com, we want to help eliminate terrible customer service experiences and make good experiences great. Waiting around for agents to locate your account information, lookup a company policy, or see your previous interaction history will become a thing of the past. ",
+                "We're just getting started so you have the chance to come in and help us build new products on a small, agile team. Your contributions will be felt immediately and you'll be able to help us shape our products and development path.",
+                "We are predominantly in the JavaScript/Node.js ecosystem, but are developing a microservice architecture that gives us immense flexibility in our choice of languages and tools. We take pride in making sure that our APIs are well documented, our code is well tested, and our team understands what we're building and why.",
+                "All of our positions are based in our office in downtown Austin, TX. We offer competitive compensation (both cash and equity), an unlimited vacation policy, as well as fully paid medical benefits (health, dental, vision) for eligible employees. Best of all, we have the energy, agility, and fun of a startup.",
+                "Help.com is an equal opportunity employer and we value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We are unable to sponsor visas at this time, so all candidates must be legally authorized to work in the US."
+            ]
+        }]
+    }, {
+        /*********************************************************/
+        displayFlag: false,
+        jobId: 'jb-2016-09-01-2028',
+        jobTitle: 'ATX Local NodeJs, Hapi, WebApp/REST API Dev',
+        briefDescr: [
+            "Looking for a NodeJs/Hapi/Express developer that will help develop/maintain two NodeJs apps. One is a web app, and the other is a RESTful API.",
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: "Highly-Skilled-Mid-Level to Senior-Level",
+        hireType: "W-2 Contract",
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Skills/Tools (Required)",
+            /* this header will show up as a label in interface */
+            list: [
+                "Javascript (client/server)", "NodeJs/NPM",
+                "ExpressJs OR HapiJs",
+                "Mac OS X", "OS X CLI",
+                "Web App Dev",
+                "Exposure to REST API Design/Dev",
+                "git/GitHub",
+                "Software Dev Best Practices",
+            ]
+        }, {
+            header: "Skills/Tools/Creds (Desired)",
+            /* this header will show up as a label in interface */
+            list: [
+                "ExpressJs AND HapiJs",
+                "Experience in REST API Design/Dev",
+                "BackboneJs", "ReactJs", "HandlebarsJs",
+                "Jira", "Slack",
+                "BS or BA in Computer Science or related field"
+            ]
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: "1 Sr Dev to Fill, 2 Sr Devs, 1 Sr QA",
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: "Brooksource",
+        compensationRange: null,
+        locationOppWork: "The Domain, Austin, TX, USA",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: null,
+        hireTimeframeValue: "ASAP",
+        postingDate: new Date('9/2/2016 20:28'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: "http://Brooksource.com",
+        notes: ["FILLED"],
+        miscNotes: [{
+            header: "Notes",
+            paragraphs: [
+                "This is an on-site opportunity at HomeAway.com via Brooksource.  The team is small, agile, and includes 'yours truly' as a NodeJs dev.",
+                "Please feel free to click the 'Explore' button to simply ask me about the role."
+            ]
+        }]
     }, {
         /*********************************************************/
         /*
@@ -228,21 +227,21 @@ module.exports = [
             header: "Skills/Tools (Required)",
             /* this header will show up as a label in interface */
             list: [
-               "Javascript (client/server)", "NodeJs/NPM",
-               "Mac OS X", "OS X CLI",
-               "Web App Dev",
-               "Exposure to REST API Design/Dev",
-               "git/GitHub",
-               "Software Dev Best Practices",
+                "Javascript (client/server)", "NodeJs/NPM",
+                "Mac OS X", "OS X CLI",
+                "Web App Dev",
+                "Exposure to REST API Design/Dev",
+                "git/GitHub",
+                "Software Dev Best Practices",
             ]
-        },{
+        }, {
             header: "Skills/Tools/Creds (Desired)",
             /* this header will show up as a label in interface */
             list: [
-               "Hapi",
-               "Experience in REST API Design/Dev",
-               "Jira", "Slack",
-               "BS or BA in Computer Science or related field"
+                "Hapi",
+                "Experience in REST API Design/Dev",
+                "Jira", "Slack",
+                "BS or BA in Computer Science or related field"
             ]
         }],
         skills: null,
@@ -274,81 +273,79 @@ module.exports = [
                 "Please feel free to click the 'Explore' button to simply ask me about the role."
             ]
         }]
-},{
-                /*********************************************************/
-                displayFlag: false,
-                jobId: 'jb-2016-07-26-1200',
-                jobTitle: 'Full Stack Developer (Javascript/Node.js)',
-                briefDescr: [
-                    "Experienced, full stack developer needed!"
-                ],
-                originId: null,
-                originUrl: null,
-                degree: null,
-                level: null,
-                hireType: "Contract: 15-20 hours/week",
+    }, {
+        /*********************************************************/
+        displayFlag: false,
+        jobId: 'jb-2016-07-26-1200',
+        jobTitle: 'Full Stack Developer (Javascript/Node.js)',
+        briefDescr: [
+            "Experienced, full stack developer needed!"
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: null,
+        hireType: "Contract: 15-20 hours/week",
 
 
-                /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
-                customLists: [{
-                    header: "Job Responsibilities",
-                    /* this header will show up as a label in interface */
-                    list: [
-                        "We’re looking for a super-sharp and experienced Full Stack Developer interested in contributing to the development of a powerful compensation engine and platform. As a full stack developer, you will build new applications and services and extend that functionality of existing ones. Initially, a code review and code audit will be required and this developer will be leading the efforts and working directly with the CTO and co-founders. "
-                    ]
-                }, {
-                    header: "Job Requirements",
-                    /* this header will show up as a label in interface */
-                    list: [
-                        "2-3 years of professional Javascript (Node.js) full-stack development experience in SaaS/cloud based environments.",
-                        "Experience with Amazon Web Services (AWS).",
-                        "Experience developing distributed systems and RESTful web/cloud services.",
-                        "Experience with MongoDB, DynamoDB, SQL",
-                        "Experience with git source management, Agile methodologies and a startup mentality",
-                        "Experience with DevOps tooling (CAPS) is a plus.",
-                        "Both a self-starter and ability to work well in a distributed remote team",
-                        "Clear and logical thinker, communicates well - can break down highly technical concepts and convey clearly to non-technical audiences (e.g. project manager, internal non-technical teammates)",
-                        "Reliable, hard-working, high integrity, positive/can-do attitude, creative problem-solving approach",
-                        "Bachelor’s degree in computer science or related field from accredited university"
-                    ]
-                }],
-                skills: null,
-                tools: null,
-                responsibilities: null,
-                teamStructureExpertise: null,
-                projectWorkflow: null,
-                recruiter: null,
-                hiringCompany: null,
-                compensationRange: null,
-                locationOppWork: "Remote/Austin, TX (US citizens/residents only)",
-                locationCompanyOffice: null,
-                benefitsGeneral: null,
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Job Responsibilities",
+            /* this header will show up as a label in interface */
+            list: [
+                "We’re looking for a super-sharp and experienced Full Stack Developer interested in contributing to the development of a powerful compensation engine and platform. As a full stack developer, you will build new applications and services and extend that functionality of existing ones. Initially, a code review and code audit will be required and this developer will be leading the efforts and working directly with the CTO and co-founders. "
+            ]
+        }, {
+            header: "Job Requirements",
+            /* this header will show up as a label in interface */
+            list: [
+                "2-3 years of professional Javascript (Node.js) full-stack development experience in SaaS/cloud based environments.",
+                "Experience with Amazon Web Services (AWS).",
+                "Experience developing distributed systems and RESTful web/cloud services.",
+                "Experience with MongoDB, DynamoDB, SQL",
+                "Experience with git source management, Agile methodologies and a startup mentality",
+                "Experience with DevOps tooling (CAPS) is a plus.",
+                "Both a self-starter and ability to work well in a distributed remote team",
+                "Clear and logical thinker, communicates well - can break down highly technical concepts and convey clearly to non-technical audiences (e.g. project manager, internal non-technical teammates)",
+                "Reliable, hard-working, high integrity, positive/can-do attitude, creative problem-solving approach",
+                "Bachelor’s degree in computer science or related field from accredited university"
+            ]
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: null,
+        locationOppWork: "Remote/Austin, TX (US citizens/residents only)",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
 
-                employmentEligibility: null,
+        employmentEligibility: null,
 
-                vettingProcess: null,
-                hireTimeframeValue: null,
-                postingDate: new Date('7/26/2016 12:00'),
-                hireDate: null,
-                /* if null or min AND there is a closingDate, indicates opp was never filled */
-                closingDate: null,
-                companyWebSite: null,
-                notes: [
-                ],
-                miscNotes: [{
-                    header: "Notes",
-                    paragraphs: [
-                        "Contact duration: 2-3 months."
-                    ]
-                },
-                {
-                    header:"About Apollo Group",
-                    paragraphs: [
-                        "Founded in 2015, Apollo Group (www.apollogroup.net) is a SaaS, cloud-based application and private compensation network that empowers hiring teams of enterprise companies and recruiting firms with precise compensation intelligence. The Apollo platform is built on real-time data and powerful data science algorithms to deliver accurate compensation metrics across all functions within a company and levels. By eliminating the reliance on incomplete and outdated salary surveys, the Apollo salary engine seamlessly translates differentials between market and industry, geographic location, stage and size of companies.",
-                        "Apollo Group's founding team is based in Boulder, CO, Palo Alto, CA and Austin, TX. This role will be a work-from-home remote opportunity."
-                    ]
-                }]
-},{
+        vettingProcess: null,
+        hireTimeframeValue: null,
+        postingDate: new Date('7/26/2016 12:00'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: null,
+        notes: [],
+        miscNotes: [{
+            header: "Notes",
+            paragraphs: [
+                "Contact duration: 2-3 months."
+            ]
+        }, {
+            header: "About Apollo Group",
+            paragraphs: [
+                "Founded in 2015, Apollo Group (www.apollogroup.net) is a SaaS, cloud-based application and private compensation network that empowers hiring teams of enterprise companies and recruiting firms with precise compensation intelligence. The Apollo platform is built on real-time data and powerful data science algorithms to deliver accurate compensation metrics across all functions within a company and levels. By eliminating the reliance on incomplete and outdated salary surveys, the Apollo salary engine seamlessly translates differentials between market and industry, geographic location, stage and size of companies.",
+                "Apollo Group's founding team is based in Boulder, CO, Palo Alto, CA and Austin, TX. This role will be a work-from-home remote opportunity."
+            ]
+        }]
+    }, {
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-07-25-1554',
