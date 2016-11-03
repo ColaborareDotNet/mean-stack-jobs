@@ -73,7 +73,7 @@ module.exports = [{
             paragraphs: [
                 "We want to move on this opportunity really fast!",
                 "This is a full-stack, web application development opportunity on my (Monico) team at HomeAway.com.",
-                "Key, important points about this role’s description include the idea of sharing our project's QA Automation tasks & responsibility across the entire dev team (3 of us now, with this 4th role to fill).  But, this 4th slot we’re trying to fill, would begin initially, by being assigned tasks to help fulfill the second requirement above above—along with other core dev tasks. ",
+                "Key, important points about this role’s description include the idea of sharing our project's QA Automation tasks & responsibility across the entire dev team (3 of us now, with this 4th role to fill).  But, this 4th slot we’re trying to fill, would begin initially, by being assigned tasks to help fulfill the second requirement above—along with other core dev tasks. ",
                 "Generally speaking, the reason we’d have to assign the QA Automation tasks, to this new role INITIALLY is that we’re trying to make monumental strides in our already-existing QA Automation process, all the while, we’re in the middle of critical dev tasks at this point (Nov 2016).  But, the idea is to have all devs on the team share the QA Automation work.  "
             ]
         }]
