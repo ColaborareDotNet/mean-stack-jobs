@@ -1,6 +1,85 @@
 module.exports = [{
         /*********************************************************/
         displayFlag: true,
+        jobId: 'jb-2016-11-02-1731',
+        jobTitle: "Fullstack NodeJs/Javascript Dev",
+        briefDescr: [
+            "Full-stack, web application development opportunity using NodeJs/Javascript",
+        ],
+        originId: null,
+        originUrl: null,
+        degree: null,
+        level: null,
+        hireType: "W-2 Contract",
+
+
+        /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+        customLists: [{
+            header: "Requirements",
+            /* this header will show up as a label in interface */
+            list: [
+                "Very solid Mid-to-Senior Level NodeJs/Javascript dev skills",
+                "Willing to substantially contribute (i.e. not sole responsibility) to a medium-sized suite of selenium/protractor tests and help port them to WebDriver IO.",
+                "Able to work on-site",
+                "Able to work closely within small team of devs, on site."
+            ]
+        }, {
+            header: "Skills/Tools (Required)",
+            /* this header will show up as a label in interface */
+            list: [
+                "Javascript (client/server)", "NodeJs/NPM",
+                "ExpressJs OR HapiJs",
+                "Mac OS X", "OS X CLI",
+                "Web App Dev",
+                "Exposure to REST API Design/Dev",
+                "git/GitHub",
+                "Software Dev Best Practices",
+            ]
+        }, {
+            header: "Skills/Tools/Creds (Desired)",
+            /* this header will show up as a label in interface */
+            list: [
+                "ExpressJs AND HapiJs",
+                "Experience in REST API Design/Dev",
+                "BackboneJs", "ReactJs", "HandlebarsJs",
+                "Jira", "Slack",
+                "BS or BA in Computer Science or related field"
+            ]
+        }],
+        skills: null,
+        tools: null,
+        responsibilities: null,
+        teamStructureExpertise: null,
+        projectWorkflow: null,
+        recruiter: null,
+        hiringCompany: null,
+        compensationRange: null,
+        locationOppWork: "Austin, TX (Domain Area)",
+        locationCompanyOffice: null,
+        benefitsGeneral: null,
+
+        employmentEligibility: null,
+
+        vettingProcess: "Phone screen, followed by possible 1-on-1 conversation with me (Monico), and final face-to-face interview with dev team",
+        hireTimeframeValue: null,
+        postingDate: new Date('11/2/2016 17:31'),
+        hireDate: null,
+        /* if null or min AND there is a closingDate, indicates opp was never filled */
+        closingDate: null,
+        companyWebSite: null,
+        notes: null,
+        miscNotes: [{
+            header: "Notes",
+            paragraphs: [
+                "We want to move on this opportunity really fast!",
+                "This is a full-stack, web application development opportunity on my (Monico) team at HomeAway.com.",
+                "Key, important points about this role’s description include the idea of sharing our project's QA Automation tasks & responsibility across the entire dev team (3 of us now, with this 4th role to fill).  But, this 4th slot we’re trying to fill, would begin initially, by being assigned tasks to help fulfill the second requirement above above—along with other core dev tasks. ",
+                "Generally speaking, the reason we’d have to assign the QA Automation tasks, to this new role INITIALLY is that we’re trying to make monumental strides in our already-existing QA Automation process, all the while, we’re in the middle of critical dev tasks at this point (Nov 2016).  But, the idea is to have all devs on the team share the QA Automation work.  "
+            ]
+        }]
+    }, {
+        /*********************************************************/
+        displayFlag: true,
         jobId: 'jb-2016-09-22-2000',
         jobTitle: "User Experience/ UX Designer",
         briefDescr: [
