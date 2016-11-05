@@ -24,6 +24,7 @@ module.exports = [{
                 "Web App Dev",
                 "Exposure to REST API Design/Dev",
                 "git/GitHub",
+                "Jasmine (or similar)",
                 "Software Dev Best Practices",
             ]
         }, {
