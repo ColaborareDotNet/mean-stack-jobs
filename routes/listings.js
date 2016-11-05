@@ -2,9 +2,9 @@ module.exports = [{
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-11-02-1731',
-        jobTitle: "Fullstack NodeJs/Javascript Dev",
+        jobTitle: "Fullstack NodeJs/Javascript Dev (3 Positions)",
         briefDescr: [
-            "Full-stack, web application development opportunity using NodeJs/Javascript",
+            "Three (3) full-stack, web application development opportunities using NodeJs/Javascript",
         ],
         originId: null,
         originUrl: null,
@@ -15,19 +15,10 @@ module.exports = [{
 
         /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
         customLists: [{
-            header: "Requirements",
-            /* this header will show up as a label in interface */
-            list: [
-                "Very solid Mid-to-Senior Level NodeJs/Javascript dev skills",
-                "Willing to substantially contribute (i.e. not sole responsibility) to a medium-sized suite of selenium/protractor tests and help port them to WebDriver IO.",
-                "Able to work on-site",
-                "Able to work closely within small team of devs, on site."
-            ]
-        }, {
             header: "Skills/Tools (Required)",
             /* this header will show up as a label in interface */
             list: [
-                "Javascript (client/server)", "NodeJs/NPM",
+                "Very solid mid-to-senior level NodeJs/Javascript dev skills",
                 "ExpressJs OR HapiJs",
                 "Mac OS X", "OS X CLI",
                 "Web App Dev",
@@ -42,7 +33,8 @@ module.exports = [{
                 "ExpressJs AND HapiJs",
                 "Experience in REST API Design/Dev",
                 "BackboneJs", "ReactJs", "HandlebarsJs",
-                "Jira", "Slack",
+                "Slack, Jira, Confluence", "Team City, Docker",
+                "JMeter, NSolid", "Splunk, New Relic, Data Dog",
                 "BS or BA in Computer Science or related field"
             ]
         }],
@@ -71,10 +63,9 @@ module.exports = [{
         miscNotes: [{
             header: "Notes",
             paragraphs: [
-                "We want to move on this opportunity really fast!",
+                "We want to move on these opportunities really fast!",
                 "This is a full-stack, web application development opportunity on my (Monico) team at HomeAway.com.",
-                "Key, important points about this role’s description include the idea of sharing our project's QA Automation tasks & responsibility across the entire dev team (3 of us now, with this 4th role to fill).  But, this 4th slot we’re trying to fill, would begin initially, by being assigned tasks to help fulfill the second requirement above—along with other core dev tasks. ",
-                "Generally speaking, the reason we’d have to assign the QA Automation tasks, to this new role INITIALLY is that we’re trying to make monumental strides in our already-existing QA Automation process, all the while, we’re in the middle of critical dev tasks at this point (Nov 2016).  But, the idea is to have all devs on the team share the QA Automation work.  "
+                "Candidates must be willing to work on site.  Must also be able to work well within a close-knit team of senior devs."
             ]
         }]
     }, {
