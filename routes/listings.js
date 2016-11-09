@@ -1,4 +1,84 @@
 module.exports = [{
+            /*********************************************************/
+            displayFlag: true,
+            jobId: 'jb-2016-11-08-2112',
+            jobTitle: "MEAN Stack Developers (4 Positions)",
+            briefDescr: [
+                "Seeking four (4), senior-level, MEAN Stack developers!",
+            ],
+            originId: null,
+            originUrl: null,
+            degree: null,
+            level: null,
+            hireType: "W-2 Contract (C2C possible)",
+
+
+            /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+            customLists: [{
+                header: "Must Have",
+                /* this header will show up as a label in interface */
+                list: [
+                    "MongoDB",
+                    "Express",
+                    "AngularJS",
+                    "NodeJs",
+                ]}, {
+                header: "Nice to Have",
+                /* this header will show up as a label in interface */
+                list: [
+                    "Basic understanding of Adobe AEM architecture as it relates to MEAN development.",
+                ]
+            },{
+                header: "Benefits",
+                list:[
+                    "3 medical plan options to choose from",
+                    "weekly pay, with direct deposit"
+                ]
+            },{
+                header: "Benefits After 3 Months on the Job",
+                list:[
+                    "paid holidays",
+                    "401K",
+                    "stock purchase plan"
+                ]
+            }, {
+                header: "Vetting Process",
+                list: [
+                    "phone or in-person screen",
+                    "Skype interview with live coding using the MEAN Stack"
+                ]
+            }],
+            skills: null,
+            tools: null,
+            responsibilities: null,
+            teamStructureExpertise: null,
+            projectWorkflow: null,
+            recruiter: null,
+            hiringCompany: null,
+            compensationRange: null,
+            locationOppWork: "Primarily REMOTE; first 2 weeks on-site (Greater Los Angeles, CA area); on-site visits as needed.",
+            locationCompanyOffice: null,
+            benefitsGeneral: null,
+
+            employmentEligibility: null,
+
+            vettingProcess: null,
+            hireTimeframeValue: null,
+            postingDate: new Date('11/8/2016 21:12'),
+            hireDate: null,
+            /* if null or min AND there is a closingDate, indicates opp was never filled */
+            closingDate: null,
+            companyWebSite: null,
+            notes: null,
+            miscNotes: [{
+                header: "Notes",
+                paragraphs: [
+                    "Length of assigment is 12 months.",
+                    "C2C contract possible if candidate is the owner.",
+                    "These four (4) MEAN Stack developers will become part of a larger team of devs, working on a Sitecore to Adobe AEM conversion."
+                ]
+            }]
+        },{
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-11-02-1731',
