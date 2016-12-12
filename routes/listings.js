@@ -1290,7 +1290,7 @@ module.exports = [{
     }, {
         /*********************************************************/
         /* monicotodo: update this with nathan's new description, etc */
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-09-09-1300',
         jobTitle: 'True MEAN Stack Developer',
         degree: null,
@@ -1340,7 +1340,7 @@ module.exports = [{
     }, {
         /*********************************************************/
         /* monicotodo: update this with nathan's new description, etc */
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-06-15-1300',
         jobTitle: 'Systems Management Software Dev Senior Engineer',
         degree: null,
@@ -1495,7 +1495,7 @@ module.exports = [{
         ]
     }, {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-06-15-1200',
         jobTitle: 'Web Developer',
         degree: "College Degree or equivalent work experience.",
@@ -1546,7 +1546,7 @@ module.exports = [{
         notes: ['This position is opened for a UI/Frontend Developer with Angular and Node expertise.']
     }, {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-06-11-1537',
         jobTitle: 'AngularJs (MEAN) Developer',
         degree: null,
@@ -1585,7 +1585,7 @@ module.exports = [{
         notes: ['Interviews as soon as tomorrow (6/12/2015)!  This role can work remotely, but might require an initial face-to-face in Austin, TX.']
     }, {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-06-10-1724',
         jobTitle: 'Senior API Developer',
         degree: 'Computer Science/Engineering or Equivalent Experience',
@@ -1636,7 +1636,7 @@ module.exports = [{
         notes: ['The hiring company provides enterprise and mobile ecommerce solutions for world class brands such as Walmart, Costco, Walgreens and Sam\’s Club. The platform connects digital content, whether from mobile, online, desktop or in-store kiosks with retailers that provide on-demand production of personalized products for their customers. ']
     }, {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-06-10-1654',
         jobTitle: 'MEAN Stack Web Developer',
         degree: 'BS Computer Science or Software Engineering (highly preferred)',
@@ -1679,7 +1679,7 @@ module.exports = [{
         ]
     }, {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-06-05-2225',
         jobTitle: 'MEAN Stack UX Design/Developer',
         degree: 'Not Required',
@@ -1724,7 +1724,7 @@ module.exports = [{
         notes: null
     }, {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-06-02-0611',
         jobTitle: 'Full-Stack Web Software Engineer, UIX',
         degree: 'Bachelor\'s degree in engineering or computer science; masters preferred',
@@ -1769,7 +1769,7 @@ module.exports = [{
 
     {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-06-02-0600',
         jobTitle: 'Technical Writer',
         degree: 'Bachelor\'s in Tech Field or Equivalent Experience',
@@ -1811,7 +1811,7 @@ module.exports = [{
 
     {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-05-24-1727',
         jobTitle: 'Senior Backend Software Engineer / Software Architect',
         degree: null,
@@ -1847,7 +1847,7 @@ module.exports = [{
         notes: ['I am connected to the HR Manager and would love to help you get into the vetting process.  About TechnologyAdvice:  It is based in Nashville, TN, but remote options are open and welcome.  Current team CTO is based in Philadelphia, 1 Senior dev in Idaho, 1 Mid level dev in Idaho, rest of team in Nashville.  TechnologyAdvice is dedicated to educating, advising, and connecting buyers and sellers of business technology. As a trusted resource in a variety of technology verticals, the company helps buyers improve their businesses and vendors find their customers. Through unbiased research and crowd-sourced product reviews, TechnologyAdvice provides the insight that buyers need to find the right technology.  Additionally, the company\'s unique demand generation programs help vendors improve product awareness by placing matched solutions in front of qualified technology buyers. TechnologyAdvice is based in Nashville, Tenn., and was named to the Inc. 5000 list of America\'s Fastest-Growing Private Companies in 2014.']
     }, {
         /*********************************************************/
-        displayFlag: true,
+        displayFlag: false,
         jobId: 'jb-2015-05-24-1809',
         jobTitle: 'Backend Software Engineer (Node)',
         degree: null,
