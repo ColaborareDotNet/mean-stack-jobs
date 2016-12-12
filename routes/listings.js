@@ -82,7 +82,7 @@ module.exports = [{
         /*********************************************************/
         displayFlag: true,
         jobId: 'jb-2016-11-02-1731',
-        jobTitle: "Fullstack NodeJs/Javascript Dev (3 Positions)",
+        jobTitle: "Fullstack NodeJs/Javascript Dev",
         briefDescr: [
             "Three (3) full-stack, web application development opportunities using NodeJs/Javascript",
         ],
@@ -144,7 +144,6 @@ module.exports = [{
         miscNotes: [{
             header: "Notes",
             paragraphs: [
-                "We want to move on these opportunities really fast!",
                 "This is a full-stack, web application development opportunity on my (Monico) team at HomeAway.com.",
                 "Candidates must be willing to work on site.  Must also be able to work well within a close-knit team of senior devs."
             ]
