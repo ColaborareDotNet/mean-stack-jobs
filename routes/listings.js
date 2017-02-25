@@ -1,6 +1,72 @@
 module.exports = [{
             /*********************************************************/
             displayFlag: true,
+            jobId: 'jb-2017-02-22-2000',
+            jobTitle: "Sr. NodeJs/ReactJs Developer",
+            briefDescr: [
+                "Looking for a NodeJs convert that has good chops for ReactJs development!",
+            ],
+            originId: null,
+            originUrl: null,
+            degree: null,
+            level: null,
+            hireType: "Direct Hire",
+
+
+            /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+            customLists: [{
+                header: "Must Have Solid Skills in:",
+                /* this header will show up as a label in interface */
+                list: [
+                    "Strong Javascript development skills",
+                    "Node.js experience including development and deployment",
+                    "Development and deployment experience including Jenkins and AWS.",
+                    "Full-stack development experience",
+                    "Strong Object Oriented Analysis and Design Skills"
+                ]}, {
+                header: "Bonus Points: Skills in the following areas are a plus:",
+                /* this header will show up as a label in interface */
+                list: [
+                    "Knowledge of testing for Javascript: Mocha",
+                    "Experience working in an agile environment of some flavor.",
+                    "Experience working with Continuous Integration and Continuous Delivery",
+                    "Knowledge of Ruby",
+                    "Knowledge of Backbone, Ember, Angular JS, or React"
+                ]
+            }],
+            skills: null,
+            tools: null,
+            responsibilities: null,
+            teamStructureExpertise: null,
+            projectWorkflow: null,
+            recruiter: null,
+            hiringCompany: null,
+            compensationRange: null,
+            locationOppWork: null,
+            locationCompanyOffice: null,
+            benefitsGeneral: null,
+
+            employmentEligibility: null,
+
+            vettingProcess: null,
+            hireTimeframeValue: null,
+            postingDate: new Date('2/22/2017 20:00'),
+            hireDate: null,
+            /* if null or min AND there is a closingDate, indicates opp was never filled */
+            closingDate: null,
+            companyWebSite: null,
+            notes: null,
+            miscNotes: [{
+                header: "Notes",
+                paragraphs: [
+                    "We are looking for a Javascript Developer with Node.js experience who is excited about working in a well run successful organization.  This is a direct hire opportunity located in North Austin.",
+                    "We are looking for someone who is a Node.js “convert”.  This is a great opportunity for a full-stack developer with strong JavaScript.",
+                    "Candidates must be authorized to work in the United States on a full-time basis for any employer."
+                ]
+            }]
+        },{
+            /*********************************************************/
+            displayFlag: false,
             jobId: 'jb-2016-11-08-2112',
             jobTitle: "MEAN Stack Developers (4 Positions)",
             briefDescr: [

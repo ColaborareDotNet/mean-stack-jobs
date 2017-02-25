@@ -10,7 +10,15 @@
         * contact objects point to company objects but not vice versa
 */
 
-module.exports = [{
+module.exports = [
+{
+    jobId: 'jb-2017-02-22-2000',
+    jobTitle: '',
+    originId: null,
+    originUrl: null,
+    contactIds: ['cont-2016-07-25-1748'],
+    notes: [""]
+},{
     jobId: 'jb-2016-09-22-2000',
     jobTitle: '',
     originId: null,
