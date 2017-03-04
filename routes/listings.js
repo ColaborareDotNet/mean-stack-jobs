@@ -73,7 +73,7 @@ module.exports = [{
 
             vettingProcess: null,
             hireTimeframeValue: null,
-            postingDate: new Date('3/3/2017 00:00'),
+            postingDate: new Date('3/3/2017 00:01'),
             hireDate: null,
             /* if null or min AND there is a closingDate, indicates opp was never filled */
             closingDate: null,
