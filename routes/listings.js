@@ -1,4 +1,93 @@
 module.exports = [{
+
+            /*********************************************************/
+            displayFlag: true,
+            jobId: 'jb-2017-03-3-0000',
+            jobTitle: "Web Application Developer",
+            briefDescr: [
+                "Looking for a dynamic person to join a performance driven team!",
+            ],
+            originId: null,
+            originUrl: null,
+            degree: null,
+            level: null,
+            hireType: "contract-to-permanent",
+
+
+            /* An array of objects of header/lists pairs, where lists is itself an array of strings. */
+            customLists: [{
+                header: "Responsibilities:",
+                /* this header will show up as a label in interface */
+                list: [
+                    "Support of existing websites",
+                    "Analysis of requirements to produce designs for new development",
+                    "Working with the developer team to provide leadership in technical design and architecture",
+                    "Setting estimates and expectations for new product development and implementing new features, tracking on target deadlines",
+                    "Development, implementation, and testing of web applications",
+                    "Mentoring and leading developers by example through writing clean, well-documented, maintainable, bug-free code and enforcing standards and best practices",
+                    "Other support tasks as required"
+                ]}, {
+                header: "Requirements:",
+                /* this header will show up as a label in interface */
+                list: [
+                    "5+ years of real world experience",
+                    "Demonstrated experience with web design and web application programming",
+                    "Self motivated and organized",
+                    "Strong communication skills",
+                    "Ability to work both individually and with a team",
+                    "Solid knowledge of object oriented programming (OOP)",
+                    "Ability to write clean, reusable, and well-documented code",
+                    "Advanced knowledge of Web Standards, Accessibility Standards & browser compatibility",
+                    "An understanding of the importance of User Experience & User Interface",
+                    "Experience in the demands of deadline-driven work",
+                    "Experience with MVC (Model View Controller) frameworks"
+                ]
+            }, {
+                header:"Required Experience with Applicable Technologies:",
+                list:[
+                        "Linux",
+                        "Apache",
+                        "MySQL",
+                        "Microsoft SQL",
+                        "PHP",
+                        "CSS",
+                        "HTML5",
+                        "JavaScript",
+                        "Source Control (SVN)",
+                        "Web Services and XML",
+                        "API integration"
+                        ]}],
+            skills: null,
+            tools: null,
+            responsibilities: null,
+            teamStructureExpertise: null,
+            projectWorkflow: null,
+            recruiter: null,
+            hiringCompany: null,
+            compensationRange: null,
+            locationOppWork: null,
+            locationCompanyOffice: null,
+            benefitsGeneral: null,
+
+            employmentEligibility: null,
+
+            vettingProcess: null,
+            hireTimeframeValue: null,
+            postingDate: new Date('3/3/2017 00:00'),
+            hireDate: null,
+            /* if null or min AND there is a closingDate, indicates opp was never filled */
+            closingDate: null,
+            companyWebSite: null,
+            notes: null,
+            miscNotes: [{
+                header: "Notes",
+                paragraphs: [
+                    "Need a \"hands on\” person that can find solutions and code one day, QA the next day, and help develop and support a scalable structure along the way. The Senior Web Application Developer position is a member of a team of software developers that develop, integrate, and maintain websites and internal applications within the organization.",
+                    "Development within the organization is done in a Linux, Apache, SQL, and PHP environment and all candidates must be familiar with developing in this environment. The ability to create reusable code and understand the latest web technologies is important. This role will also be very involved in API integration and creation. ",
+                    "The candidate should exhibit a desire to grow with the company, take pride in their work, and fit well within a multi-level team environment."
+                    ]
+            }]
+        },{
             /*********************************************************/
             displayFlag: true,
             jobId: 'jb-2017-02-22-2000',
