@@ -65,7 +65,7 @@ module.exports = [{
             recruiter: null,
             hiringCompany: null,
             compensationRange: null,
-            locationOppWork: null,
+            locationOppWork: "Orlando, FL",
             locationCompanyOffice: null,
             benefitsGeneral: null,
 
@@ -84,7 +84,8 @@ module.exports = [{
                 paragraphs: [
                     "Need a \"hands on\” person that can find solutions and code one day, QA the next day, and help develop and support a scalable structure along the way. The Senior Web Application Developer position is a member of a team of software developers that develop, integrate, and maintain websites and internal applications within the organization.",
                     "Development within the organization is done in a Linux, Apache, SQL, and PHP environment and all candidates must be familiar with developing in this environment. The ability to create reusable code and understand the latest web technologies is important. This role will also be very involved in API integration and creation. ",
-                    "The candidate should exhibit a desire to grow with the company, take pride in their work, and fit well within a multi-level team environment."
+                    "The candidate should exhibit a desire to grow with the company, take pride in their work, and fit well within a multi-level team environment.",
+                    "This is a contract-to-permanent position in Orlando, FL.  Great Company to work for with an in-house gym available without charge.  APIs are important.  Any mobile/responsive web design experience is a huge plus."
                     ]
             }]
         },{
