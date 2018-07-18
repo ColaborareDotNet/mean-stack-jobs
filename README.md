@@ -11,6 +11,13 @@ MEAN Stack Job Listings Application...Collaborare Dot Net, LLC
 * [Learn Markdown at BitBucket](https://bitbucket.org/tutorials/markdowndemo)
 
 
+### Local Dev ###
+Run the following
+`npm install`
+`npm start`
+
+Open `localhost:3000` in browser.
+
 ### Contributors ###
 * [Monico A. Moreno](http://www.collaborare.net): Main Dev
 * [Angela S. Moreno](http://angela.collaborare.net): Contributor
