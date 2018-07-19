@@ -13,10 +13,10 @@ MEAN Stack Job Listings Application...Collaborare Dot Net, LLC
 
 ### Local Dev ###
 Run the following
-`npm install`
-`npm start`
 
-Open `localhost:3000` in browser.
+1. `npm install`
+1. `npm start`
+1. Open `localhost:3000` in browser.
 
 ### Contributors ###
 * [Monico A. Moreno](http://www.collaborare.net): Main Dev
